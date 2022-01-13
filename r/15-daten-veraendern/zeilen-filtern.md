@@ -57,3 +57,9 @@ food_production %>% filter(animal_feed > 0 | total_emissions > 10)
 food_production %>% filter(transport + packging > 1.0)
 ```
 
+## Fehlende Werte (NAs)
+
+```r
+drop_na()
+```
+
