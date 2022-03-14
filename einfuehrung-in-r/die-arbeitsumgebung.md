@@ -1,11 +1,10 @@
 ---
 description: >-
-  Um möglichst bequem mit R arbeiten zu können, installieren wir im ersten
-  Schritt das kostenlose Werkzeug RStudio und lernen die wichtigsten Funktionen
-  kennen.
+  Um bequem mit R arbeiten zu können, kümmern wir uns im ersten Schritt um die
+  Arbeitsumgebung. Diese besteht aus R sowie dem RStudio.
 ---
 
-# 12 Die Arbeitsumgebung
+# 7 Die Arbeitsumgebung
 
 ## R installieren
 
@@ -19,9 +18,9 @@ Neben der Sprache und dem Interpreter für R erhaltet ihr mit der Installation a
 
 ![Die RGui bietet einen rudimentären Editor für R-Befehle.](<../.gitbook/assets/image (18).png>)
 
-Erweiterte Funktionen wie Autovervollständigung beim Schreiben von R-Code, ein integrierter Debugger für die Fehlersuche, eine Echtzeit-Vorschau für R-Markdown und viele andere Features mehr bietet dieses einfache Tool nicht. Deshalb verwenden wir für die Arbeit mit R nicht die RGui, sondern das ebenfalls kostenlos nutzbare [RStudio](https://www.rstudio.com/products/rstudio/).
+Erweiterte Funktionen wie Autovervollständigung beim Schreiben von R-Code, ein integrierter Debugger für die Fehlersuche, eine Echtzeit-Vorschau für R-Markdown und viele andere Features mehr bietet dieses einfache Tool nicht. Deshalb verwenden wir für die Arbeit mit R nicht die RGui, sondern das ebenfalls kostenlos nutzbare [RStudio Desktop](https://www.rstudio.com/products/rstudio/) oder das [RStudio Cloud](https://rstudio.cloud).
 
-## RStudio installieren
+## RStudio Desktop installieren
 
 Das <mark style="background-color:yellow;">RStudio</mark> ist heute das Standardwerkzeug für die Arbeit mit R und bietet viele nützliche Funktionen. Das RStudio ist ein sogenanntes <mark style="background-color:yellow;">Integrated Development Environment (IDE)</mark> für R. Einen schnellen Überblick über die grafische Benutzeroberfläche findet ihr in dem offiziellen RStudio Cheatsheet:
 
@@ -36,6 +35,16 @@ Klickt auf den Link unten und wählt RStudio für euer Betriebssystem aus. Insta
 Nach dem Öffnen seht ihr die Oberfläche des RStudio, die wie auf dem Screenshot unten aussieht:
 
 ![Das RStudio ist in vier Bereiche eingeteilt.](<../.gitbook/assets/image (21).png>)
+
+## RStudio in der Cloud nutzen
+
+Für alle, die ihre ersten Schritte mit R gehen wollen und keinen großen Installationsaufwand auf sich nehmen wollen, eignet sich die Lösung in der Cloud. RStudio bietet kostenlose Accounts, die auf eine bestimmte Nutzungsdauer pro Monat (25 Stunden) und Rechnerressourcen (bis 1 GB RAM, 1 CPU) begrenzt sind. Der Vorteil ist, dass ihr direkt loslegen könnt.&#x20;
+
+Der Link unten führt direkt zur kostenlosen Anmeldung:
+
+{% embed url="https://rstudio.cloud" %}
+
+Egal, ob ihr RStudio in der Cloud oder auf dem Desktop nutzt, die folgenden Ausführungen sind für beide Versionen gültig.
 
 ## Überblick über RStudio
 
