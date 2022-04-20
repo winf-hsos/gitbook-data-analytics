@@ -15,7 +15,8 @@ Wir können mit R einzelne Spalten eines Dataframes anzeigen:
 {% tab title="Tibble" %}
 ```r
 # Der select-Befehl kann für die Auswahl bestimmter Spalten verwendet werden
-food_production %>% select("food_product")
+food_production %>% 
+    select("food_product")
 ```
 {% endtab %}
 
@@ -31,8 +32,9 @@ Es lassen sich auch mehr als eine Spalte angeben, wenn wir die Namen mit Komma s
 {% tabs %}
 {% tab title="Tibble" %}
 ```r
-# Auch mehrer Spalten lassen sich auswählen
-food_production %>% select("food_product", "transport")
+# Auch mehrere Spalten lassen sich gleichzeitig auswählen
+food_production %>% 
+    select("food_product", "transport")
 ```
 {% endtab %}
 
@@ -49,20 +51,24 @@ Oft beabsichtigen wir Spalten auszuwählen, die ein bestimmtes Namensmuster aufw
 
 ```r
 # Alle Spalten, die mit "freshwater" beginnen
-food_production %>% select(starts_with("freshwater"))
+food_production %>% 
+    select(starts_with("freshwater"))
 
 # Alle Spalten, die "liter_per" im Namen haben (egal wo)
-food_production %>% select(contains("liters_per"))
+food_production %>% 
+    select(contains("liters_per"))
 
 # Alle Spalten, die auf "protein" enden
-food_production %>% select(ends_with("protein"))
+food_production %>% 
+    select(ends_with("protein"))
 ```
 
 Zu diesen drei Funktionen kommt noch eine sehr flexible Möglichkeit, Spalten anhand eines [regulären Ausdrucks](https://en.wikipedia.org/wiki/Regular\_expression) zu selektieren:
 
 ```r
 # Spalten, die mindestens ein Leerzeichen enthalten (Ergebnis hier: keine)
-food_production %>% select(matches("\\s"))
+food_production %>% 
+    select(matches("\\s"))
 ```
 
 Weiterführende Dokumentation zu diesen vier Funktionen findet ihr hier:
