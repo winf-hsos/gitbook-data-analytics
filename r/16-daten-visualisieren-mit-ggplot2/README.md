@@ -7,6 +7,10 @@ description: >-
 
 # 16 Daten visualisieren
 
+{% embed url="https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r" %}
+In-depth blog post on visualizing data with ggplot2.
+{% endembed %}
+
 ## Das `ggplot2` Paket
 
 Eine leistungsfähige Bibliothek für die Datenvisualisierung mit R ist `ggplot2`. Tatsächlich ist diese Bibliothek der Grund, warum ich R für fortgeschrittene Visualisierungen bevorzuge, die über die Möglichkeiten der Standardfunktionen von Tools wie Databricks oder auch Tableau hinausgehen. Da die Erstellung von Visualisierungen mit R und ggplot2 programmatisch erfolgt, haben wir Einfluss auf jedes Detail einer Visualisierung. Zudem können wir durch R-Skripte die Erzeugung von Visualisierungen automatisieren und so z. B. täglich mit aktuellen Daten die gleichen Visualisierungen erzeugen.
