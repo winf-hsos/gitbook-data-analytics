@@ -1,5 +1,5 @@
 # Erweiterte Features
 
-{% content-ref url="mehrere-plots-in-einer-abbildung.md" %}
-[mehrere-plots-in-einer-abbildung.md](mehrere-plots-in-einer-abbildung.md)
+{% content-ref url="plot-grids.md" %}
+[plot-grids.md](plot-grids.md)
 {% endcontent-ref %}

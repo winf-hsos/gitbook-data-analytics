@@ -89,7 +89,7 @@
   * [Unsicherheit](r/16-daten-visualisieren-mit-ggplot2/unsicherheit.md)
   * [Achsenformatierung](r/16-daten-visualisieren-mit-ggplot2/achsenformatierung.md)
   * [Erweiterte Features](r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/README.md)
-    * [Mehrere Plots in einer Abbildung](r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/mehrere-plots-in-einer-abbildung.md)
+    * [Mehrere Plots in einer Abbildung](r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/plot-grids.md)
 * [17 Mehr zu R](r/17-mehr-zu-r/README.md)
   * [SQL mit R verwenden](r/17-mehr-zu-r/sql-mit-r-verwenden.md)
   * [Datenstrukturen in R](r/17-mehr-zu-r/datenstrukturen-in-r.md)
