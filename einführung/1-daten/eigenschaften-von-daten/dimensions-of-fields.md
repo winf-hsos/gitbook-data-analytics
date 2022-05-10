@@ -86,4 +86,8 @@ Der einfache `DATE`-Typ kann zum Beispiel nur Werte wie "`2022-01-01`" speichern
 
 ## Wertebereich
 
+## Quellen
+
+Bruce, Peter C., et al. _Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python_. Second edition, O’Reilly Media, Inc, 2020.
+
 ##
