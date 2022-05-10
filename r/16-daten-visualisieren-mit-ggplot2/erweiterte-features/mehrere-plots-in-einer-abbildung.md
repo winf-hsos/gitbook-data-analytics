@@ -5,7 +5,7 @@ description: >-
   ggplot2.
 ---
 
-# Plot Grids
+# Mehrere Plots in einer Abbildung
 
 ## Verschiedene Visualisierungen in einer Matrix
 

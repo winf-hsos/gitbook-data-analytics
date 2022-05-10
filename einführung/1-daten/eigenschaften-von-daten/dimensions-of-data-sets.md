@@ -6,7 +6,7 @@ description: >-
 
 # Eigenschaften eines Datensatzes
 
-Die folgende Abbildung skizziert wichtige Dimensionen, die bei der Analyse eines Datensatzes zu berücksichtigen sind.
+Die folgende Abbildung skizziert wichtige Dimensionen, die bei der Analyse eines Datensatzes wichtig sein können.
 
 ![Important dimensions to classify data sets for analysis.](<../../../.gitbook/assets/dataset\_dimensions\_2x (1).png>)
 
