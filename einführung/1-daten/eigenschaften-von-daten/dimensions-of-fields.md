@@ -10,11 +10,17 @@ description: >-
 
 ## Skalierung
 
-![A tree of scales data can be measured on.](../../../.gitbook/assets/tree\_of\_data\_scales.png)
+Die Abbildung unten zeigt eine schematische Einordnung für Skalen, mit denen wir Daten messen. Die erste Ebene unterteilt Daten in strukturiert und unstrukturiert. Alle Skalen, über die wir im Folgenden mehr erfahren, können sinnvoll nur auf strukturierte Daten bezogen werden. Unstrukturierte Daten müssen erst durch Transformation in eine strukturierte Form überführt werden.
+
+![A tree of scales data can be measured on.](<../../../.gitbook/assets/tree\_of\_data\_scales (1).png>)
 
 ### Kategorische Werte
 
+Die strukturierten Daten können wir weiter in kategorische und numerische Daten unterteilen. Darunter finden wir die drei Skalen Nominal-, Binär- und Ordinalskala.
+
 #### Nominal
+
+Die Nominalskala erlaubt alle Werte, die nicht numerisch sind oder als numerische Werte interpretiert werden sollen. Tatsächlich können auch ganze Zahlen auf der Nominalskala gemessen werden, wenn die Zahlen als Symbole zu interpretieren sind.
 
 #### Binär
 
@@ -30,7 +36,11 @@ Die binäre Skala wird in Werkzeugen und Datenbanken durch entsprechende Datenty
 
 #### Diskret
 
+* Ganze Zahlen (Integer)
+
 #### Kontinuierlich
+
+* Reelle Zahlen
 
 ## Datentyp
 
