@@ -6,4 +6,4 @@ description: >-
 
 # Schritte in der Datenanalyse
 
-![Schematische Darstellung typischer Schritte im Prozess der Datenanalyse.](../../.gitbook/assets/data\_analytics\_process\_v2.png)
+![Source: Wickham, H., Grolemund, G., R for Data Science.](<../../.gitbook/assets/data\_analytics\_process (1).png>)
