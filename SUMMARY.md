@@ -50,6 +50,7 @@
   * [Geodaten](datenvisualisierung/visualisierungsformen/geodaten.md)
 * [6 Stolperfallen](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/README.md)
   * [Proportional Ink](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
+  * [Duale y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
 
 ## Einführung in R
 
