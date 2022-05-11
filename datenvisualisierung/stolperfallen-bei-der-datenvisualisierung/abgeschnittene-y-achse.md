@@ -1,0 +1,2 @@
+# Abgeschnittene y-Achse
+

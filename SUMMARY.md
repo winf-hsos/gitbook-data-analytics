@@ -49,8 +49,9 @@
   * [Word Clouds](datenvisualisierung/visualisierungsformen/word-clouds.md)
   * [Geodaten](datenvisualisierung/visualisierungsformen/geodaten.md)
 * [6 Stolperfallen](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/README.md)
-  * [Proportional Ink](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
+  * [Abgeschnittene y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/abgeschnittene-y-achse.md)
   * [Duale y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
+  * [Non-Proportional Ink](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
 
 ## Einführung in R
 

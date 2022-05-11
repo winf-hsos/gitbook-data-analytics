@@ -1,10 +1,10 @@
-# Proportional Ink
+# Non-Proportional Ink
 
 Das Konzept des _Proportional Ink_ wird in [Kapitel 17 des Buches Fundamentals of Data Visualization](https://clauswilke.com/dataviz/proportional-ink.html) beschrieben. Zusammengefasst sagt es aus, dass die Dimensionen (Fläche, Länge, Breite) der verwendeten visuellen Objekte (_Shapes_) proportional zu den numerischen Werten sein müssen, die sie repräsentieren. Das ist deshalb wichtig, weil ansonsten ein verzerrtes Bild erzeugt wird.
 
 ## Unten abgeschnittene Balken
 
-Ein typisches Beispiel, bei dem das Prinzip des _Proportional Ink_ verletzt ist, ist ein Balkendiagramm, dessen y-Achse nicht bei Null beginnt. Das Balkendiagramm unten ist ein anschauliches Beispiel. Hier fängt die numerische Achse bei 36 an und nicht bei 0. Durch das Abschneiden erscheint der Balken für Deutschland fast doppelt so lang wie der schwedische Balken. Die Visualisierung suggeriert also einen doppelt so großen Wert für Deutschland im Vergleich zu Schweden. Schaut man auf die Zahlen, so ist der Unterschied 40,4 % zu 38,6 %, also nicht einmal 5 %.
+Ein typisches Beispiel, bei dem das Prinzip des _Proportional Ink_ verletzt ist, ist ein Balkendiagramm, dessen y-Achse nicht bei null beginnt. Das Balkendiagramm unten ist ein anschauliches Beispiel. Hier fängt die numerische Achse bei 36 an und nicht bei 0. Durch das Abschneiden erscheint der Balken für Deutschland fast doppelt so lang wie der schwedische Balken. Die Visualisierung suggeriert also einen doppelt so großen Wert für Deutschland im Vergleich zu Schweden. Schaut man auf die Zahlen, so ist der Unterschied 40,4 % zu 38,6 %, also nicht einmal 5 %.
 
 ![Der Balken für Deutschland sieht doppelt so groß aus wie z. B. der von Schweden. Die Zahlen sagen etwas anderes.](<../../.gitbook/assets/image (43).png>)
 
