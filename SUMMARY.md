@@ -13,6 +13,7 @@
   * [Datenformate](einführung/1-daten/datenformate/README.md)
     * [Das CSV-Format](einführung/1-daten/datenformate/das-csv-format.md)
     * [Das JSON-Format](einführung/1-daten/datenformate/das-json-format.md)
+    * [Das Parquet-Format](einführung/1-daten/datenformate/das-parquet-format.md)
 * [2 Datenanalyse](einführung/2-datenanalyse/README.md)
   * [Was ist Datenanalyse?](einführung/2-datenanalyse/was-ist-datenanalyse.md)
   * [Schritte in der Datenanalyse](einführung/2-datenanalyse/steps-in-data-analytics.md)
@@ -188,3 +189,7 @@
   * [📂 Simpsons](datensaetze-und-uebungen/datensaetze/simpsons.md)
   * [📂 TED Talks](datensaetze-und-uebungen/datensaetze/ted-talk-transcripts.md)
   * [📂 Tweets](datensaetze-und-uebungen/datensaetze/twitter.md)
+
+***
+
+* [Linksammlung zu R](linksammlung-zu-r.md)
