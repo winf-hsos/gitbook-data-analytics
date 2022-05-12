@@ -4,7 +4,7 @@ description: >-
   wichtige Dimensionen und deren möglichen Ausprägungen an.
 ---
 
-# Eigenschaften eines Datensatzes
+# Datensätze
 
 Die folgende Abbildung skizziert Dimensionen von Datensätzen, die bei der Analyse wichtig sein können.
 

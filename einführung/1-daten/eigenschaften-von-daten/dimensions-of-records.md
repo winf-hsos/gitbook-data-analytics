@@ -9,7 +9,7 @@ description: >-
 
 
 
-![Important dimensions of data records and fields with regard to analysis.](../../.gitbook/assets/dataset\_record\_\_highlight\_record\_2x.png)
+![Important dimensions of data records and fields with regard to analysis.](../../../.gitbook/assets/dataset\_record\_\_highlight\_record\_2x.png)
 
 ## Anzahl Spalten
 

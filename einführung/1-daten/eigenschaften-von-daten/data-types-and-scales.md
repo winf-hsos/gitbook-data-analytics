@@ -1,4 +1,4 @@
-# Datentypen und Skalen
+# Skalen
 
 ## Die 4 Skalen (NOIR)
 
