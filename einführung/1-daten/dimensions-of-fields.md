@@ -1,18 +1,18 @@
 ---
 description: >-
-  Auch auf Spaltenebene können wir wichtige Dimensionen identifizieren und
-  daraus bestimmte Eigenschaften ableiten.
+  Auch auf Attribut- oder Merkmalsebene können wir wichtige Dimensionen
+  identifizieren und daraus bestimmte Eigenschaften ableiten.
 ---
 
-# Eigenschaften einer Spalte
+# Datenattribute
 
-![Important dimensions of data records and fields with regard to analysis.](../../../.gitbook/assets/dataset\_record\_\_highlight\_fields\_2x.png)
+![Important dimensions of data records and fields with regard to analysis.](../../.gitbook/assets/dataset\_record\_\_highlight\_fields\_2x.png)
 
 ## Skalierung
 
 Die Abbildung unten zeigt eine schematische Einordnung für Skalen, mit denen wir Daten messen. Die erste Ebene unterteilt Daten in strukturiert und unstrukturiert. Alle Skalen, über die wir im Folgenden mehr erfahren, können sinnvoll nur auf strukturierte Daten bezogen werden. Unstrukturierte Daten müssen erst durch Transformation in eine strukturierte Form überführt werden.
 
-![A tree of scales data can be measured on.](<../../../.gitbook/assets/tree\_of\_data\_scales (1).png>)
+![A tree of scales data can be measured on.](<../../.gitbook/assets/tree\_of\_data\_scales (1).png>)
 
 ### Kategorische Werte
 

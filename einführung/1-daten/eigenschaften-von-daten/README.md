@@ -1,2 +1,0 @@
-# Eigenschaften von Daten
-

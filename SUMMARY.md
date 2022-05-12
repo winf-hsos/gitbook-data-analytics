@@ -1,15 +1,15 @@
 # Table of contents
 
-* [Übersicht](README.md)
+* [Vorwort](README.md)
 
 ## Einführung <a href="#einführung" id="einführung"></a>
 
 * [1 Daten](einführung/1-daten/README.md)
-  * [Eigenschaften von Daten](einführung/1-daten/eigenschaften-von-daten/README.md)
-    * [Eigenschaften eines Datensatzes](einführung/1-daten/eigenschaften-von-daten/dimensions-of-data-sets.md)
-    * [Eigenschaften einer Zeile](einführung/1-daten/eigenschaften-von-daten/dimensions-of-records.md)
-    * [Eigenschaften einer Spalte](einführung/1-daten/eigenschaften-von-daten/dimensions-of-fields.md)
-    * [Datentypen und Skalen](einführung/1-daten/eigenschaften-von-daten/data-types-and-scales.md)
+  * [Datensätze](einführung/1-daten/dimensions-of-data-sets.md)
+  * [Dateneinträge](einführung/1-daten/dimensions-of-records.md)
+  * [Datenattribute](einführung/1-daten/dimensions-of-fields.md)
+  * [Skalen](einführung/1-daten/data-types-and-scales.md)
+  * [Datentypen](einführung/1-daten/datentypen.md)
   * [Datenformate](einführung/1-daten/datenformate/README.md)
     * [Das CSV-Format](einführung/1-daten/datenformate/das-csv-format.md)
     * [Das JSON-Format](einführung/1-daten/datenformate/das-json-format.md)
