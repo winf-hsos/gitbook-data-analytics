@@ -1,6 +1,6 @@
 # Das CSV-Format
 
-In der [Übung: Visueller Verlauf der Covid19-Pandemie mit Tableau ](https://www.notion.so/bung-Visueller-Verlauf-der-Covid19-Pandemie-mit-Tableau-bd643e311721433ea2394b4b9e9f628b)habt ihr mit dem [Datensatz: Covid-19](../../../datensaetze-und-uebungen/datensaetze/covid19.md) gearbeitet. Diesen stellt [Our World in Data](https://ourworldindata.org) im CSV-Format zum Download bereit. Was hat es mit diesem Format auf sich?
+In der [Übung: Visueller Verlauf der Covid19-Pandemie mit Tableau ](https://www.notion.so/bung-Visueller-Verlauf-der-Covid19-Pandemie-mit-Tableau-bd643e311721433ea2394b4b9e9f628b)habt ihr mit dem [Datensatz: Covid-19](../../../datensaetze-und-uebungen/datensaetze/covid19.md) gearbeitet. Diesen stellt [Our World in Data](https://ourworldindata.org/) im CSV-Format zum Download bereit. Was hat es mit diesem Format auf sich?
 
 CSV steht für _Comma Separated Values_ und es beschreibt ein Format, um strukturierte Daten in einer Textdatei abzuspeichern. Du erkennst eine Textdatei im CSV-Format an der Endung `.csv`.
 

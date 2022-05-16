@@ -4,7 +4,7 @@
 
 R eignet sich besonders für die Arbeit mit **strukturierten Daten**. Dafür verwenden wir in R einen sogenannten **Dataframe**. Wir können uns einen Dateframe als eine Tabelle mit Spalten und Zeilen vorstellen.&#x20;
 
-Neben den Dataframes in R gibt es mit der Bibliothek [Tidyverse](https://www.tidyverse.org) ein verbessertes und einfacher nutzbares Datenobjekt. Tidyverse führt das sogenannte [Tibble](https://tibble.tidyverse.org) als moderne Form des R-Dataframes ein. Wie wir lernen werden, bringt ein Tibble zusammen mit der Bibliothek [dplyr](https://dplyr.tidyverse.org) **** Möglichkeiten mit, um einfach auf Daten zuzugreifen und sie zu manipulieren. Ein Tibble können wir mit dem Befehl `as.tibble()` aus einem herkömmlichen R-Dataframe erzeugen.
+Neben den Dataframes in R gibt es mit der Bibliothek [Tidyverse](https://www.tidyverse.org/) ein verbessertes und einfacher nutzbares Datenobjekt. Tidyverse führt das sogenannte [Tibble](https://tibble.tidyverse.org/) als moderne Form des R-Dataframes ein. Wie wir lernen werden, bringt ein Tibble zusammen mit der Bibliothek [dplyr](https://dplyr.tidyverse.org/) **** Möglichkeiten mit, um einfach auf Daten zuzugreifen und sie zu manipulieren. Ein Tibble können wir mit dem Befehl `as.tibble()` aus einem herkömmlichen R-Dataframe erzeugen.
 
 {% hint style="info" %}
 Für die Datenmanipulation mit `dplyr` findet ihr hier ein nützliches [Cheat Sheet](https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf).

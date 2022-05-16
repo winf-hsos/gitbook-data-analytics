@@ -25,7 +25,7 @@ Auf der [Github-Seite des RStudio](https://github.com/rstudio/cheatsheets/raw/ma
 
 ### Literatur
 
-Wickham, Hadley. Ggplot2. Springer Science+Business Media, LLC, 2016. Preprint of 3rd edition online: [https://ggplot2-book.org/](https://ggplot2-book.org)
+Wickham, Hadley. Ggplot2. Springer Science+Business Media, LLC, 2016. Preprint of 3rd edition online: [https://ggplot2-book.org/](https://ggplot2-book.org/)
 
 Wickham, Hadley, and Garrett Grolemund. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. First edition, O’Reilly, 2016. Online: [https://r4ds.had.co.nz/index.html](https://r4ds.had.co.nz/index.html), speziell für Visualisierung Kapitel 3: [https://r4ds.had.co.nz/data-visualisation.html](https://r4ds.had.co.nz/data-visualisation.html)
 

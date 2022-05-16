@@ -76,7 +76,7 @@ Einige Definitionen schließen zusätzlich semistrukturierte Daten wie Listen od
 
 ### Binäre Formate
 
-* [Parquet](https://parquet.apache.org)
+* [Parquet](https://parquet.apache.org/)
 * [Feather](https://arrow.apache.org/docs/python/feather.html#feather-file-format) (Apache Arrow)
 
 ### Proprietäre Formate

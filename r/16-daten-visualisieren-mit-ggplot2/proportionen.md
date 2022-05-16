@@ -111,7 +111,7 @@ rewe %>%
 
 ```
 
-![Aufsteigend sortierte Balken.](<../../.gitbook/assets/image (29).png>)
+![Aufsteigend sortierte Balken.](<../../.gitbook/assets/image (29) (1).png>)
 
 Mit der Funktion `fct_rev()` können wir die Sortierung umdrehen und absteigend sortieren:
 

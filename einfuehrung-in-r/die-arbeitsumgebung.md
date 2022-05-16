@@ -18,7 +18,7 @@ Neben der Sprache und dem Interpreter für R erhaltet ihr mit der Installation a
 
 ![Die RGui bietet einen rudimentären Editor für R-Befehle.](<../.gitbook/assets/image (18).png>)
 
-Erweiterte Funktionen wie Autovervollständigung beim Schreiben von R-Code, ein integrierter Debugger für die Fehlersuche, eine Echtzeit-Vorschau für R-Markdown und viele andere Features mehr bietet dieses einfache Tool nicht. Deshalb verwenden wir für die Arbeit mit R nicht die RGui, sondern das ebenfalls kostenlos nutzbare [RStudio Desktop](https://www.rstudio.com/products/rstudio/) oder das [RStudio Cloud](https://rstudio.cloud).
+Erweiterte Funktionen wie Autovervollständigung beim Schreiben von R-Code, ein integrierter Debugger für die Fehlersuche, eine Echtzeit-Vorschau für R-Markdown und viele andere Features mehr bietet dieses einfache Tool nicht. Deshalb verwenden wir für die Arbeit mit R nicht die RGui, sondern das ebenfalls kostenlos nutzbare [RStudio Desktop](https://www.rstudio.com/products/rstudio/) oder das [RStudio Cloud](https://rstudio.cloud/).
 
 ## RStudio Desktop installieren
 

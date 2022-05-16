@@ -47,7 +47,7 @@ Achtung: Die Pfadangabe für `setwd()` muss immer mit Forward-Slashes (`/`) erfo
 
 ### Einlesen von CSV-Dateien mit `readr`
 
-Für das Laden strukturierter Daten wie etwa CSV-Dateien eignet sich das in Tidyverse enthaltene Paket [readr](https://readr.tidyverse.org). Wenn wir Tidyverse bereits installiert haben, müssen wir in unserem Skript nur noch angeben, dass wir das Paket `readr` nutzen wollen. Anschließend steht uns die Funktion `read_csv()` zur Verfügung, die entweder einen Pfad- und Dateinamen auf dem lokalen Rechner erwartet oder die Angabe einer URL. Das ist beispielsweise dann nützlich, wenn wir einen Datensatz laden wollen, der im Internet frei zugänglich ist.
+Für das Laden strukturierter Daten wie etwa CSV-Dateien eignet sich das in Tidyverse enthaltene Paket [readr](https://readr.tidyverse.org/). Wenn wir Tidyverse bereits installiert haben, müssen wir in unserem Skript nur noch angeben, dass wir das Paket `readr` nutzen wollen. Anschließend steht uns die Funktion `read_csv()` zur Verfügung, die entweder einen Pfad- und Dateinamen auf dem lokalen Rechner erwartet oder die Angabe einer URL. Das ist beispielsweise dann nützlich, wenn wir einen Datensatz laden wollen, der im Internet frei zugänglich ist.
 
 Das fertige Tibble wird auf einer Variable mit dem Namen `food_production` gespeichert. Eine Zuweisung eines Wertes zu einer Variablen nehmen wir in R mit der Zeichenfolge `<-` vor.
 

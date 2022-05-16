@@ -4,9 +4,9 @@
 
 Dieser Abschnitt führt euch in die Grundlagen der <mark style="background-color:yellow;">explorativen Datenanalyse</mark> mit R ein. In der explorativen Datenanalyse versuchen wir einen unbekannten Datensatz mit geeigneten Verfahren kennenzulernen und schnell Muster in den Daten zu erkennen. Auf Basis dieser Muster formulieren wir Hypothesen. Diese Hypothesen können anschließend mit statistischen Modellen aus dem Bereich der schließenden Statistik auf ihre Gültigkeit überprüft werden. Dieser Schritt ist jedoch nicht Teil der explorativen Datenanalyse.
 
-Eine ausgezeichnete Einführung in die explorative Datenanalyse mit R gibt auch das Buch [R for Data Science](https://r4ds.had.co.nz) von Hadley Wickham und Garrett Grolemund. Das Buch ist als Online-Buch frei zugänglich.
+Eine ausgezeichnete Einführung in die explorative Datenanalyse mit R gibt auch das Buch [R for Data Science](https://r4ds.had.co.nz/) von Hadley Wickham und Garrett Grolemund. Das Buch ist als Online-Buch frei zugänglich.
 
-![Der Datenanalyseprozess nach Wickham & Grolemund 2016.](<../.gitbook/assets/image (46).png>)
+![Der Datenanalyseprozess nach Wickham & Grolemund 2016.](<../.gitbook/assets/image (46) (1).png>)
 
 Wickham und Grolemund definieren den Datenanalyseprozess durch eine Abfolge bestimmter Schritte, wie in der Abbildung gezeigt. In diesem Abschnitt stehen die rot markierten Schritte im Fokus.&#x20;
 
@@ -56,9 +56,9 @@ Das wichtigste Werkzeug in der explorativen Datenanalyse ist die <mark style="ba
 
 ### Bücher
 
-Wickham, Hadley, and Garrett Grolemund. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. First edition, O’Reilly, 2016. Online verfügbar: [https://r4ds.had.co.nz/](https://r4ds.had.co.nz)
+Wickham, Hadley, and Garrett Grolemund. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data. First edition, O’Reilly, 2016. Online verfügbar: [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
 
-Wickham, Hadley. ggplot2. Springer Science+Business Media, LLC, 2016. Online verfügbar: [https://ggplot2-book.org/](https://ggplot2-book.org)
+Wickham, Hadley. ggplot2. Springer Science+Business Media, LLC, 2016. Online verfügbar: [https://ggplot2-book.org/](https://ggplot2-book.org/)
 
 Kabacoff, Robert. R in Action: Data Analysis and Graphics with R. Second edition, Manning, 2015.
 

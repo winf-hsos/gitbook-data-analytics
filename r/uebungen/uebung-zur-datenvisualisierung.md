@@ -55,7 +55,7 @@ Als erstes filtern wir die Daten auf das Land Deutschland sowie das Datum (Zeile
 {% endtabs %}
 
 {% hint style="info" %}
-Schaut euch für Arbeit mit Datumsspalten das [Kapitel 16 Dates and times](https://r4ds.had.co.nz/dates-and-times.html#dates-and-times) aus dem Buch _R for Data Science_ an. Besucht auch die [offizielle Dokumentation des `lubridate` Pakets](https://lubridate.tidyverse.org) aus dem tidyverse.
+Schaut euch für Arbeit mit Datumsspalten das [Kapitel 16 Dates and times](https://r4ds.had.co.nz/dates-and-times.html#dates-and-times) aus dem Buch _R for Data Science_ an. Besucht auch die [offizielle Dokumentation des `lubridate` Pakets](https://lubridate.tidyverse.org/) aus dem tidyverse.
 {% endhint %}
 
 ## 2 Proportionen

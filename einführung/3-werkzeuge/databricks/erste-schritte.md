@@ -11,28 +11,26 @@ description: >-
 
 Databricks ist ein Cloud-Anbieter für Datenanalysen. Wir können damit Daten unter anderem auf Basis von SQL, R und Python analysieren. Databricks bietet einen kostenlosen Zugang für seine Plattform über die sogenannte Community Edition an.
 
+![Anmeldung für die Databricks-Plattform.](<../../../.gitbook/assets/image (46).png>)
+
 Führt die folgenden Schritte aus, um ein kostenloses Databricks-Konto zu erstellen:
 
 * Klickt auf [diesen Link](https://databricks.com/try-databricks), um auf die Anmeldeseite zu gelangen.
 * Gebt euren Vor- und Nachnamen ein und füllt die restlichen Felder aus:
-  * Company Name = University of Applied Science Osnabrück
-  * Company E-Mail = deine E-Mail-Adresse der Hochschule
+  * Company = University of Applied Science Osnabrück
+  * Company Email = deine E-Mail-Adresse der Hochschule / Uni
   * Title = Student
-* Klickt auf den Button _Get Started For Free_. Ihr werdet auf eine neue Seite weitergeleitet. Hier wählt ihr bitte die _Community Edition_ auf der rechten Seite aus.
+* Klickt auf den Button _Get Started For Free_. Ihr werdet auf eine neue Seite weitergeleitet. Hier klickt ihr bitte unten auf den Link _<mark style="background-color:yellow;">Get started with Community Edition</mark>_.
 
-![Wähle in die Community Edition auf der rechten Seite aus.](../../../.gitbook/assets/image.png)
-
-{% hint style="danger" %}
-**ACHTUNG:** Wählt **nicht** die Free Trial-Version aus! Diese endet nach 14 Tagen und lässt sich nicht in die Community-Edition überführen.
-{% endhint %}
+![](<../../../.gitbook/assets/image (53).png>)
 
 Nach dem Abmelden könnt ihr euch später jederzeit über [diesen Link](https://community.cloud.databricks.com) wieder einloggen. Wenn ihr eingeloggt seid und die Databricks-Startseite seht, habt ihr die Anmeldung erfolgreich abgeschlossen.
 
-![](../../../.gitbook/assets/databricks\_landing\_page.png)
+![](<../../../.gitbook/assets/image (29).png>)
 
 ## Notebooks importieren
 
-In Databricks arbeiten wir in sogenannten Notebooks. Ein Notebook ist eine Abfolge von Code-Blöcken, in denen Anweisungen, wie z. B. SQL Abfragen, enthalten sind. Ein Code-Block kann gestartet werden, woraufhin Databricks die enthaltenen Anweisungen Schritt für Schritt ausführt. Im Falle eines SQL-Statements wird das Ergebnis (bei Erfolg) anschließend unter dem Block angezeigt.
+In Databricks arbeiten wir in sogenannten Notebooks. Ein Notebook ist eine Abfolge von Code-Blöcken, in denen Anweisungen, wie SQL Abfragen, enthalten sind. Ein Code-Block kann gestartet werden, woraufhin Databricks die enthaltenen Anweisungen Schritt für Schritt ausführt. Im Falle eines SQL-Statements wird das Ergebnis (bei Erfolg) anschließend unter dem Block angezeigt.
 
 Für meine Module stelle ich eine Reihe von Notebooks bereit, die du mit wenigen Klicks in deinen Account importieren kannst. In diesen Notebooks sind in der Regel Blöcke für das Laden der Daten, Code-Beispiele und Aufgaben enthalten. Du kannst deine Lösung unter die jeweilige Aufgabe als neuen Block einfügen.
 
@@ -49,7 +47,7 @@ Für das Importieren von Notebooks habe ich ein kurzes Video erstellt:
 
 {% embed url="https://www.youtube.com/watch?v=35OMAYr5Vww" %}
 
-## Ein Cluster anlegen und das Notebook verbinden
+## Ein Cluster erstellen und das Notebook verbinden
 
 Die bereitgestellten Notebooks enthalten zu Beginn in der Regel einen Block für das vollautomatische Anlegen der benötigten Tabellen. Diesen Block musst du einmalig ausführen. Anschließend hast du den Datensatz mit allen Tabellen (falls es mehrere gibt) als Kopie in deinem Databricks-Account. Auch nach einem erneuten Einloggen sind die Daten und Arbeitsstände deines Notebooks weiterhin vorhanden.
 
@@ -75,7 +73,7 @@ Klicke auf den folgenden Link, um dich jederzeit mit deinem Account einzuloggen:
 {% embed url="https://community.cloud.databricks.com/login.html" %}
 
 {% hint style="info" %}
-Bewahre deine Zugangsdaten an einem sicheren Ort auf. Ich empfehle für die Speicherung von Zugangsdaten einen Passwort-Safe wie [Lastpass](https://lastpass.com). Damit stellst du sicher, dass du nie ein Passwort verlierst, du von überall drauf zugreifen kannst und dass du mit dem Passwort-Generator jederzeit sichere Passwörter verwendest.
+Lege deine Zugangsdaten an einem sicheren Ort ab. Ich empfehle für die Speicherung von Zugangsdaten einen Passwort-Safe wie [Lastpass](https://lastpass.com/). Damit stellst du sicher, dass du nie ein Passwort verlierst, du von überall drauf zugreifen kannst und dass du mit dem Passwort-Generator jederzeit sichere Passwörter verwendest.
 {% endhint %}
 
 Als Nächstes lernen wir das wichtigste Instrument in Databricks kennen: das Notebook.

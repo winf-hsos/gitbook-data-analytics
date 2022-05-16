@@ -144,4 +144,4 @@ Ein Problem beim Einsatz relationaler Datenbanken für das Speichern von z. B. 
 
 ## Links
 
-* [Offizielle Seite des JSON-Formats](https://www.json.org)
+* [Offizielle Seite des JSON-Formats](https://www.json.org/)

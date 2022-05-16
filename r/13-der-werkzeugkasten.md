@@ -46,7 +46,7 @@ Cheat Sheet readr
 
 ## Das Paket `dplyr`
 
-Das Paket [`dplyr`](https://dplyr.tidyverse.org) hat einen etwas merkwürdigen Namen. Er setzt sich aus dem Buchstaben „d“ und dem abgekürzten Wort „plyr“ zusammen. Das „d“ steht für Dataframe, während „plyr“ für den englischen Begriff „plier“ steht, was auf Deutsch „Zange“ bedeutet. Passend dazu bildet das offizielle Symbol des Pakets mehrere Zangen ab.
+Das Paket [`dplyr`](https://dplyr.tidyverse.org/) hat einen etwas merkwürdigen Namen. Er setzt sich aus dem Buchstaben „d“ und dem abgekürzten Wort „plyr“ zusammen. Das „d“ steht für Dataframe, während „plyr“ für den englischen Begriff „plier“ steht, was auf Deutsch „Zange“ bedeutet. Passend dazu bildet das offizielle Symbol des Pakets mehrere Zangen ab.
 
 {% embed url="https://dplyr.tidyverse.org/index.html" %}
 
