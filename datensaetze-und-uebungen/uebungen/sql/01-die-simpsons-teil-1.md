@@ -20,12 +20,6 @@ Beantwortet die folgenden Fragen, um den Datensatz unabhängig von seinem Inhalt
 
 #### Welche Wertebereiche weisen die Spalten auf?
 
-Solltet ihr hierzu Hilfestellung benötigen, schaut euch den folgenden Artikel an:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ### 2. Beantwortet die folgenden Fragen mit einem SQL-Statement!
 
 Bevor ihr mit dem Schreiben des SQL-Statements beginnt, überlegt euch die folgenden Punkte:

@@ -11,12 +11,3 @@ Der Datensatz enthält über 400 Antworten zu einem Marktforschungsfragebogen zu
 Das folgende Notebook enthält den Code für das automatisierte Einlesen der Daten sowie eine Reihe von Übungsaufgaben. Importiert das Notebook in euren eigenen Databricks-Account und versucht, die Übungsaufgaben direkt im Notebook zu lösen:
 
 {% embed url="https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/fallbeispiel_7_marktforschung_orangenlimonade.html" %}
-
-## Datensatz mit R laden
-
-Mit dem folgenden Code ladet ihr den aktuellen Stand des Covid19-Datensatzes als Tibble:&#x20;
-
-```r
-limo <- read_csv("limonade.csv")
-```
-

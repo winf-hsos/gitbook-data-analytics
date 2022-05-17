@@ -26,7 +26,7 @@ Führt die folgenden Schritte aus, um ein kostenloses Databricks-Konto zu erstel
 
 Nach dem Abmelden könnt ihr euch später jederzeit über [diesen Link](https://community.cloud.databricks.com) wieder einloggen. Wenn ihr eingeloggt seid und die Databricks-Startseite seht, habt ihr die Anmeldung erfolgreich abgeschlossen.
 
-![](<../../../.gitbook/assets/image (29).png>)
+![Die Databricks-Startseite nach erfolgreichem Login.](<../../../.gitbook/assets/image (48).png>)
 
 ## Notebooks importieren
 
