@@ -20,14 +20,10 @@
 [date-and-time.md](date-and-time.md)
 {% endcontent-ref %}
 
-{% content-ref url="json.md" %}
-[json.md](json.md)
-{% endcontent-ref %}
-
 {% content-ref url="arrays.md" %}
 [arrays.md](arrays.md)
 {% endcontent-ref %}
 
-{% content-ref url="statistical-analysis.md" %}
-[statistical-analysis.md](statistical-analysis.md)
+{% content-ref url="json.md" %}
+[json.md](json.md)
 {% endcontent-ref %}
