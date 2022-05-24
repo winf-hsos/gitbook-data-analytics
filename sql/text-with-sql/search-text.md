@@ -1,10 +1,10 @@
 # In Texten suchen
 
-The following notebook contains code examples for simple search operations in text columns:
+Das folgende Notebook enthält Beispiele für das einfache Suchen in Textspalten:
 
-{% embed url="https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/search_in_text_with_sql.html" %}
+{% embed url="https://winf-hsos.github.io/databricks-notebooks/sql/Search%20in%20Text%20with%20SQL.html" %}
 
-## The `like`-operator
+## Der `like`-Operator
 
 Mit dem `like-`Operator können wir in Texten nach einzelnen Wörtern und Mustern suchen. Wir nutzen dafür einen Suchbegriff und können nach diesen in Kombination mit dem Wildcard-Symbols `%` in Texten suchen. Das `%`-Zeichen steht stellvertretend für eine beliebige Folge von Zeichen, die vor oder nach dem gesuchten Begriff stehen kann.&#x20;
 
@@ -26,7 +26,7 @@ or text like '%corona%'
 or text like '%virus%'
 ```
 
-## A user defined function `str_contains()`
+## Eine eigene Funktion `str_contains()`
 
 Eine Alternative zum `like`-Operator ist das Zerlegen der Texte in einzelne Wörter. Das bietet sich an, wenn man tiefer gehende Analysen der Texte durchführen möchte. Dazu findet ihr in dem unten verlinkten Abschnitt weitere Informationen:
 
@@ -60,7 +60,7 @@ left join keywords k
 where k.keyword is not null
 ```
 
-## `collect_list()` and `collect_set()`
+## `collect_list()` und `collect_set()`
 
 Wollt ihr nun jeden Tweet nur einmal im Ergebnis haben, sortiert nach der Anzahl gefundener Schlüsselwörter, dann verwendet das folgende SQL:
 
@@ -92,10 +92,10 @@ group by id, text
 order by num_hits desc
 ```
 
-Der Unterschied ist in den Zeilen 3 und 4 zu erkennen. Die Funktion `collect_set` erstellt eine Liste ohne doppelte Elemente (im Gegensatz zu `collect_list`), und `count(distinct word)` zählt jedes Wort nur einmal, egal wie häufig es vorkommt.&#x20;
+Der Unterschied ist in den Zeilen 3 und 4 zu erkennen. Die Funktion `collect_set` erstellt eine Liste ohne doppelte Elemente (im Gegensatz zu `collect_list`), und `count(distinct word)` zählt jedes Wort nur einmal, egal, wie häufig es vorkommt.&#x20;
 
 {% hint style="info" %}
 Bei größeren Tabellen kann die Verwendung der UDF langsamer sein, als wenn die Texte in einzelne Wörter zerlegt wurden. Daher sollte bei komplexen Textanalysen die Variante des [Tokenizing](broken-reference) verwendet werden.
 {% endhint %}
 
-Beachtet dass ihr mit eigenen UDFs **keine persistenten Views** mittels `create or replace view` erstellen könnt. Verwendet stattdessen `create or replace temporary view`. Ihr müsst bei Verwendung eines neuen Clusters den View dann erst erneut erstellen.
+Beachtet, dass ihr mit eigenen UDFs **keine persistenten Views** mittels `create or replace view` erstellen könnt. Verwendet stattdessen `create or replace temporary view`. Ihr müsst bei Verwendung eines neuen Clusters den View dann erst erneut erstellen.
