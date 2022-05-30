@@ -1,4 +1,4 @@
-# 8 Erweitertes SQL
+# 19 Erweitertes SQL
 
 {% content-ref url="views.md" %}
 [views.md](views.md)
@@ -20,10 +20,14 @@
 [date-and-time.md](date-and-time.md)
 {% endcontent-ref %}
 
+{% content-ref url="json.md" %}
+[json.md](json.md)
+{% endcontent-ref %}
+
 {% content-ref url="arrays.md" %}
 [arrays.md](arrays.md)
 {% endcontent-ref %}
 
-{% content-ref url="json.md" %}
-[json.md](json.md)
+{% content-ref url="statistical-analysis.md" %}
+[statistical-analysis.md](statistical-analysis.md)
 {% endcontent-ref %}

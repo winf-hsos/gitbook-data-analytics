@@ -1,20 +1,21 @@
 ---
 description: >-
-  Heutzutage werden viele Daten im JSON-Format gespeichert. Daher benötigen wir
-  Möglichkeiten, mit JSON umzugehen, wenn wir Daten mit SQL analysieren.
+  Heute werden Daten, gerade im Web, oft im JSON-Format gespeichert. Daher
+  benötigen wir Möglichkeiten, mit JSON umzugehen, wenn wir Daten mit SQL
+  analysieren.
 ---
 
 # JSON
 
 ## Lernziele
 
-In diesem Tutorial geht es um die Verwendung von SQL im Zusammenhang mit dem JSON-Datenformat. JSON ist kurz für _Javascript Object Notation_ und ist ein gängiges Format für den Austausch von Daten, speziell im Umfeld des Internets.&#x20;
+In diesem Tutorial geht es um die Verwendung von SQL im Zusammenhang mit dem JSON-Datenformat. JSON ist kurz für **Javascript Object Notation** __ und ein gängiges Format für den Austausch von Daten, speziell im Umfeld des Internets. Webseiten speichern Daten häufig im Hintergrund in Datenbanken, die auf dem JSON-Format basieren. Der Austausch von Informationen über API-Schnittstellen geschieht in den meisten Fällen auch via JSON-Objekte.
 
 Im Gegensatz zu herkömmlichen Spalten mit atomaren Werten können die Daten in einer Spalte im JSON-Format eine eigene Struktur besitzen. So kann innerhalb einer Spalte eine ganze Liste oder eine Hierarchie an Informationen gespeichert werden. SQL ist ursprünglich nicht für dieses Datenformat entwickelt worden. Es gibt aber in den meisten SQL-Implementierungen und speziell in dem von uns eingesetzten Spark SQL mittlerweile Funktionen für dieses spezielle Datenformat. Ziel dieses Tutorials ist es, die wichtigsten davon anhand von Beispielen kennenzulernen.
 
 ## Daten für das Tutorial
 
-Für dieses Tutorial verwenden wir den Amazon Reviews Datensatz für _Grocery and Gourmet Food_. Damit ihr die Daten möglichst einfach in euren Databricks Account laden könnt, stelle ich ein Template bereit, das hier hier findet:
+Für dieses Tutorial verwenden wir den Amazon Reviews Datensatz für _Grocery and Gourmet Food_. Damit ihr die Daten möglichst einfach in euren Databricks Account laden könnt, stelle ich ein Template bereit, das ihr hier findet:
 
 {% content-ref url="../../datensaetze-und-uebungen/datensaetze/amazon-product-reviews.md" %}
 [amazon-product-reviews.md](../../datensaetze-und-uebungen/datensaetze/amazon-product-reviews.md)
@@ -24,7 +25,7 @@ Für dieses Tutorial verwenden wir den Amazon Reviews Datensatz für _Grocery an
 
 Als Erstes müssen wir lernen, wie wir Spalten mit JSON-Daten überhaupt erkennen? Dazu können wir den `describe` Befehl nutzen. Unten im Screenshot seht ihr das Ergebnis für die Tabelle `meta_Grocery_and_Gourmet_Food` . Die rot markierten Zeilen sind Spalten mit JSON-Datentypen.
 
-Immer wenn wir den Begriff `array<...>` als Datentyp einer Spalte sehen wissen wir, dass es sich um **eine Liste von Werten** handelt, in der jeder Wert einen Index (Position) innerhalb der Liste hat. Es handelt sich also um eine sortierte Liste. Im Beispiel unten handelt es sich sogar um ein verschachteltes Array: eine Liste von Listen von Strings. Wie man mit Array und verschachtelten Array in SQL umgehen kann, schauen wir uns hier an:
+Immer wenn wir den Begriff `array<...>` als Datentyp einer Spalte sehen, wissen wir, dass es sich um **eine Liste von Werten** handelt, in der jeder Wert einen Index (Position) innerhalb der Liste hat. Es handelt sich also um eine sortierte Liste. Im Beispiel unten handelt es sich sogar um ein verschachteltes Array: eine Liste von Listen von Strings. Wie man mit Array und verschachtelten Array in SQL umgehen kann, schauen wir uns hier an:
 
 {% content-ref url="arrays.md" %}
 [arrays.md](arrays.md)
@@ -117,7 +118,7 @@ Es ist bei der Anwendung der Funktion wichtig zu beachten, dass die ersten beide
 
 ## Objekte und deren Attribute abfragen
 
-### Beispie: URLs in Tweets
+### Beispiel: URLs in Tweets
 
 A good example for a field in JSON format is the `urls` column from the `tweets` table. An example of a tweet with two URLs looks like this:
 

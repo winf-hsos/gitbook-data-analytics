@@ -26,6 +26,7 @@
     * [Kausalität feststellen](einführung/2-datenanalyse/types-of-questions/finding-causality.md)
 * [3 Werkzeuge](einführung/3-werkzeuge/README.md)
   * [Überblick](einführung/3-werkzeuge/ueberblick.md)
+  * [R und RStudio](einführung/3-werkzeuge/r-und-rstudio.md)
   * [Databricks](einführung/3-werkzeuge/databricks/README.md)
     * [Alles in einer Umgebung](einführung/3-werkzeuge/databricks/alles-in-einer-umgebung.md)
     * [Erste Schritte mit Databricks](einführung/3-werkzeuge/databricks/erste-schritte.md)
@@ -40,7 +41,7 @@
 ## Explorative Datenanalyse
 
 * [4 Ziele der explorativen Datenanalyse](explorative-datenanalyse/4-ziele-der-explorativen-datenanalyse.md)
-* [Typische Fragen der explorativen Analyse](explorative-datenanalyse/archetypische-analysen.md)
+* [5 Typische Fragen der explorativen Datenanalyse](explorative-datenanalyse/typische-fragen-eda.md)
 
 ## Datenvisualisierung
 
@@ -105,7 +106,7 @@
 
 ## SQL
 
-* [7 Grundlagen SQL](sql/grundlagen-sql/README.md)
+* [18 Grundlagen SQL](sql/grundlagen-sql/README.md)
   * [Was ist SQL?](sql/grundlagen-sql/what-is-sql-and-what-can-it-do.md)
   * [Daten importieren](sql/grundlagen-sql/import-data.md)
   * [Spalten und Ausdrücke auswählen](sql/grundlagen-sql/select.md)
@@ -114,7 +115,7 @@
   * [Aggregierte Zeilen filtern](sql/grundlagen-sql/group.md)
   * [Zeilen sortieren](sql/grundlagen-sql/sort.md)
   * [💻 Übungen](sql/grundlagen-sql/uebungen.md)
-* [8 Erweitertes SQL](sql/erweitertes-sql/README.md)
+* [19 Erweitertes SQL](sql/erweitertes-sql/README.md)
   * [Views](sql/erweitertes-sql/views.md)
   * [Mengenoperatoren](sql/erweitertes-sql/set-operators.md)
   * [Unterabfragen](sql/erweitertes-sql/subqueries.md)
@@ -123,11 +124,11 @@
   * [JSON](sql/erweitertes-sql/json.md)
   * [Arrays](sql/erweitertes-sql/arrays.md)
   * [Statistische Funktionen](sql/erweitertes-sql/statistical-analysis.md)
-* [9 Joins mit SQL](sql/multiple-data-sets-with-sql/README.md)
+* [20 Joins mit SQL](sql/multiple-data-sets-with-sql/README.md)
   * [Das relationale Modell](sql/multiple-data-sets-with-sql/das-relationale-modell.md)
   * [Verbinden von Tabellen](sql/multiple-data-sets-with-sql/verbinden-von-tabellen.md)
   * [Datensätze anreichern](sql/multiple-data-sets-with-sql/datensaetze-anreichern.md)
-* [10 Textanalysen mit SQL](sql/text-with-sql/README.md)
+* [21 Textanalysen mit SQL](sql/text-with-sql/README.md)
   * [In Texten suchen](sql/text-with-sql/search-text.md)
   * [Wörter analysieren](sql/text-with-sql/analyzing-words/README.md)
     * [Daten vorfiltern](sql/text-with-sql/analyzing-words/prefilter-the-data.md)
@@ -198,3 +199,9 @@
 ***
 
 * [Linksammlung zu R](linksammlung-zu-r.md)
+
+## Module
+
+* [Data Science I: EDA](module/data-science-i-eda.md)
+* [Data Science II: KI & ML](module/data-science-ii-ki-and-ml.md)
+* [Data Science III: Big Data](module/data-science-iii-big-data.md)

@@ -6,7 +6,7 @@ description: >-
 
 # Vorwort
 
-Dieses Buch als strukturierte und didaktisch aufbereitete Materialsammlung für meine Kurse zur Datenanalyse an der Hochschule Osnabrück entstanden. Das Buch ist in zusammenhängende Kapitel unterteilt. Das Buch kann also vorn Vorne bis Hinten gelesen werden, allerdings sind nicht alle Kapitel für alle Kurse relevant. Wer nach bestimmten Themen sucht und das Buch als Referenz verwendet, sollte sich die Suchfunktion in der oberen rechten Ecke anschauen.&#x20;
+Dieses Buch ist als strukturierte und didaktisch aufbereitete Materialsammlung für meine Kurse zur Datenanalyse an der Hochschule Osnabrück entstanden. Das Buch ist in zusammenhängende Kapitel unterteilt. Das Buch kann also vorn Vorne bis Hinten gelesen werden, allerdings sind nicht alle Kapitel für alle Kurse relevant. Wer nach bestimmten Themen sucht und das Buch als Referenz verwendet, sollte sich die Suchfunktion in der oberen rechten Ecke anschauen.&#x20;
 
 In meinen Kursen und folglich auch in diesem Buch stelle ich Ideen und Konzepte vor, die in der Datenanalyse auf theoretischer Ebene nützlich sind. Neben der Theorie ist das Hauptziel meiner Kurse, die Anwendung dieser Konzepte zu erlernen. Dazu stelle ich eine Reihe von Datensätzen vor, die wir mit verschiedenen Ansätzen unter Verwendung von R, SQL und Python analysieren.&#x20;
 
