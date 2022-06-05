@@ -190,6 +190,7 @@
   * [📂 arXiv Papers](datensaetze-und-uebungen/datensaetze/arxiv-papers.md)
   * [📂 Chicago Crimes](datensaetze-und-uebungen/datensaetze/chicago-crimes.md)
   * [📂 Covid19](datensaetze-und-uebungen/datensaetze/covid19.md)
+  * [📂 Open Food Facts](datensaetze-und-uebungen/datensaetze/open-food-facts.md)
   * [📂 Orangenlimonade](datensaetze-und-uebungen/datensaetze/umfrage-orangenlimonade.md)
   * [📂 REWE Online Products](datensaetze-und-uebungen/datensaetze/rewe-online-products.md)
   * [📂 Simpsons](datensaetze-und-uebungen/datensaetze/simpsons.md)
