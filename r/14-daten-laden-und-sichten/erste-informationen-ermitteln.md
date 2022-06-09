@@ -51,7 +51,7 @@ Mit dem Befehl `str()` können wir die Spaltennamen und deren Datentyp ausgeben.
 str(food_production)
 ```
 
-![](<../../.gitbook/assets/image (50).png>)
+![](<../../.gitbook/assets/image (50) (1).png>)
 
 ### Nur Spaltennamen
 

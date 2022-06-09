@@ -138,6 +138,7 @@
     * [POS Tagging](sql/text-with-sql/analyzing-words/pos-tagging.md)
   * [Themen identifzieren](sql/text-with-sql/themen-identifzieren.md)
   * [Wortpaare](sql/text-with-sql/word-pairs.md)
+  * [Netzwerke](sql/text-with-sql/netzwerke.md)
   * [Emoticons extrahieren](sql/text-with-sql/extract-emoticons.md)
   * [NLP mit spaCy](sql/text-with-sql/nlp-mit-spacy/README.md)
     * [spaCy in Databricks installieren](sql/text-with-sql/nlp-mit-spacy/spacy-in-databricks-installieren.md)

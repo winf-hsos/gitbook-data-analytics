@@ -58,7 +58,7 @@ food_production %>%
   geom_col()
 ```
 
-![Unsortierte Balken.](<../../.gitbook/assets/image (49).png>)
+![Unsortierte Balken.](<../../.gitbook/assets/image (49) (1).png>)
 
 Mit der `reorder()` Funktion können wir die Variable auf der Achse nach einer zweiten Variable sortieren lassen:
 
