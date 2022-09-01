@@ -1,6 +1,6 @@
 # Pipes in R
 
-Mit **Pipes** verbessern wir die Lesbarkeit unseres R-Codes und werden gleichzeitig produktive in der Datenanalyse. Der Pipe-Opertator `%>%` signalisiert, dass es sich um eine Pipe handelt. In diesem Skript verwenden wir Pipes durchgängig für eine bessere Lesbarkeit.&#x20;
+Mit **Pipes** verbessern wir die Lesbarkeit unseres R-Codes und werden gleichzeitig produktiver in der Datenanalyse. Der Operator `%>%` signalisiert, dass es sich um eine Pipe handelt. In diesem Skript verwenden wir Pipes durchgängig für eine bessere Lesbarkeit.&#x20;
 
 Lest den folgenden Blogbeitrag, der eine hervorragende Zusammenfassung des Pipe-Operators gibt:
 
