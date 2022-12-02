@@ -1,11 +1,11 @@
 ---
 description: >-
-  Für die Visualisierung von zahlenmäßigen Verhältnissen zwischen verschiedenen
-  Datenkategorien eignen sich Balkendiagramme. Hier lernt ihr, diese mit ggplot2
-  zu erstellen.
+  Für die Visualisierung von zahlenmäßigen Mengen und Verhältnissen zwischen
+  verschiedenen Datenkategorien eignen sich Balkendiagramme. Hier lernt ihr,
+  diese mit ggplot2 zu erstellen.
 ---
 
-# Proportionen
+# Mengen und Proportionen
 
 ## Beispieldatensatz
 

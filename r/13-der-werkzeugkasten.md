@@ -5,7 +5,7 @@ description: >-
   Werkzeuge, die uns das Paket bietet.
 ---
 
-# 13 Der Werkzeugkasten
+# Der Werkzeugkasten
 
 Bei der Arbeit mit Daten ist es wichtig zu wissen, welches Werkzeug (hier: Paket oder Funktion) wir für welche Aufgabe verwenden. Genauso wie in einer Werkstatt, in der es eine Vielzahl an Werkzeugen gibt, die für unterschiedliche Zwecke geeignet sind.
 
@@ -13,18 +13,18 @@ Bei der Arbeit mit Daten ist es wichtig zu wissen, welches Werkzeug (hier: Paket
 
 Die Tabelle unten listet wichtige Werkzeuge auf, die wir im weiteren Verlauf dieses Skriptes kennenlernen werden.
 
-| **Paket** | **Funktion**                                                               | **Aufgabe**                                                                                                            |
-| --------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `tibble`  | `as.tibble`                                                                | [Erstellt einen modernen Dataframe für tabellarische Daten](14-daten-laden-und-sichten/tidyverse-und-tibbles.md).      |
-| `readr`   | `read_csv`                                                                 | [Lesen von tabellarischen Datenformaten wie CSV-Dateien](14-daten-laden-und-sichten/laden-eines-datensatzes.md).       |
-| `dplyr`   | `select`                                                                   | [Auswählen von Spalten (Variablen) eines Datensatzes](15-daten-veraendern/spalten-auswaehlen.md).                      |
-| `dplyr`   | `filter`                                                                   | [Filtern von Daten auf Basis fast beliebiger Ausdrücke](15-daten-veraendern/zeilen-filtern.md).                        |
-| `dplyr`   | `mutate`                                                                   | [Hinzufügen neuer Spalten (Variablen)](15-daten-veraendern/spalten-veraendern/).                                       |
-| `dplyr`   | `recode`                                                                   | [Spaltenwerte neu kodieren](15-daten-veraendern/spalten-veraendern/spalten-neu-kodieren.md).                           |
-| `dplyr`   | `arrange`                                                                  | [Die Reihenfolge von Zeilen verändern](15-daten-veraendern/zeilen-sortieren.md).                                       |
-| `dplyr`   | `group_by`                                                                 | [Gruppieren von Daten](15-daten-veraendern/daten-zusammenfassen.md#zusammenfassen-und-gruppieren).                     |
-| `dplyr`   | `summarise`                                                                | [Zusammenfassen von Daten](15-daten-veraendern/daten-zusammenfassen.md#viele-zeilen-zu-einer-kennzahl-zusammenfassen). |
-| `ggplot2` | `ggplot`, `aes`, `geom_line`_,_ `geom_bar`, `geom_col` `geom_point` u.v.m. | [Visualisieren von Daten](16-daten-visualisieren-mit-ggplot2/).                                                        |
+| **Paket** | **Funktion**                                                               | **Aufgabe**                                                                                                         |
+| --------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `tibble`  | `as.tibble`                                                                | [Erstellt einen modernen Dataframe für tabellarische Daten](14-daten-laden-und-sichten/tidyverse-und-tibbles.md).   |
+| `readr`   | `read_csv`                                                                 | [Lesen von tabellarischen Datenformaten wie CSV-Dateien](14-daten-laden-und-sichten/laden-eines-datensatzes.md).    |
+| `dplyr`   | `select`                                                                   | [Auswählen von Spalten (Variablen) eines Datensatzes](daten-veraendern/spalten-auswaehlen.md).                      |
+| `dplyr`   | `filter`                                                                   | [Filtern von Daten auf Basis fast beliebiger Ausdrücke](daten-veraendern/zeilen-filtern.md).                        |
+| `dplyr`   | `mutate`                                                                   | [Hinzufügen neuer Spalten (Variablen)](daten-veraendern/spalten-veraendern/).                                       |
+| `dplyr`   | `recode`                                                                   | [Spaltenwerte neu kodieren](daten-veraendern/spalten-veraendern/spalten-neu-kodieren.md).                           |
+| `dplyr`   | `arrange`                                                                  | [Die Reihenfolge von Zeilen verändern](daten-veraendern/zeilen-sortieren.md).                                       |
+| `dplyr`   | `group_by`                                                                 | [Gruppieren von Daten](daten-veraendern/daten-zusammenfassen.md#zusammenfassen-und-gruppieren).                     |
+| `dplyr`   | `summarise`                                                                | [Zusammenfassen von Daten](daten-veraendern/daten-zusammenfassen.md#viele-zeilen-zu-einer-kennzahl-zusammenfassen). |
+| `ggplot2` | `ggplot`, `aes`, `geom_line`_,_ `geom_bar`, `geom_col` `geom_point` u.v.m. | [Visualisieren von Daten](16-daten-visualisieren-mit-ggplot2/).                                                     |
 
 ## Das Paket `tibble`
 

@@ -1,4 +1,4 @@
-# 11 Der Analyseprozess
+# Der Analyseprozess
 
 ## Explorative Datenanalyse mit R
 
@@ -34,14 +34,14 @@ Das Ziel der explorativen Datenanalyse ist die Visualisierung der Daten mit geei
 
 Für diese Aufgaben bietet R mit dem Paket `dplyr` mächtige Funktionen. Insbesondere lernen wir in dem Abschnitt:
 
-* Wie wir bestimmte Spalten auswählen können (dplyr-Verb: `select`).
-* Wie wir Zeilen fast beliebig filtern können (dplyr-Verb: `filter`).
-* Wie wir neue, berechnete Spalten hinzufügen können (dplyr-Verb: `mutate`).
-* Wie wir Zeilen sortieren können (dplyr-Verb: `arrange`).
-* Wie wir Zeilen zusammenfassen und gruppieren können (dplyr-Verben: `summarize` und `group_by`)
+* Wie wir bestimmte Spalten auswählen können (`select`).
+* Wie wir Zeilen fast beliebig filtern können (`filter`).
+* Wie wir neue, berechnete Spalten hinzufügen können (`mutate`).
+* Wie wir Zeilen sortieren können (`arrange`).
+* Wie wir Zeilen zusammenfassen und gruppieren können (`summarize` und `group_by`)
 
-{% content-ref url="15-daten-veraendern/" %}
-[15-daten-veraendern](15-daten-veraendern/)
+{% content-ref url="daten-veraendern/" %}
+[daten-veraendern](daten-veraendern/)
 {% endcontent-ref %}
 
 ### Daten visualisieren

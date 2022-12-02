@@ -5,7 +5,7 @@ description: >-
   Berechnungen einzusetzen.
 ---
 
-# 8 Rechnen mit R
+# Rechnen mit R
 
 ## Einfache Arithmetik
 
@@ -46,7 +46,7 @@ R unterstützt die typischen Vergleichsoperationen mit entsprechenden Operatoren
 
 Logikoperatoren dürfen in keiner Programmiersprache fehlen. Schließlich ist Logik ein wesentlicher Bestandteil der Informationsverarbeitung. Die Tabelle unten listet die wichtigsten Logikoperatoren und deren Umsetzung in R.
 
-Logikoperatoren spielen besonders bei der Verwendung von [Kontrollstrukturen](11-kontrollstrukturen.md) eine wichtige Rolle. Hier geht es darum, basierend auf definierten Bedingungen zu entscheiden, ob ein bestimmter Codeblock ausgeführt werden soll oder nicht. Um Bedingungen miteinander zu verknüpfen, benötigen wir logische Verknüpfungen wie UND oder ODER.
+Logikoperatoren spielen besonders bei der Verwendung von [Kontrollstrukturen](kontrollstrukturen.md) eine wichtige Rolle. Hier geht es darum, basierend auf definierten Bedingungen zu entscheiden, ob ein bestimmter Codeblock ausgeführt werden soll oder nicht. Um Bedingungen miteinander zu verknüpfen, benötigen wir logische Verknüpfungen wie UND oder ODER.
 
 
 

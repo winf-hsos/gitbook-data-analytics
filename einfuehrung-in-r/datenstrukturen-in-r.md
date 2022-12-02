@@ -1,7 +1,7 @@
 ---
 description: >-
-  R bietet mehr als nur Dataframes. Dieser Artikel gibt eine Übersicht über die
-  gängigen Datenstrukturen in R.
+  Für die Arbeit mit Daten bietet R für jeden Anwendungsfall eine geeignete
+  Struktur. In diesem Abschnitt lernen wir die wichtigsten davon kennen.
 ---
 
 # Datenstrukturen in R
@@ -12,7 +12,7 @@ In R gibt es eine Vielfalt an Datenstrukturen, mit denen wir Informationen abbil
 * Vektoren
 * Matrizen
 * Listen
-* Dataframes
+* Dataframes (und [Tibbles](../r/14-daten-laden-und-sichten/tidyverse-und-tibbles.md#tibbles))
 
 ## Skalare Werte
 
@@ -72,3 +72,7 @@ Folgt bald.
 ## Dataframes
 
 Folgt bald.
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}

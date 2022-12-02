@@ -1,8 +1,10 @@
 # Achsenformatierung
 
-## Beschriftung der x- und y-Achse
+{% file src="../../.gitbook/assets/food_production.csv" %}
 
-Die Beschriftung der x- und y-Achse wird von ggplot automatisch vorgenommen. Dabei wird einfach der zugewiesene Ausdruck als Beschriftung verwendet, was oft unschön wirkt und wenig aussagekräftig ist. Betrachtet dazu das Beispiel unten, in dem wir die Gesamtemissionen für jedes Lebensmittelprodukt aus dem Datensatz [Environmental Impacts of Food Production](../../datensaetze-und-uebungen/datensaetze/environmental-impacts-of-food-production.md) als Balkendiagramm darstellen:
+## Titel der x- und y-Achse ändern
+
+Die Titel der x- und y-Achse werden von ggplot automatisch erstellt. Dabei wird der zugewiesene Ausdruck verwendet, was oft unschön wirkt und wenig aussagekräftig ist. Betrachtet dazu das Beispiel unten, in dem wir die Gesamtemissionen für jedes Lebensmittelprodukt aus dem Datensatz [Environmental Impacts of Food Production](../../datensaetze-und-uebungen/datensaetze/environmental-impacts-of-food-production.md) als Balkendiagramm darstellen:
 
 ```r
 food_production %>%
@@ -32,14 +34,18 @@ Das Ergebnis sieht schon gleich viel besser aus:
 
 Die Achsenbeschriftungen können wir auch über die etwas generischere Funktion `labs()` erreichen:
 
-<pre class="language-r"><code class="lang-r"><strong>food_production %>%
-</strong>  filter(total_emissions > 5) %>%
-<a data-footnote-ref href="#user-content-fn-1">  ggplot() +</a>
+```r
+food_production %>%
+  filter(total_emissions > 5) %>%
+  ggplot() +
   aes(x = total_emissions, y = reorder(food_product, total_emissions)) +
   geom_col() +
   labs(x = "Total Emissions", y = "Food Product")
-</code></pre>
 
+```
 
+## Formatierung der Achsenbeschriftung
 
-[^1]: This function creates an empty plot&#x20;
+## Quellen
+
+* [Blogbeitrag _A ggplot2 Tutorial for Beautiful Plotting in R_ von Cedric Scherer](https://cedricscherer.netlify.app/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)

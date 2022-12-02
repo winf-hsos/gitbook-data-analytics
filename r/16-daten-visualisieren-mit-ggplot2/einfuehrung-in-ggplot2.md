@@ -34,7 +34,7 @@ Die drei Begriffe `<DATAFRAME>`, `<MAPPING>` und `<SHAPE>` sind Platzhalter für
 
 ## Die verwendeten Daten
 
-Als ersten Wert erwartet die `ggplot` Funktion einen Dataframe. Dieser enthält die Daten für die Visualisierung. Alternativ können wir auch hier den [Pipe-Operator](../15-daten-veraendern/pipes-in-r.md) `%>%` verwenden, und damit den Parameter weglassen:
+Als ersten Wert erwartet die `ggplot` Funktion einen Dataframe. Dieser enthält die Daten für die Visualisierung. Alternativ können wir auch hier den [Pipe-Operator](../daten-veraendern/pipes-in-r.md) `%>%` verwenden, und damit den Parameter weglassen:
 
 ```
 <DATAFRAME> %>% 
