@@ -10,3 +10,5 @@ If you are working with Databricks, you can use the following notebook to import
 
 {% embed url="https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/template_chicago_crimes_2001_to_present.html" %}
 
+The [official website of the Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2) contains the original data set as well as a data dictionary.
+
