@@ -32,10 +32,14 @@ Das Ergebnis sieht schon gleich viel besser aus:
 
 Die Achsenbeschriftungen können wir auch über die etwas generischere Funktion `labs()` erreichen:
 
-<pre><code><strong>food_production %>%
+<pre class="language-r"><code class="lang-r"><strong>food_production %>%
 </strong>  filter(total_emissions > 5) %>%
-  ggplot() +
+<a data-footnote-ref href="#user-content-fn-1">  ggplot() +</a>
   aes(x = total_emissions, y = reorder(food_product, total_emissions)) +
   geom_col() +
   labs(x = "Total Emissions", y = "Food Product")
 </code></pre>
+
+
+
+[^1]: This function creates an empty plot&#x20;
