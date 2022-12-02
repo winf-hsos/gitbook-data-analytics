@@ -4,7 +4,7 @@
 
 ## Einführung <a href="#einführung" id="einführung"></a>
 
-* [1 Daten](einführung/1-daten/README.md)
+* [Daten](einführung/1-daten/README.md)
   * [Datensätze](einführung/1-daten/eigenschaften-von-daten/dimensions-of-data-sets.md)
   * [Dateneinträge](einführung/1-daten/eigenschaften-von-daten/dimensions-of-records.md)
   * [Datenattribute](einführung/1-daten/eigenschaften-von-daten/dimensions-of-fields.md)
@@ -14,17 +14,18 @@
     * [Das CSV-Format](einführung/1-daten/datenformate/das-csv-format.md)
     * [Das JSON-Format](einführung/1-daten/datenformate/das-json-format.md)
     * [Das Parquet-Format](einführung/1-daten/datenformate/das-parquet-format.md)
-* [2 Datenanalyse](einführung/2-datenanalyse/README.md)
-  * [Ziel der Datenanalyse](einführung/2-datenanalyse/was-ist-datenanalyse.md)
-  * [Schritte in der Datenanalyse](einführung/2-datenanalyse/steps-in-data-analytics.md)
-  * [Typen von Fragen](einführung/2-datenanalyse/types-of-questions/README.md)
-    * [Individuelle Datensätze finden](einführung/2-datenanalyse/types-of-questions/finding-individual-records.md)
-    * [Daten zusammenfassen](einführung/2-datenanalyse/types-of-questions/summarizing-data.md)
-    * [Daten erkunden](einführung/2-datenanalyse/types-of-questions/exploring-data.md)
-    * [Schlüsse aus Daten ziehen](einführung/2-datenanalyse/types-of-questions/drawing-inferences-from-data.md)
-    * [Fehlende Informationen vorhersagen](einführung/2-datenanalyse/types-of-questions/predicting-information.md)
-    * [Kausalität feststellen](einführung/2-datenanalyse/types-of-questions/finding-causality.md)
-* [3 Werkzeuge](einführung/3-werkzeuge/README.md)
+* [Datenanalyse](einführung/datenanalyse/README.md)
+  * [Ziel der Datenanalyse](einführung/datenanalyse/was-ist-datenanalyse.md)
+  * [Schritte in der Datenanalyse](einführung/datenanalyse/steps-in-data-analytics.md)
+  * [Typen von Fragen](einführung/datenanalyse/types-of-questions/README.md)
+    * [Individuelle Datensätze finden](einführung/datenanalyse/types-of-questions/finding-individual-records.md)
+    * [Daten zusammenfassen](einführung/datenanalyse/types-of-questions/summarizing-data.md)
+    * [Daten erkunden](einführung/datenanalyse/types-of-questions/exploring-data.md)
+    * [Schlüsse aus Daten ziehen](einführung/datenanalyse/types-of-questions/drawing-inferences-from-data.md)
+    * [Fehlende Informationen vorhersagen](einführung/datenanalyse/types-of-questions/predicting-information.md)
+    * [Kausalität feststellen](einführung/datenanalyse/types-of-questions/finding-causality.md)
+  * [Explorative Datenanalyse](einführung/datenanalyse/explorative-datenanalyse.md)
+* [Werkzeuge](einführung/3-werkzeuge/README.md)
   * [Überblick](einführung/3-werkzeuge/ueberblick.md)
   * [R und RStudio](einführung/3-werkzeuge/r-und-rstudio.md)
   * [Databricks](einführung/3-werkzeuge/databricks/README.md)
@@ -37,11 +38,6 @@
       * [Daten exportieren](einführung/3-werkzeuge/databricks/die-arbeit-mit-notebooks/export-data.md)
     * [Die Arbeit mit großen Datenmengen](einführung/3-werkzeuge/databricks/die-arbeit-mit-grossen-datenmengen.md)
     * [Strukturieren komplexer Analysen](einführung/3-werkzeuge/databricks/strukturieren-komplexer-analysen.md)
-
-## Explorative Datenanalyse
-
-* [4 Ziele der explorativen Datenanalyse](explorative-datenanalyse/4-ziele-der-explorativen-datenanalyse.md)
-* [5 Typische Fragen der explorativen Datenanalyse](explorative-datenanalyse/typische-fragen-eda.md)
 
 ## Datenvisualisierung
 
@@ -89,6 +85,7 @@
   * [Zeilen sortieren](r/15-daten-veraendern/zeilen-sortieren.md)
   * [Zeilen zusammenfassen](r/15-daten-veraendern/daten-zusammenfassen.md)
 * [16 Daten visualisieren](r/16-daten-visualisieren-mit-ggplot2/README.md)
+  * [Pleas for data visualization](r/16-daten-visualisieren-mit-ggplot2/pleas-for-data-visualization.md)
   * [Einführung in ggplot2](r/16-daten-visualisieren-mit-ggplot2/einfuehrung-in-ggplot2.md)
   * [Proportionen](r/16-daten-visualisieren-mit-ggplot2/proportionen.md)
   * [Entwicklungen & Trends](r/16-daten-visualisieren-mit-ggplot2/entwicklungen-and-trends.md)
