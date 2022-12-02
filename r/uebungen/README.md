@@ -1,4 +1,4 @@
-# 💻 Übungen
+# Übungen
 
 {% content-ref url="uebung-zur-datenverarbeitung.md" %}
 [uebung-zur-datenverarbeitung.md](uebung-zur-datenverarbeitung.md)

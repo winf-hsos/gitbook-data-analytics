@@ -4,7 +4,7 @@ description: >-
   Schleifendurchläufe vorab bestimmen können.
 ---
 
-# Die FOR-Schleife
+# Die For-Schleife
 
 Die FOR-Schleife erlaubt es uns, einen Codeblock eine bestimmte Anzahl Male hintereinander auszuführen, ohne dass wir den Code selbst wiederholen müssen. Nehmt den folgenden Code als Beispiel:
 
@@ -44,3 +44,7 @@ for(i in 1:5) {
 ```
 
 Die Ausgabe ist identisch zum ersten Programm. Der Code aber viel kürzer und übersichtlicher.
+
+## Mehr lesen
+
+{% embed url="https://rstudio-education.github.io/hopr/loops.html#for-loops" %}

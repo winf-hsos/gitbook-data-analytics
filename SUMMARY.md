@@ -60,9 +60,9 @@
 * [Datenstrukturen in R](einfuehrung-in-r/datenstrukturen-in-r.md)
 * [Kontrollstrukturen](einfuehrung-in-r/kontrollstrukturen.md)
 * [Schleifen](einfuehrung-in-r/schleifen/README.md)
-  * [Die FOR-Schleife](einfuehrung-in-r/schleifen/die-for-schleife.md)
-  * [Die WHILE-Schleife](einfuehrung-in-r/schleifen/die-while-schleife.md)
-  * [Die REPEAT-Schleife](einfuehrung-in-r/schleifen/die-repeat-schleife.md)
+  * [Die For-Schleife](einfuehrung-in-r/schleifen/die-for-schleife.md)
+  * [Die While-Schleife](einfuehrung-in-r/schleifen/die-while-schleife.md)
+  * [Die Repeat-Schleife](einfuehrung-in-r/schleifen/die-repeat-schleife.md)
 * [Funktionen](einfuehrung-in-r/funktionen.md)
 
 ## Datenanalyse mit R <a href="#r" id="r"></a>
@@ -93,13 +93,13 @@
   * [Achsenformatierung](r/16-daten-visualisieren-mit-ggplot2/achsenformatierung.md)
   * [Erweiterte Features](r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/README.md)
     * [Mehrere Plots in einer Abbildung](r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/plot-grids.md)
-* [💻 Übungen](r/uebungen/README.md)
+* [Übungen](r/uebungen/README.md)
   * [💻 Übung zur Datenverarbeitung](r/uebungen/uebung-zur-datenverarbeitung.md)
   * [💻 Übung zur Datenvisualisierung](r/uebungen/uebung-zur-datenvisualisierung.md)
 
 ## SQL
 
-* [18 Grundlagen SQL](sql/grundlagen-sql/README.md)
+* [Grundlagen SQL](sql/grundlagen-sql/README.md)
   * [Was ist SQL?](sql/grundlagen-sql/what-is-sql-and-what-can-it-do.md)
   * [Daten importieren](sql/grundlagen-sql/import-data.md)
   * [Spalten und Ausdrücke auswählen](sql/grundlagen-sql/select.md)
@@ -108,7 +108,7 @@
   * [Aggregierte Zeilen filtern](sql/grundlagen-sql/group.md)
   * [Zeilen sortieren](sql/grundlagen-sql/sort.md)
   * [💻 Übungen](sql/grundlagen-sql/uebungen.md)
-* [19 Erweitertes SQL](sql/erweitertes-sql/README.md)
+* [Erweitertes SQL](sql/erweitertes-sql/README.md)
   * [Views](sql/erweitertes-sql/views.md)
   * [Mengenoperatoren](sql/erweitertes-sql/set-operators.md)
   * [Unterabfragen](sql/erweitertes-sql/subqueries.md)
@@ -117,11 +117,11 @@
   * [JSON](sql/erweitertes-sql/json.md)
   * [Arrays](sql/erweitertes-sql/arrays.md)
   * [Statistische Funktionen](sql/erweitertes-sql/statistical-analysis.md)
-* [20 Joins mit SQL](sql/multiple-data-sets-with-sql/README.md)
+* [Joins mit SQL](sql/multiple-data-sets-with-sql/README.md)
   * [Das relationale Modell](sql/multiple-data-sets-with-sql/das-relationale-modell.md)
   * [Verbinden von Tabellen](sql/multiple-data-sets-with-sql/verbinden-von-tabellen.md)
   * [Datensätze anreichern](sql/multiple-data-sets-with-sql/datensaetze-anreichern.md)
-* [21 Textanalysen mit SQL](sql/text-with-sql/README.md)
+* [Textanalysen mit SQL](sql/text-with-sql/README.md)
   * [In Texten suchen](sql/text-with-sql/search-text.md)
   * [Wörter analysieren](sql/text-with-sql/analyzing-words/README.md)
     * [Daten vorfiltern](sql/text-with-sql/analyzing-words/prefilter-the-data.md)
@@ -147,7 +147,7 @@
 
 ## Tableau
 
-* [18 Tableau installieren](tableau/tableau-installieren.md)
+* [Tableau installieren](tableau/tableau-installieren.md)
 * [Daten laden](tableau/date-laden/README.md)
   * [Daten vorbereiten](tableau/date-laden/daten-vorbereiten.md)
   * [Daten aus Textdateien laden](tableau/date-laden/daten-aus-textdateien-laden.md)
@@ -168,7 +168,7 @@
 * [Formatierung](tableau/formatierung.md)
 * [Präsentation und Export](tableau/praesentation-und-export.md)
 * [Interaktive Dashboards](tableau/interaktive-dashboards.md)
-* [💻 Übungen](tableau/uebungen/README.md)
+* [Übungen](tableau/uebungen/README.md)
   * [💻 Visuelle Pandemie](tableau/uebungen/01-visuelle-pandemie.md)
 
 ## Datensätze & Übungen <a href="#datensaetze-und-uebungen" id="datensaetze-und-uebungen"></a>
@@ -195,9 +195,3 @@
 
 * [References](references.md)
 * [Linksammlung zu R](linksammlung-zu-r.md)
-
-## Module
-
-* [Data Science I: EDA](module/data-science-i-eda.md)
-* [Data Science II: KI & ML](module/data-science-ii-ki-and-ml.md)
-* [Data Science III: Big Data](module/data-science-iii-big-data.md)
