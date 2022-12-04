@@ -64,18 +64,18 @@
   * [Die While-Schleife](einfuehrung-in-r/schleifen/die-while-schleife.md)
   * [Die Repeat-Schleife](einfuehrung-in-r/schleifen/die-repeat-schleife.md)
 * [Funktionen](einfuehrung-in-r/funktionen.md)
-* [Der Pipe-Operator](einfuehrung-in-r/pipes-in-r.md)
+* [Der Pipe-Operator](r/daten-veraendern/pipes-in-r.md)
 
 ## Data Transformation with R
 
 * [Select columns](data-transformation-with-r/select-columns.md)
-* [Spalten auswählen](data-transformation-with-r/spalten-auswaehlen.md)
-* [Zeilen filtern](data-transformation-with-r/zeilen-filtern.md)
-* [Spalten verändern](data-transformation-with-r/spalten-veraendern/README.md)
-  * [Spalten neu kodieren](data-transformation-with-r/spalten-veraendern/spalten-neu-kodieren.md)
-  * [Datum- und Zeitspalten](data-transformation-with-r/spalten-veraendern/datum-und-zeitspalten.md)
-* [Zeilen sortieren](data-transformation-with-r/zeilen-sortieren.md)
-* [Zeilen zusammenfassen](data-transformation-with-r/daten-zusammenfassen.md)
+* [Filter rows](data-transformation-with-r/filter-rows.md)
+* [Add columns](data-transformation-with-r/add-columns.md)
+* [Spalten verändern](r/daten-veraendern/spalten-veraendern/README.md)
+  * [Spalten neu kodieren](r/daten-veraendern/spalten-veraendern/spalten-neu-kodieren.md)
+  * [Datum- und Zeitspalten](r/daten-veraendern/spalten-veraendern/datum-und-zeitspalten.md)
+* [Zeilen sortieren](r/daten-veraendern/zeilen-sortieren.md)
+* [Zeilen zusammenfassen](r/daten-veraendern/daten-zusammenfassen.md)
 
 ## Datenanalyse mit R <a href="#r" id="r"></a>
 
@@ -197,5 +197,7 @@
 
 ***
 
+* [Old stuff](old-stuff/README.md)
+  * [Linksammlung zu R](old-stuff/linksammlung-zu-r.md)
+  * [Spalten auswählen](old-stuff/spalten-auswaehlen.md)
 * [References](references.md)
-* [Linksammlung zu R](linksammlung-zu-r.md)
