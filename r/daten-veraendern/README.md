@@ -4,7 +4,7 @@ description: >-
   lernen in diesem Abschnitt die wichtigsten kennen.
 ---
 
-# Daten verändern
+# 15 Daten verändern
 
 ![Fünf häufige Operationen in der Datentransformation.](../../.gitbook/assets/actions\_in\_data\_transformation.png)
 

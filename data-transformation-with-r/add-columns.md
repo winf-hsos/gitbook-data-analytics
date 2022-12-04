@@ -10,8 +10,10 @@ description: >-
 
 This chapter introduces the following new concepts and functions:
 
-* The [mutate()](https://dplyr.tidyverse.org/reference/mutate.html)-function for adding new columns or change existing ones.
+* The [`mutate`](https://dplyr.tidyverse.org/reference/mutate.html)-function for adding new columns or changing existing ones.
+* The `transmute`-function as an alternative to `mutate` to only keep the new columns and the columns involved in the calculation.
 * Conversion functions `as.character`, `as.double`, `as.integer`, `as.logical, and` `factor` to cast a data type onto a column.
+* Functions to extract parts of a date column, such as `year`, `month`, `day`, `weekday`, etc., mainly from the [`lubridate`](https://lubridate.tidyverse.org/)-package.
 
 ## The `mutate` command
 
