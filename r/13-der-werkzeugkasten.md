@@ -17,8 +17,8 @@ Die Tabelle unten listet wichtige Werkzeuge auf, die wir im weiteren Verlauf die
 | --------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | `tibble`  | `as.tibble`                                                                | [Erstellt einen modernen Dataframe für tabellarische Daten](14-daten-laden-und-sichten/tidyverse-und-tibbles.md).   |
 | `readr`   | `read_csv`                                                                 | [Lesen von tabellarischen Datenformaten wie CSV-Dateien](14-daten-laden-und-sichten/laden-eines-datensatzes.md).    |
-| `dplyr`   | `select`                                                                   | [Auswählen von Spalten (Variablen) eines Datensatzes](../old-stuff/spalten-auswaehlen.md).                          |
-| `dplyr`   | `filter`                                                                   | [Filtern von Daten auf Basis fast beliebiger Ausdrücke](../data-transformation-with-r/filter-rows.md).              |
+| `dplyr`   | `select`                                                                   | [Auswählen von Spalten (Variablen) eines Datensatzes](daten-veraendern/spalten-auswaehlen.md).                      |
+| `dplyr`   | `filter`                                                                   | [Filtern von Daten auf Basis fast beliebiger Ausdrücke](daten-veraendern/zeilen-filtern.md).                        |
 | `dplyr`   | `mutate`                                                                   | [Hinzufügen neuer Spalten (Variablen)](daten-veraendern/spalten-veraendern/).                                       |
 | `dplyr`   | `recode`                                                                   | [Spaltenwerte neu kodieren](daten-veraendern/spalten-veraendern/spalten-neu-kodieren.md).                           |
 | `dplyr`   | `arrange`                                                                  | [Die Reihenfolge von Zeilen verändern](daten-veraendern/zeilen-sortieren.md).                                       |

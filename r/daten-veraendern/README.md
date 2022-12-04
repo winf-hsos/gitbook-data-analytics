@@ -28,16 +28,16 @@ Bevor wir mit der Transformation der Daten beginnen, müssen wir das Konzept der
 
 Die erste Möglichkeit der Datentransformation besteht in der Einschränkung der Spalten. Ein Datensatz hat häufig sehr viele Spalten. Für eine Analyse interessieren uns oft nur wenige davon. Wie können wir möglichst effizient nur bestimmte Spalten auswählen?
 
-{% content-ref url="../../old-stuff/spalten-auswaehlen.md" %}
-[spalten-auswaehlen.md](../../old-stuff/spalten-auswaehlen.md)
+{% content-ref url="spalten-auswaehlen.md" %}
+[spalten-auswaehlen.md](spalten-auswaehlen.md)
 {% endcontent-ref %}
 
 ## Zeilen filtern
 
 Neben der Einschränkung der Spalten benötigen wir eine Möglichkeit zur Reduzierung der betrachten Zeilen. Oft interessiert uns für eine Analyse nur eine Teilmenge der Daten. Wie können wir diese Teilmenge möglichst effizient erstellen?
 
-{% content-ref url="../../data-transformation-with-r/filter-rows.md" %}
-[filter-rows.md](../../data-transformation-with-r/filter-rows.md)
+{% content-ref url="zeilen-filtern.md" %}
+[zeilen-filtern.md](zeilen-filtern.md)
 {% endcontent-ref %}
 
 ## Spalten verändern

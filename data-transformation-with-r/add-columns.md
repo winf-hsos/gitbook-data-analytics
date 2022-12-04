@@ -21,3 +21,17 @@ We find ourselves in the need to expand the existing set of columns with new inf
 line_items |>
     mutate(turnover = price * quantity)
 ```
+
+## Arithmetic calculations
+
+## Statistical calculations
+
+## Extract parts of a date
+
+## Change a column's data type
+
+## Working with factors
+
+### Recoding factors
+
+### Reordering factors

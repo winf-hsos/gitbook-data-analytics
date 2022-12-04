@@ -69,7 +69,7 @@
 ## Data Transformation with R
 
 * [Select columns](data-transformation-with-r/select-columns.md)
-* [Filter rows](data-transformation-with-r/filter-rows.md)
+* [Filter rows](r/daten-veraendern/zeilen-filtern.md)
 * [Add columns](data-transformation-with-r/add-columns.md)
 * [Spalten verändern](r/daten-veraendern/spalten-veraendern/README.md)
   * [Spalten neu kodieren](r/daten-veraendern/spalten-veraendern/spalten-neu-kodieren.md)
@@ -198,6 +198,6 @@
 ***
 
 * [Old stuff](old-stuff/README.md)
-  * [Linksammlung zu R](old-stuff/linksammlung-zu-r.md)
-  * [Spalten auswählen](old-stuff/spalten-auswaehlen.md)
+  * [Linksammlung zu R](linksammlung-zu-r.md)
+  * [Spalten auswählen](r/daten-veraendern/spalten-auswaehlen.md)
 * [References](references.md)
