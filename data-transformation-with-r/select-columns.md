@@ -1,10 +1,18 @@
 ---
-description: This chapter introduces tools to remove unnecessary columns from the data set.
+description: >-
+  This chapter introduces tools to remove unnecessary columns from the data set.
+  Or, positively stated, we learn how to specify the columns we need for our
+  analysis.
 ---
 
 # Select columns
 
-Or, positively stated, we learn how to specify the columns we need for our analysis. As with most data transformation operations, we mostly introduce functions from the [dplyr](https://dplyr.tidyverse.org/) package.
+## Summary
+
+This chapter introduces the following new concepts and functions:
+
+* ``[`select()`](https://dplyr.tidyverse.org/reference/select.html)``
+* `startw_with`, `ends_with`, `contains`, `matches`
 
 ## The `select` command
 
