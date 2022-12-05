@@ -19,7 +19,7 @@ Eine Abfrage stellen wir mit der Funktion `sqldf`:
 after1990 <- sqldf("select * from limo where f39_geburtsjahr > 1990")
 ```
 
-Diese Funktion liefert einen klassischen R-Dataframe zurück, den wir in ein [Tibble](../14-daten-laden-und-sichten/tidyverse-und-tibbles.md#tibbles) umwandeln können:
+Diese Funktion liefert einen klassischen R-Dataframe zurück, den wir in ein [Tibble](../data-visualization-with-r/14-daten-laden-und-sichten/tidyverse-und-tibbles.md#tibbles) umwandeln können:
 
 ```r
 after1990 <- as_tibble(

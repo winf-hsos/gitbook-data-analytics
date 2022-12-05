@@ -40,8 +40,8 @@ Für diese Aufgaben bietet R mit dem Paket `dplyr` mächtige Funktionen. Insbeso
 * Wie wir Zeilen sortieren können (`arrange`).
 * Wie wir Zeilen zusammenfassen und gruppieren können (`summarize` und `group_by`)
 
-{% content-ref url="daten-veraendern/" %}
-[daten-veraendern](daten-veraendern/)
+{% content-ref url="../data-transformation-with-r/five-transformations.md" %}
+[five-transformations.md](../data-transformation-with-r/five-transformations.md)
 {% endcontent-ref %}
 
 ### Daten visualisieren

@@ -1,4 +1,6 @@
-# Spalten neu kodieren
+# Change columns
+
+## Re-code columns
 
 ```r
 limo %>% 
