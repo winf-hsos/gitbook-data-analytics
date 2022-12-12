@@ -92,7 +92,7 @@ where size(categories) > 1
 
 Das Ergebnis seht ihr unten im Screenshot:
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 ### Numerische Arrays summieren (ohne `explode()`)
 
