@@ -68,6 +68,7 @@
 
 * [Tidyverse and Tibbles](load-data/tidyverse-und-tibbles.md)
 * [Load a data set](load-data/laden-eines-datensatzes.md)
+* [Load from multiple files](load-data/load-from-multiple-files.md)
 * [First look at the data](load-data/first-look-at-the-data.md)
 * [Der Analyseprozess](data-visualization-with-r/11-der-analyseprozess.md)
 * [Der Werkzeugkasten](data-visualization-with-r/13-der-werkzeugkasten.md)
