@@ -12,7 +12,7 @@ In R gibt es eine Vielfalt an Datenstrukturen, mit denen wir Informationen abbil
 * Vektoren
 * Matrizen
 * Listen
-* Dataframes (und [Tibbles](../data-visualization-with-r/14-daten-laden-und-sichten/tidyverse-und-tibbles.md#tibbles))
+* Dataframes (und [Tibbles](../load-data/tidyverse-und-tibbles.md#tibbles))
 
 ## Skalare Werte
 

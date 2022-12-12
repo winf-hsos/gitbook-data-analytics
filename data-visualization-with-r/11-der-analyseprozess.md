@@ -22,8 +22,8 @@ Im ersten Schritt lernen wir die Arbeitsumgebung kennen. Diese besteht aus der <
 
 Jeder Analyseprozess beginnt mit dem <mark style="background-color:yellow;">Laden eines Datensatzes</mark>. Dabei gibt es verschiedene Datenquellen, die in Betracht gezogen werden müssen. Ein häufig verwendetes Format sind Komma-separierte Werte (_**c**omma **s**eparated **v**alues_ = CSV) in einfachen Textdateien. Dieses Format steht auch hier im Vordergrund.
 
-{% content-ref url="14-daten-laden-und-sichten/" %}
-[14-daten-laden-und-sichten](14-daten-laden-und-sichten/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Gemäß der Abbildung aus Wickham und Grolemund 2016 folgt auf das Laden der Daten der Arbeitsschritt „Tidy“. Dieser ist dann notwendig, wenn die Daten nicht in der typischen Form bestehend aus Spalten und Zeilen vorliegen. Leider ist das in der Praxis oft der Fall. In diesem Kurs wird aber zunächst davon ausgegangen, dass die Daten das entsprechende Format aufweisen. Die interessierte Leserin verweise ich auf das [Kapitel 12 im Buch „R for Data Science“](11-der-analyseprozess.md#explorative-datenanalyse-mit-r).

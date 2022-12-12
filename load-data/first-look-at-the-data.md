@@ -1,4 +1,11 @@
-# Erste Informationen ermitteln
+---
+description: >-
+  When we load a new data set, we want to get a quick overview of the dimensions
+  and the data set's columns. In this chapter, we learn some useful commands for
+  that.
+---
+
+# First look at the data
 
 Wir haben nun den Datensatz aus dem vorigen Abschnitt als Tibble mit dem Namen `food_production` vorliegen. R und Tibbles bieten uns eine Reihe von Funktionen, um grundlegende Informationen bezüglich eines Dataframes (oder Tibble) zu erhalten.
 
@@ -51,7 +58,7 @@ Mit dem Befehl `str()` können wir die Spaltennamen und deren Datentyp ausgeben.
 str(food_production)
 ```
 
-![](<../../.gitbook/assets/image (50) (1).png>)
+![](<../.gitbook/assets/image (50) (1).png>)
 
 ### Nur Spaltennamen
 
@@ -71,6 +78,6 @@ summary(food_production)
 
 So sieht das Ergebnis aus:
 
-![](<../../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (41).png>)
 
 Der erste Schritt ist getan, wir haben einen Datensatz in R geladen und ihn auf einer Variable als Dataframe gespeichert. Im nächsten Abschnitt lernen wir, wie wir mit verschiedenen Verben (Funktionen) einen Dataframe nach unseren Wünschen verändern können.

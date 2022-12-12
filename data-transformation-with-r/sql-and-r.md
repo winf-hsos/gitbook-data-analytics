@@ -4,7 +4,7 @@ description: >-
   SQL direkt auf Dataframes Abfragen durchzuführen.
 ---
 
-# SQL mit R verwenden
+# SQL and R
 
 Mit dem Paket `sqldf` können wir SQL verwenden, um Dataframes (und Tibbles) abzufragen. Das ist besonders hilfreich, wenn ihr bereits SQL kennt. Zuerst müssen wir das Paket installieren und laden:
 
@@ -19,7 +19,7 @@ Eine Abfrage stellen wir mit der Funktion `sqldf`:
 after1990 <- sqldf("select * from limo where f39_geburtsjahr > 1990")
 ```
 
-Diese Funktion liefert einen klassischen R-Dataframe zurück, den wir in ein [Tibble](../data-visualization-with-r/14-daten-laden-und-sichten/tidyverse-und-tibbles.md#tibbles) umwandeln können:
+Diese Funktion liefert einen klassischen R-Dataframe zurück, den wir in ein [Tibble](../load-data/tidyverse-und-tibbles.md#tibbles) umwandeln können:
 
 ```r
 after1990 <- as_tibble(

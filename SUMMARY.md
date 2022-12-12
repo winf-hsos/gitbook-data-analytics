@@ -64,6 +64,12 @@
 * [Functions](einfuehrung-in-r/funktionen.md)
 * [Readable code](r/daten-veraendern/pipes-in-r.md)
 
+## Load Data
+
+* [Tidyverse and Tibbles](load-data/tidyverse-und-tibbles.md)
+* [Load a data set](load-data/laden-eines-datensatzes.md)
+* [First look at the data](load-data/first-look-at-the-data.md)
+
 ## Data Transformation <a href="#data-transformation-with-r" id="data-transformation-with-r"></a>
 
 * [Five transformations](data-transformation-with-r/five-transformations.md)
@@ -81,10 +87,6 @@
 * [Pleas for data visualization](data-visualization-with-r/pleas-for-data-visualization.md)
 * [Der Analyseprozess](data-visualization-with-r/11-der-analyseprozess.md)
 * [Der Werkzeugkasten](data-visualization-with-r/13-der-werkzeugkasten.md)
-* [Daten laden](data-visualization-with-r/14-daten-laden-und-sichten/README.md)
-  * [Tidyverse und Tibbles](data-visualization-with-r/14-daten-laden-und-sichten/tidyverse-und-tibbles.md)
-  * [Laden eines Datensatzes](data-visualization-with-r/14-daten-laden-und-sichten/laden-eines-datensatzes.md)
-  * [Erste Informationen ermitteln](data-visualization-with-r/14-daten-laden-und-sichten/erste-informationen-ermitteln.md)
 * [Geospatial Data](data-visualization-with-r/geodaten.md)
 * [Mengen und Proportionen](data-visualization-with-r/mengen-und-proportionen.md)
 * [Daten visualisieren](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/README.md)
