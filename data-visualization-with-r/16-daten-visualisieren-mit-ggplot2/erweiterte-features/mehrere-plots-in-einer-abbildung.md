@@ -5,7 +5,7 @@ description: >-
   ggplot2.
 ---
 
-# Mehrere Plots in einer Abbildung
+# Multiple plots
 
 ## Verschiedene Visualisierungen in einer Matrix
 
