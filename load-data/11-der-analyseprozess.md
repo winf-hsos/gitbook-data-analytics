@@ -48,8 +48,8 @@ Für diese Aufgaben bietet R mit dem Paket `dplyr` mächtige Funktionen. Insbeso
 
 Das wichtigste Werkzeug in der explorativen Datenanalyse ist die <mark style="background-color:yellow;">Visualisierung von Daten</mark>. In R steht uns dafür mit `ggplot2` ein leistungsfähiges Instrument zur Verfügung. Wir lernen für bestimmte Anwendungsfälle die richtigen Visualisierungen zu identifizieren und mit `ggplot2` umzusetzen.
 
-{% content-ref url="16-daten-visualisieren-mit-ggplot2/" %}
-[16-daten-visualisieren-mit-ggplot2](16-daten-visualisieren-mit-ggplot2/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Literatur

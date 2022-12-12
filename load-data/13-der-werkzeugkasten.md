@@ -15,8 +15,8 @@ Die Tabelle unten listet wichtige Werkzeuge auf, die wir im weiteren Verlauf die
 
 | **Paket** | **Funktion**                                                               | **Aufgabe**                                                                                                                |
 | --------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `tibble`  | `as.tibble`                                                                | [Erstellt einen modernen Dataframe für tabellarische Daten](../load-data/tidyverse-und-tibbles.md).                        |
-| `readr`   | `read_csv`                                                                 | [Lesen von tabellarischen Datenformaten wie CSV-Dateien](../load-data/laden-eines-datensatzes.md).                         |
+| `tibble`  | `as.tibble`                                                                | [Erstellt einen modernen Dataframe für tabellarische Daten](tidyverse-und-tibbles.md).                                     |
+| `readr`   | `read_csv`                                                                 | [Lesen von tabellarischen Datenformaten wie CSV-Dateien](laden-eines-datensatzes.md).                                      |
 | `dplyr`   | `select`                                                                   | [Auswählen von Spalten (Variablen) eines Datensatzes](../r/daten-veraendern/spalten-auswaehlen.md).                        |
 | `dplyr`   | `filter`                                                                   | [Filtern von Daten auf Basis fast beliebiger Ausdrücke](../r/daten-veraendern/zeilen-filtern.md).                          |
 | `dplyr`   | `mutate`                                                                   | [Hinzufügen neuer Spalten (Variablen)](../data-transformation-with-r/change-columns/spalten-veraendern.md).                |
@@ -24,7 +24,7 @@ Die Tabelle unten listet wichtige Werkzeuge auf, die wir im weiteren Verlauf die
 | `dplyr`   | `arrange`                                                                  | [Die Reihenfolge von Zeilen verändern](../data-transformation-with-r/sort-rows.md).                                        |
 | `dplyr`   | `group_by`                                                                 | [Gruppieren von Daten](../data-transformation-with-r/summarize-rows.md#zusammenfassen-und-gruppieren).                     |
 | `dplyr`   | `summarise`                                                                | [Zusammenfassen von Daten](../data-transformation-with-r/summarize-rows.md#viele-zeilen-zu-einer-kennzahl-zusammenfassen). |
-| `ggplot2` | `ggplot`, `aes`, `geom_line`_,_ `geom_bar`, `geom_col` `geom_point` u.v.m. | [Visualisieren von Daten](16-daten-visualisieren-mit-ggplot2/).                                                            |
+| `ggplot2` | `ggplot`, `aes`, `geom_line`_,_ `geom_bar`, `geom_col` `geom_point` u.v.m. | [Visualisieren von Daten](broken-reference).                                                                               |
 
 ## Das Paket `tibble`
 

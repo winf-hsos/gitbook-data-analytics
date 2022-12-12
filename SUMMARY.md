@@ -69,6 +69,8 @@
 * [Tidyverse and Tibbles](load-data/tidyverse-und-tibbles.md)
 * [Load a data set](load-data/laden-eines-datensatzes.md)
 * [First look at the data](load-data/first-look-at-the-data.md)
+* [Der Analyseprozess](load-data/11-der-analyseprozess.md)
+* [Der Werkzeugkasten](load-data/13-der-werkzeugkasten.md)
 
 ## Data Transformation <a href="#data-transformation-with-r" id="data-transformation-with-r"></a>
 
@@ -85,18 +87,15 @@
 ## Data Visualization <a href="#data-visualization-with-r" id="data-visualization-with-r"></a>
 
 * [Pleas for data visualization](data-visualization-with-r/pleas-for-data-visualization.md)
-* [Der Analyseprozess](data-visualization-with-r/11-der-analyseprozess.md)
-* [Der Werkzeugkasten](data-visualization-with-r/13-der-werkzeugkasten.md)
-* [Geospatial Data](data-visualization-with-r/geodaten.md)
+* [Overview of ggplot2](data-visualization-with-r/overview-of-ggplot2.md)
 * [Mengen und Proportionen](data-visualization-with-r/mengen-und-proportionen.md)
-* [Daten visualisieren](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/README.md)
-  * [Einführung in ggplot2](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/einfuehrung-in-ggplot2.md)
-  * [Entwicklungen & Trends](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/entwicklungen-and-trends.md)
-  * [Verteilungen](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/verteilungen.md)
-  * [Unsicherheit](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/unsicherheit.md)
-  * [Achsenformatierung](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/achsenformatierung.md)
-  * [Erweiterte Features](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/README.md)
-    * [Mehrere Plots in einer Abbildung](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/mehrere-plots-in-einer-abbildung.md)
+* [Entwicklungen & Trends](data-visualization-with-r/entwicklungen-and-trends.md)
+* [Verteilungen](data-visualization-with-r/verteilungen.md)
+* [Geospatial Data](data-visualization-with-r/geodaten.md)
+* [Formatting plots](data-visualization-with-r/formatting-plots/README.md)
+  * [Achsenformatierung](data-visualization-with-r/formatting-plots/achsenformatierung.md)
+* [Theming](data-visualization-with-r/theming.md)
+* [Multiple plots](data-visualization-with-r/multiple-plots.md)
 * [Übungen](data-visualization-with-r/uebungen/README.md)
   * [💻 Übung zur Datenverarbeitung](data-visualization-with-r/uebungen/uebung-zur-datenverarbeitung.md)
   * [💻 Übung zur Datenvisualisierung](data-visualization-with-r/uebungen/uebung-zur-datenvisualisierung.md)
