@@ -52,17 +52,17 @@
 
 ## Introduction to R
 
-* [Working environment](introduction-to-r/die-arbeitsumgebung.md)
-* [Calculations](introduction-to-r/calculations.md)
-* [Objects and variables](introduction-to-r/objects-and-variables.md)
-* [Data structures](introduction-to-r/data-structures.md)
-* [Control structures](introduction-to-r/control-structures.md)
-* [Loops](introduction-to-r/loops/README.md)
-  * [Die For-Schleife](introduction-to-r/loops/die-for-schleife.md)
-  * [Die While-Schleife](introduction-to-r/loops/die-while-schleife.md)
-  * [Die Repeat-Schleife](introduction-to-r/loops/die-repeat-schleife.md)
-* [Functions](introduction-to-r/functions.md)
-* [Readable code](introduction-to-r/pipes-in-r.md)
+* [Working environment](einfuehrung-in-r/die-arbeitsumgebung.md)
+* [Calculations](einfuehrung-in-r/rechnen-mit-r.md)
+* [Objects and variables](einfuehrung-in-r/objekte-und-variablen-in-r.md)
+* [Data structures](einfuehrung-in-r/datenstrukturen-in-r.md)
+* [Control structures](einfuehrung-in-r/kontrollstrukturen.md)
+* [Loops](einfuehrung-in-r/schleifen/README.md)
+  * [Die For-Schleife](einfuehrung-in-r/schleifen/die-for-schleife.md)
+  * [Die While-Schleife](einfuehrung-in-r/schleifen/die-while-schleife.md)
+  * [Die Repeat-Schleife](einfuehrung-in-r/schleifen/die-repeat-schleife.md)
+* [Functions](einfuehrung-in-r/funktionen.md)
+* [Readable code](r/daten-veraendern/pipes-in-r.md)
 
 ## Data Transformation <a href="#data-transformation-with-r" id="data-transformation-with-r"></a>
 

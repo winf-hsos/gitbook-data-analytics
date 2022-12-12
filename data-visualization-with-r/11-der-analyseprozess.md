@@ -14,8 +14,8 @@ Wickham und Grolemund definieren den Datenanalyseprozess durch eine Abfolge best
 
 Im ersten Schritt lernen wir die Arbeitsumgebung kennen. Diese besteht aus der <mark style="background-color:yellow;">R-Software</mark> und dem <mark style="background-color:yellow;">RStudio als Entwicklungsumgebung</mark>, die wir im ersten Schritt installieren und die wichtigsten Funktionen kennenlernen.
 
-{% content-ref url="../introduction-to-r/die-arbeitsumgebung.md" %}
-[die-arbeitsumgebung.md](../introduction-to-r/die-arbeitsumgebung.md)
+{% content-ref url="../einfuehrung-in-r/die-arbeitsumgebung.md" %}
+[die-arbeitsumgebung.md](../einfuehrung-in-r/die-arbeitsumgebung.md)
 {% endcontent-ref %}
 
 ### Daten laden

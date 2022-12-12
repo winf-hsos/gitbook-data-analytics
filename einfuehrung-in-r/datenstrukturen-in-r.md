@@ -4,7 +4,7 @@ description: >-
   Struktur. In diesem Abschnitt lernen wir die wichtigsten davon kennen.
 ---
 
-# Datenstrukturen in R
+# Data structures
 
 In R gibt es eine Vielfalt an Datenstrukturen, mit denen wir Informationen abbilden können:
 

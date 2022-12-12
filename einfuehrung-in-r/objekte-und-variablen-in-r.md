@@ -4,7 +4,9 @@ description: >-
   können wir Variablen definieren und auf deren Inhalte zurückgreifen.
 ---
 
-# 9 Objekte und Variablen
+# Objects and variables
+
+
 
 ```r
 x <- 1
