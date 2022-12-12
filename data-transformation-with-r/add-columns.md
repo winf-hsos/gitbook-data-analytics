@@ -26,6 +26,13 @@ line_items |>
 
 ## Arithmetic calculations
 
+### Keep only used columns
+
+```r
+line_items |>
+    mutate(turnover = price * quantity, .keep = "used")
+```
+
 ## Statistical calculations
 
 ## Extract parts of a date

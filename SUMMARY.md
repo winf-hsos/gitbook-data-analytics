@@ -70,12 +70,11 @@
 * [Select columns](data-transformation-with-r/select-columns.md)
 * [Filter rows](r/daten-veraendern/zeilen-filtern.md)
 * [Add columns](data-transformation-with-r/add-columns.md)
-* [Change columns](data-transformation-with-r/change-columns.md)
-* [Spalten verändern](r/daten-veraendern/spalten-veraendern/README.md)
-  * [Datum- und Zeitspalten](r/daten-veraendern/spalten-veraendern/datum-und-zeitspalten.md)
-* [Zeilen sortieren](r/daten-veraendern/zeilen-sortieren.md)
-* [Zeilen zusammenfassen](r/daten-veraendern/daten-zusammenfassen.md)
-* [SQL mit R verwenden](data-transformation-with-r/sql-mit-r-verwenden.md)
+* [Change columns](data-transformation-with-r/change-columns/README.md)
+  * [Spalten verändern](data-transformation-with-r/change-columns/spalten-veraendern.md)
+* [Sort rows](data-transformation-with-r/sort-rows.md)
+* [Summarize rows](data-transformation-with-r/summarize-rows.md)
+* [SQL and R](data-transformation-with-r/sql-and-r.md)
 
 ## Data Visualization <a href="#data-visualization-with-r" id="data-visualization-with-r"></a>
 
