@@ -11,7 +11,7 @@ description: >-
 
 Databricks ist ein Cloud-Anbieter für Datenanalysen. Wir können damit Daten unter anderem auf Basis von SQL, R und Python analysieren. Databricks bietet einen kostenlosen Zugang für seine Plattform über die sogenannte Community Edition an.
 
-![Anmeldung für die Databricks-Plattform.](<../../../.gitbook/assets/image (46).png>)
+![Anmeldung für die Databricks-Plattform.](<../../../.gitbook/assets/image (46) (2).png>)
 
 Führt die folgenden Schritte aus, um ein kostenloses Databricks-Konto zu erstellen:
 

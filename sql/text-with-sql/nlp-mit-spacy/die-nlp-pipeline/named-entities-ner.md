@@ -66,7 +66,7 @@ displayHTML(html)
 
 Das neue Ergebnis sieht dann so aus:
 
-![Visuelle Hervorhebung von erkannten Organisationen in Databricks.](<../../../../.gitbook/assets/image (12).png>)
+![Visuelle Hervorhebung von erkannten Organisationen in Databricks.](<../../../../.gitbook/assets/image (12) (1).png>)
 
 ## Links
 

@@ -77,7 +77,7 @@ In time series, we often use the x-axis to show the value of a time-related vari
 scale_x_date(name = "Date", date_breaks = "3 month", date_labels = "%B %Y")
 ```
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 `ggplot2` will choose the names of the months depending on your system's language. You can change this setting to german or englisch with `Sys.setlocale("LC_TIME", "German")` and `Sys.setlocale("LC_TIME", "English")`.
