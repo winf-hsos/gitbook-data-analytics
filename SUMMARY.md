@@ -182,6 +182,8 @@
     * [⭐ Die Simpsons Teil 1](datensaetze-und-uebungen/uebungen/sql/01-die-simpsons-teil-1.md)
     * [⭐ Die Simpsons Teil 2](datensaetze-und-uebungen/uebungen/sql/02-die-simpsons-teil-2.md)
   * [R](datensaetze-und-uebungen/uebungen/r.md)
+* [Fallstudien](datensaetze-und-uebungen/fallstudien/README.md)
+  * [Morde in Chicago](datensaetze-und-uebungen/fallstudien/morde-in-chicago.md)
 * [Datensätze](datensaetze-und-uebungen/datensaetze/README.md)
   * [📂 Environmental Impacts of Food Production](datensaetze-und-uebungen/datensaetze/environmental-impacts-of-food-production.md)
   * [📂 Amazon Reviews](datensaetze-und-uebungen/datensaetze/amazon-product-reviews.md)
