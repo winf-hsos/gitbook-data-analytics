@@ -1,5 +1,11 @@
 # 💻 Transformation der REWE-Daten
 
+Ihr könnt über den Link unten ein R-Skript mit den Lösungsvorschlägen herunterladen.
+
+{% file src="../../.gitbook/assets/transformation_rewe_lösungen.R" %}
+Lösungsvorschläge als R-Skript zum Download.
+{% endfile %}
+
 ## 1 Laden und Sichten der Daten
 
 Ladet euch für diesen Teil der Übungsaufgabe die folgende CSV-Datei auf euren Computer herunter und speichert sie in einem Ordner eurer Wahl.
