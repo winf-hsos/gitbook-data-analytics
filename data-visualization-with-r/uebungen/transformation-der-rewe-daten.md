@@ -44,8 +44,8 @@ rewe %>%  colnames()
 Findet Lösungen für die folgenden Aufgaben zur Sichtung der Daten:
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-a) Lasst euch die ersten 20 Produktnamen ausgeben! Wie könnt ihr alle Produkte sehen?
+{% tab title="Aufgabe a)" %}
+Lasst euch die ersten 20 Produktnamen ausgeben! Wie könnt ihr alle Produkte sehen?
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -63,8 +63,8 @@ rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-b) Gebt die ersten 30 Marken aus. Was fällt euch auf? Wie könntet ihr das lösen?
+{% tab title="Aufgabe b)" %}
+Gebt die ersten 30 Marken aus. Was fällt euch auf? Wie könntet ihr das lösen?
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -89,8 +89,8 @@ rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-c) Gebt die 5 Produkte mit dem höchsten Fettgehalt aus!
+{% tab title="Aufgabe c)" %}
+Gebt die 5 Produkte mit dem höchsten Fettgehalt aus!
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -113,8 +113,8 @@ rewe %>%
 Verschafft euch einen Überblick über die Wertebereiche der Spalten und löst die folgenden Aufgaben:
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-a) Fasst die Spalten `vegan` und `vegetarian` zusammen. Was sagt ihr zu der Datenqualität der beiden Spalten?
+{% tab title="Aufgabe a)" %}
+Fasst die Spalten `vegan` und `vegetarian` zusammen. Was sagt ihr zu der Datenqualität der beiden Spalten?
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -127,8 +127,8 @@ rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-b) Erstellt eine Zusammenfassung aller Spalten, die einen Wert in Gramm enthalten. Welche verschiedenen Möglichkeiten findet ihr, das zu erreichen?
+{% tab title="Aufgabe b)" %}
+Erstellt eine Zusammenfassung aller Spalten, die einen Wert in Gramm enthalten. Welche verschiedenen Möglichkeiten findet ihr, das zu erreichen?
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -145,8 +145,8 @@ rewe %>%
 ### 2.1 Auswählen von Spalten
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-a) Erstellt einen neuen Dataframe, der den Produktnamen, die Produktkategorie und den Verkaufspreis enthält!
+{% tab title="Aufgabe a)" %}
+Erstellt einen neuen Dataframe, der den Produktnamen, die Produktkategorie und den Verkaufspreis enthält!
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -158,8 +158,8 @@ df <- rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-b) Erstellt einen neuen Dataframe mit allen Nährwertangaben sowie dem Produktnamen und der Produktkategorie!
+{% tab title="Aufgabe b)" %}
+Erstellt einen neuen Dataframe mit allen Nährwertangaben sowie dem Produktnamen und der Produktkategorie!
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -171,8 +171,8 @@ df <- rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-c) Erstellt einen neuen Dataframe, der nur numerische Spalten enthält. Prüft die Spalten und schreibt auf, was euch auffällt.
+{% tab title="Aufgabe c)" %}
+Erstellt einen neuen Dataframe, der nur numerische Spalten enthält. Prüft die Spalten und schreibt auf, was euch auffällt.
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -184,7 +184,7 @@ df %>%
   head(10)
 ```
 
-Es fällt auch, dass die Spalten `gtin` und `productId` als numerische Werte erkannt wurden, auch wenn es sich hierbei eher um IDs handelt. Wir müsen diese Spalten manuell in das korrekte Format konvertieren:
+Es fällt auch, dass die Spalten `gtin` und `productId` als numerische Werte erkannt wurden, auch wenn es sich hierbei eher um IDs handelt. Wir müsen diese Spalten manuell in das korrekte Format konvertieren (s. auch Aufgabe [2.3a](transformation-der-rewe-daten.md#2.3-spalten-veraendern)):
 
 ```r
 rewe <- rewe %>% 
@@ -197,8 +197,8 @@ rewe <- rewe %>%
 ### 2.2 Zeilen filtern
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-a) Filtert die Daten, sodass nur Produkte aus Deutschland enthalten sind. Behaltet nur den Produktnamen und das Herkunftsland im Ergebnis!
+{% tab title="Aufgabe a)" %}
+Filtert die Daten, sodass nur Produkte aus Deutschland enthalten sind. Behaltet nur den Produktnamen und das Herkunftsland im Ergebnis!
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -211,8 +211,8 @@ rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-b) Findet alle veganen Bioprodukte!
+{% tab title="Aufgabe b)" %}
+Findet alle veganen Bioprodukte!
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -230,8 +230,8 @@ rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-c) Welche Biersorten werden im REWE-Onlineshop angeboten?
+{% tab title="Aufgabe c)" %}
+Welche Biersorten werden im REWE-Onlineshop angeboten?
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -249,8 +249,8 @@ rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-d) Findet alle Rotweine unter 2 EUR!
+{% tab title="Aufgabe d)" %}
+Findet alle Rotweine unter 2 EUR!
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -270,8 +270,8 @@ rewe %>%
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Aufgabe" %}
-e) Findet alle Produkte, die das Allergen Soja enthalten. Schaut euch dafür die Funktion `str_detect()` an!
+{% tab title="Aufgabe e)" %}
+Findet alle Produkte, die das Allergen Soja enthalten. Schaut euch dafür die Funktion `str_detect()` an!
 {% endtab %}
 
 {% tab title="Lösungsvorschlag" %}
@@ -285,17 +285,155 @@ rewe %>%
 
 ### 2.3 Spalten verändern
 
-1. Ändert den Datentyp der beiden Spalten `productId` und `gtin` in Zeichenketten (_chr_) um.
-2. Erstellt eine neue Spalte `sum_nutrition`, in der ihr die Summe aller Nährwertangaben bildet. Belasst im Ergebnis nur die neue Summenspalte und die einzelnen Nährwertspalten.
-3. Berechnet, ob ein Produkt mehr als 90% Fett enthält und speichert diese Information auf einer neuen Spalte `high_fat`. Zeigt zur Überprüfung nur Zeilen an, bei denen der Wert `TRUE` ist. Die neue Spalte soll vor der Spalte `productDescription` eingefügt werden.
-4. Erstellt eine Spalte `foreign_bio`, die `TRUE` enthalten soll, wenn das Produkt ein Bioprodukt ist und gleichzeitig nicht aus Deutschland stammt.
+{% tabs %}
+{% tab title="Aufgabe a)" %}
+Ändert den Datentyp der beiden Spalten `productId` und `gtin` in Zeichenketten (_chr_) um!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe <- rewe %>% 
+  mutate(productId = as.character(productId),
+         gtin = as.character(gtin))
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe b)" %}
+Erstellt eine neue Spalte `sum_nutrition`, in der ihr die Summe aller Nährwertangaben bildet (auch wenn es inhaltlich nicht viel Sinn ergibt). Belasst im Ergebnis nur die neue Summenspalte und die einzelnen Nährwertspalten!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe c)" %}
+Berechnet, ob ein Produkt mehr als 90 % Fett enthält und speichert diese Information auf einer neuen Spalte `high_fat`. Zeigt zur Überprüfung nur Zeilen an, bei denen der Wert `TRUE` ist. Die neue Spalte soll vor der Spalte `productDescription` eingefügt werden.
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  mutate(high_fat = fatInGram > 90, .keep="used") %>% 
+  drop_na() %>% 
+  filter(high_fat)
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe d)" %}
+Erstellt eine Spalte `foreign_bio`, die `TRUE` enthalten soll, wenn das Produkt ein Bioprodukt ist und gleichzeitig nicht aus Deutschland stammt.
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  mutate(foreign_bio = bio & countryOfOrigin == "Deutschland", .keep="used") %>% 
+  filter(foreign_bio)
+```
+{% endtab %}
+{% endtabs %}
 
 ### 2.4 Daten zusammenfassen
 
-1. Wie viele Produkte befinden sich im Datensatz?
-2. Wie viele Produkte hat jede Produktkategorie?
-3. Gebt zusätzlich zur Produktkategorie und der Anzahl der Produkte nun auch den durchschnittlichen Verkaufspreis mit an.
-4. Listet alle Produktkategorien nach dem durchschnittlichen Fettgehalt ihrer Produkte auf. Auf welches Problem stoßt ihr dabei und wie könnt ihr das lösen?
-5. Verwendet das vorige Ergebnis und behaltet nur die Top 5 der Kategorien mit dem höchsten durchschnittlichen Fettgehalt ihrer Produkte.
-6. Welche Hersteller (`brand`) haben die Produkte mit dem höchsten Proteingehalt im Sortiment? Listet die Top 10.
+{% tabs %}
+{% tab title="Aufgabe a)" %}
+Wie viele Produkte befinden sich im Datensatz?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+Da jede Zeile im Datensatz ein Produkt ist, reicht es, wenn wir die Zeilen zählen:
+
+```r
+rewe %>% 
+  count()
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe b)" %}
+Wie viele Produkte hat jede Produktkategorie?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+# Der lange Weg
+rewe %>% 
+  group_by(productCategory) %>% 
+  summarize(num_products = n())
+  
+# Die Abkürzung
+rewe %>%
+  count(productCategory)
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe c)" %}
+Gebt zusätzlich zur Produktkategorie und der Anzahl der Produkte auch den durchschnittlichen Verkaufspreis mit an.
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  group_by(productCategory) %>% 
+  summarize(num_products = n(), 
+            avg_price = mean(price))
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe d)" %}
+Listet alle Produktkategorien nach dem durchschnittlichen Fettgehalt ihrer Produkte auf. Auf welches Problem stoßt ihr dabei und wie könnt ihr das lösen?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+Das Problem sind die `NA` Werte. Ist nur ein `NA` dabei ist das Ergebnis der Aggregation (hier: `mean`) ebenfalls `NA`. Die Lösung ist der Parameter `na.rm`, den wir auf `TRUE` setzen. Dadurch werden bei der Aggregation die `NA`-Werte entfernt und nur mit gültigen Werten gerechnet:
+
+```r
+rewe %>% 
+  group_by(productCategory) %>% 
+  summarize(avg_fat = mean(fatInGram, na.rm = TRUE))
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe e)" %}
+Verwendet das vorige Ergebnis und behaltet nur die Top 5 der Kategorien mit dem höchsten durchschnittlichen Fettgehalt ihrer Produkte.
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  group_by(productCategory) %>% 
+  summarize(avg_fat = mean(fatInGram, na.rm = TRUE)) %>% 
+  arrange(-avg_fat) %>% 
+  head(5)
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe f)" %}
+Welche Marken haben die Produkte mit dem höchsten Proteingehalt im Sortiment? Listet die Top 10!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  group_by(brand) %>% 
+  summarize(highest_protein = max(proteinInGram)) %>% 
+  arrange(-highest_protein)
+```
+{% endtab %}
+{% endtabs %}
 
