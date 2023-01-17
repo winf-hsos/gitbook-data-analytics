@@ -1,7 +1,7 @@
 # Übungen
 
-{% content-ref url="uebung-zur-datenverarbeitung.md" %}
-[uebung-zur-datenverarbeitung.md](uebung-zur-datenverarbeitung.md)
+{% content-ref url="transformation-der-rewe-daten.md" %}
+[transformation-der-rewe-daten.md](transformation-der-rewe-daten.md)
 {% endcontent-ref %}
 
 {% content-ref url="uebung-zur-datenvisualisierung.md" %}

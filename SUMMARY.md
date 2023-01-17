@@ -98,7 +98,7 @@
 * [Theming](data-visualization-with-r/theming.md)
 * [Multiple plots](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/mehrere-plots-in-einer-abbildung.md)
 * [Übungen](data-visualization-with-r/uebungen/README.md)
-  * [💻 Übung zur Datenverarbeitung](data-visualization-with-r/uebungen/uebung-zur-datenverarbeitung.md)
+  * [💻 Transformation der REWE-Daten](data-visualization-with-r/uebungen/transformation-der-rewe-daten.md)
   * [💻 Übung zur Datenvisualisierung](data-visualization-with-r/uebungen/uebung-zur-datenvisualisierung.md)
 
 ## SQL

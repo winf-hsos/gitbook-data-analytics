@@ -1,4 +1,4 @@
-# 💻 Übung zur Datenverarbeitung
+# 💻 Transformation der REWE-Daten
 
 ## 1 Laden und Sichten der Daten
 
@@ -10,26 +10,135 @@ Ladet euch für diesen Teil der Übungsaufgabe die folgende CSV-Datei auf euren 
 
 ### 1.1 Daten als Tibble einlesen
 
+{% tabs %}
+{% tab title="Aufgabe" %}
 Schreibt den notwendigen Code, um die Datei als Dataframe, genauer gesagt, als Tibble, zu laden. Welches Paket könnt ihr dafür verwenden?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+Das Paket `readr`, das mit dem Tidyverse automatisch mitgeladen wird, bietet eine Funktion zum Laden von CSV-Dateien:
+
+```r
+rewe <- read_csv("data/rewe_products.csv")
+```
+{% endtab %}
+{% endtabs %}
 
 ### 1.2 Anzahl Zeilen und Spalten ausgeben
 
+{% tabs %}
+{% tab title="Aufgabe" %}
 Wie viele Spalten und Zeilen sind im Datensatz enthalten? Gebt die Spaltennamen auf der Konsole aus!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% dim()
+rewe %>%  colnames()
+```
+{% endtab %}
+{% endtabs %}
 
 ### 1.3 Daten sichten
 
 Findet Lösungen für die folgenden Aufgaben zur Sichtung der Daten:
 
-1. Lasst euch die ersten 20 Produktnamen ausgeben! Wie könnt ihr alle Produkte sehen?
-2. Gebt die ersten 30 Hersteller aus. Was fällt euch auf? Wie könntet ihr das lösen?
-3. Gebt die 5 Produkte mit dem höchsten Fettgehalt aus.
+{% tabs %}
+{% tab title="Aufgabe" %}
+a) Lasst euch die ersten 20 Produktnamen ausgeben! Wie könnt ihr alle Produkte sehen?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  select(productName) %>% 
+  head(20)
+  
+# Alle Produktnamen als Vektor (theoretisch, Ausgabe stoppt bei 1000)
+rewe %>% 
+  select(productName) %>% 
+  pull()
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+b) Gebt die ersten 30 Marken aus. Was fällt euch auf? Wie könntet ihr das lösen?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+# Die ersten 20 Marken im Datensatz
+rewe %>% 
+  select(brand) %>% 
+  head(20)
+
+# Ohne NAs
+rewe %>% 
+  select(brand) %>% 
+  drop_na() %>% 
+  head(20)
+
+# Nur eindeutige Werte
+rewe %>% 
+  distinct(brand) %>% 
+  drop_na()
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+c) Gebt die 5 Produkte mit dem höchsten Fettgehalt aus!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  select(productName, fatInGram) %>% 
+  arrange(desc(fatInGram))
+
+# Alternativ, bei numerischen Spalten
+
+rewe %>% 
+  select(productName, fatInGram) %>% 
+  arrange(-fatInGram)
+```
+{% endtab %}
+{% endtabs %}
 
 ### 1.4 Spaltenzusammenfassungen&#x20;
 
 Verschafft euch einen Überblick über die Wertebereiche der Spalten und löst die folgenden Aufgaben:
 
-1. Fasst die Spalten `vegan` und `vegetarian` zusammen. Was sagt ihr zu der Datenqualität der beiden Spalten?
-2. Erstellt eine Zusammenfassung aller Spalten, die einen Wert in Gramm enthalten. Welche verschiedenen Möglichkeiten findet ihr, das zu erreichen?
+{% tabs %}
+{% tab title="Aufgabe" %}
+a) Fasst die Spalten `vegan` und `vegetarian` zusammen. Was sagt ihr zu der Datenqualität der beiden Spalten?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  select(vegan, vegetarian) %>% 
+  summary()
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+b) Erstellt eine Zusammenfassung aller Spalten, die einen Wert in Gramm enthalten. Welche verschiedenen Möglichkeiten findet ihr, das zu erreichen?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  select(ends_with("Gram")) %>% 
+  summary()
+```
+{% endtab %}
+{% endtabs %}
 
 ## 2 Einfache Transformationen
 
