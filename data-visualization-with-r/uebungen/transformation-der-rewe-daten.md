@@ -144,17 +144,96 @@ rewe %>%
 
 ### 2.1 Auswählen von Spalten
 
-1. Erstellt einen neuen Dataframe, der den Produktnamen, die Produktkategorie und den Verkaufspreis enthält.
-2. Erstellt einen neuen Dataframe mit allen Nährwertangaben sowie dem Produktnamen und der Produktkategorie.
-3. Erstellt einen neuen Dataframe, der nur numerische Spalten enthält. Prüft die Spalten und schreibt auf, was euch auffällt.
+{% tabs %}
+{% tab title="Aufgabe" %}
+a) Erstellt einen neuen Dataframe, der den Produktnamen, die Produktkategorie und den Verkaufspreis enthält!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+df <- rewe %>% 
+  select(productName, productCategory, price)
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+b) Erstellt einen neuen Dataframe mit allen Nährwertangaben sowie dem Produktnamen und der Produktkategorie!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+df <- rewe %>% 
+  select(ends_with("Gram"), productName, productCategory)
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+c) Erstellt einen neuen Dataframe, der nur numerische Spalten enthält. Prüft die Spalten und schreibt auf, was euch auffällt.
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+df <- rewe %>% 
+  select(where(is.numeric))
+
+df %>% 
+  head(10)
+```
+
+Es fällt auch, dass die Spalten `gtin` und `productId` als numerische Werte erkannt wurden, auch wenn es sich hierbei eher um IDs handelt. Wir müsen diese Spalten manuell in das korrekte Format konvertieren:
+
+```r
+rewe <- rewe %>% 
+  mutate(productId = as.character(productId),
+         gtin = as.character(gtin))
+```
+{% endtab %}
+{% endtabs %}
 
 ### 2.2 Zeilen filtern
 
-1. Filtert die Daten, sodass nur Produkte aus Deutschland enthalten sind. Behaltet nur den Produktnamen und das Herkunftsland im Ergebnis.
-2. Findet all veganen Bioprodukte.
-3. Welche Biersorten werden im REWE-Onlineshop angeboten?
-4. Findet alle Rotweine unter 2 EUR.
-5. Findet alle Produkte, die das Allergen Soja enthalten. Schaut euch dafür die Funktion `str_detect()` an.
+{% tabs %}
+{% tab title="Aufgabe" %}
+a) Filtert die Daten, sodass nur Produkte aus Deutschland enthalten sind. Behaltet nur den Produktnamen und das Herkunftsland im Ergebnis!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  filter(countryOfOrigin == "Deutschland") %>% 
+  select(productName, countryOfOrigin)
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+b) Findet alle veganen Bioprodukte!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+c) Welche Biersorten werden im REWE-Onlineshop angeboten?
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+```
+{% endtab %}
+{% endtabs %}
+
+1. Findet alle Rotweine unter 2 EUR.
+2. Findet alle Produkte, die das Allergen Soja enthalten. Schaut euch dafür die Funktion `str_detect()` an.
 
 ### 2.3 Spalten verändern
 
