@@ -217,6 +217,14 @@ b) Findet alle veganen Bioprodukte!
 
 {% tab title="Lösungsvorschlag" %}
 ```r
+rewe %>% 
+  filter(vegan, bio) %>% 
+  select(productName, vegan, bio)
+  
+# Expliziter
+rewe %>% 
+  filter(vegan == TRUE, bio == TRUE) %>% 
+  select(productName, vegan, bio)
 ```
 {% endtab %}
 {% endtabs %}
@@ -228,12 +236,52 @@ c) Welche Biersorten werden im REWE-Onlineshop angeboten?
 
 {% tab title="Lösungsvorschlag" %}
 ```r
+# Welche Produkttyp steht für "Bier"?
+rewe %>% 
+ distinct(productType) %>% 
+ filter(str_detect(productType, "Bier"))
+
+rewe %>% 
+  filter(productType == "Bier") %>% 
+  count(brand, sort = TRUE)
 ```
 {% endtab %}
 {% endtabs %}
 
-1. Findet alle Rotweine unter 2 EUR.
-2. Findet alle Produkte, die das Allergen Soja enthalten. Schaut euch dafür die Funktion `str_detect()` an.
+{% tabs %}
+{% tab title="Aufgabe" %}
+d) Findet alle Rotweine unter 2 EUR!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+# Welche Produkttyp steht für "Rotwein"?
+rewe %>% 
+  distinct(productType) %>% 
+  filter(str_detect(productType, "wein"))
+
+rewe %>% 
+  filter(productType == "Rotwein") %>% 
+  filter(price < 2) %>% 
+  select(productName, price) %>% 
+  arrange(price)
+```
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Aufgabe" %}
+e) Findet alle Produkte, die das Allergen Soja enthalten. Schaut euch dafür die Funktion `str_detect()` an!
+{% endtab %}
+
+{% tab title="Lösungsvorschlag" %}
+```r
+rewe %>% 
+  filter(str_detect(allergenStatement, "Soja")) %>% 
+  select(productName, allergenStatement)
+```
+{% endtab %}
+{% endtabs %}
 
 ### 2.3 Spalten verändern
 
