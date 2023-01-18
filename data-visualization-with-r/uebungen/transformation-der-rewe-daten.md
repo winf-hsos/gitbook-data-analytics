@@ -2,9 +2,7 @@
 
 Ihr könnt über den Link unten ein R-Skript mit den Lösungsvorschlägen herunterladen.
 
-{% file src="../../.gitbook/assets/transformation_rewe_lösungen.R" %}
-Lösungsvorschläge als R-Skript zum Download.
-{% endfile %}
+{% file src="../../.gitbook/assets/transformation_rewe_lösungen (3).R" %}
 
 ## 1 Laden und Sichten der Daten
 
@@ -284,6 +282,14 @@ Findet alle Produkte, die das Allergen Soja enthalten. Schaut euch dafür die Fu
 ```r
 rewe %>% 
   filter(str_detect(allergenStatement, "Soja")) %>% 
+  select(productName, allergenStatement)
+```
+
+Um den verschiedenen Schreibweisen gerecht zu werden (groß/klein):
+
+```r
+rewe %>% 
+  filter(str_detect(str_to_lower(allergenStatement), "soja")) %>% 
   select(productName, allergenStatement)
 ```
 {% endtab %}
