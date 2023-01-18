@@ -173,7 +173,7 @@ rewe %>%
 # ein Bioprodukt ist und gleichzeitig nicht aus Deutschland stammt.
 
 rewe %>% 
-  mutate(foreign_bio = bio & countryOfOrigin != "Deutschland", .keep="used") %>% 
+  mutate(foreign_bio = bio & countryOfOrigin == "Deutschland", .keep="used") %>% 
   filter(foreign_bio)
   
   
