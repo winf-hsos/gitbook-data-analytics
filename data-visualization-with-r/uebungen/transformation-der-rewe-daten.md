@@ -339,7 +339,7 @@ Erstellt eine Spalte `foreign_bio`, die `TRUE` enthalten soll, wenn das Produkt 
 {% tab title="Lösungsvorschlag" %}
 ```r
 rewe %>% 
-  mutate(foreign_bio = bio & countryOfOrigin == "Deutschland", .keep="used") %>% 
+  mutate(foreign_bio = bio & countryOfOrigin != "Deutschland", .keep="used") %>% 
   filter(foreign_bio)
 ```
 {% endtab %}
