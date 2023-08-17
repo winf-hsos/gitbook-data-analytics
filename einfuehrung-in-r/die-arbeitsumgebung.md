@@ -8,7 +8,7 @@ description: >-
 
 ## R installieren
 
-R ist eine Open-Source-Software und für alle gängigen Betriebssysteme verfügbar. Ladet euch zunächst die neueste Version von R für euer Betriebssystem herunter und installiert es anschließend:
+R ist eine quelloffene Software (Open Source) und für alle gängigen Betriebssysteme verfügbar. Ladet euch zunächst die neueste Version von R für euer Betriebssystem herunter und installiert es anschließend:
 
 * [R für Windows](https://cran.r-project.org/bin/windows/base/)
 * [R für macOS](https://cran.r-project.org/bin/macosx/)
@@ -38,9 +38,9 @@ Nach dem Öffnen seht ihr die Oberfläche des RStudio, die wie auf dem Screensho
 
 ## RStudio in der Cloud nutzen
 
-Für alle, die ihre ersten Schritte mit R gehen wollen und keinen großen Installationsaufwand auf sich nehmen wollen, eignet sich die Lösung in der Cloud. RStudio bietet kostenlose Accounts, die auf eine bestimmte Nutzungsdauer pro Monat (25 Stunden) und Rechnerressourcen (bis 1 GB RAM, 1 CPU) begrenzt sind. Der Vorteil ist, dass ihr direkt loslegen könnt.&#x20;
+Für alle, die ihre ersten Schritte mit R gehen und keinen großen Installationsaufwand auf sich nehmen wollen, eignet sich das Lösungsangebot in der Cloud. RStudio bietet kostenlose Accounts, die auf eine bestimmte Nutzungsdauer pro Monat (25 Stunden) und Rechnerressourcen (bis 1 GB RAM, 1 CPU) begrenzt sind. Der Vorteil ist, dass ihr direkt loslegen könnt.&#x20;
 
-Der Link unten führt direkt zur kostenlosen Anmeldung:
+Der Link unten führt zur kostenlosen Anmeldung:
 
 {% embed url="https://rstudio.cloud" %}
 
