@@ -19,28 +19,13 @@ Wir können auf der R-Konsole arithmetische Ausdrücke eingeben und mit Strg + E
 # [1] 2
 ```
 
-| Operator | Beschreibung         | Beispiel      | Ergebnis |
-| -------- | -------------------- | ------------- | -------- |
-| `+`      | Addition             | `41 + 1`      | `42`     |
-| `-`      | Subtraktion          | `43 - 1`      | `42`     |
-| `*`      | Multiplikation       | `2 * 21`      | `42`     |
-| `/`      | Division             | `84 / 2`      | `42`     |
-| `^`      | Potenzierung         | `8 ^ 2`       | `64`     |
-| `%%`     | Modulo               | `142 %% 100`  | `42`     |
-| `%/%`    | Ganzzahlige Division | `142 %/% 100` | `1`      |
+<table><thead><tr><th width="150">Operator</th><th width="218.59398496240604">Beschreibung</th><th width="150">Beispiel</th><th>Ergebnis</th></tr></thead><tbody><tr><td><code>+</code></td><td>Addition</td><td><code>41 + 1</code></td><td><code>42</code></td></tr><tr><td><code>-</code></td><td>Subtraktion</td><td><code>43 - 1</code></td><td><code>42</code></td></tr><tr><td><code>*</code></td><td>Multiplikation</td><td><code>2 * 21</code></td><td><code>42</code></td></tr><tr><td><code>/</code></td><td>Division</td><td><code>84 / 2</code></td><td><code>42</code></td></tr><tr><td><code>^</code></td><td>Potenzierung</td><td><code>8 ^ 2</code></td><td><code>64</code></td></tr><tr><td><code>%%</code></td><td>Modulo</td><td><code>142 %% 100</code></td><td><code>42</code></td></tr><tr><td><code>%/%</code></td><td>Ganzzahlige Division</td><td><code>142 %/% 100</code></td><td><code>1</code></td></tr></tbody></table>
 
 ## Vergleichsoperationen
 
 R unterstützt die typischen Vergleichsoperationen mit entsprechenden Operatoren, die in der Tabelle unten aufgelistet sind:
 
-| Operator | Beschreibung   | Beispiel     | Ergebnis |
-| -------- | -------------- | ------------ | -------- |
-| `>`      | Größer         | `42 > 41`    | `TRUE`   |
-| `<`      | Kleiner        | `42 < 41`    | `FALSE`  |
-| `<=`     | Kleiner gleich | `41 <= 41`   | `TRUE`   |
-| `>=`     | Größer gleich  | `41 >= 42`   | `FALSE`  |
-| `==`     | Gleich         | `1 + 1 == 2` | `TRUE`   |
-| `!=`     | Ungleich       | `42 != 41`   | `TRUE`   |
+<table><thead><tr><th width="150">Operator</th><th width="218.59398496240604">Beschreibung</th><th width="150">Beispiel</th><th>Ergebnis</th></tr></thead><tbody><tr><td><code>></code></td><td>Größer</td><td><code>42 > 41</code></td><td><code>TRUE</code></td></tr><tr><td><code>&#x3C;</code></td><td>Kleiner</td><td><code>42 &#x3C; 41</code></td><td><code>FALSE</code></td></tr><tr><td><code>&#x3C;=</code></td><td>Kleiner gleich</td><td><code>41 &#x3C;= 41</code></td><td><code>TRUE</code></td></tr><tr><td><code>>=</code></td><td>Größer gleich</td><td><code>41 >= 42</code></td><td><code>FALSE</code></td></tr><tr><td><code>==</code></td><td>Gleich</td><td><code>1 + 1 == 2</code></td><td><code>TRUE</code></td></tr><tr><td><code>!=</code></td><td>Ungleich</td><td><code>42 != 41</code></td><td><code>TRUE</code></td></tr></tbody></table>
 
 ## Logikoperationen
 
@@ -50,10 +35,4 @@ Logikoperatoren spielen besonders bei der Verwendung von [Kontrollstrukturen](ko
 
 
 
-| Operator | Beschreibung           | Beispiel       | Ergebnis |
-| -------- | ---------------------- | -------------- | -------- |
-| `!`      | Verneinung             | `!1==1`        | `FALSE`  |
-| `&`      | Und (Element-basiert)  | `1==1 & 2==1`  | `FALSE`  |
-| `&&`     | Und (Objekt-basiert)   | s. Unten       | -        |
-| `\|`     | Oder (Element-basiert) | `1==1 \| 2==1` | `TRUE`   |
-| `\|\|`   | Oder (Objekt-basiert)  | s. Unten       | -        |
+<table><thead><tr><th width="150">Operator</th><th width="218.59398496240604">Beschreibung</th><th width="150">Beispiel</th><th>Ergebnis</th></tr></thead><tbody><tr><td><code>!</code></td><td>Verneinung</td><td><code>!1==1</code></td><td><code>FALSE</code></td></tr><tr><td><code>&#x26;</code></td><td>Und (Element-basiert)</td><td><code>1==1 &#x26; 2==1</code></td><td><code>FALSE</code></td></tr><tr><td><code>&#x26;&#x26;</code></td><td>Und (Objekt-basiert)</td><td>s. Unten</td><td>-</td></tr><tr><td><code>|</code></td><td>Oder (Element-basiert)</td><td><code>1==1 | 2==1</code></td><td><code>TRUE</code></td></tr><tr><td><code>||</code></td><td>Oder (Objekt-basiert)</td><td>s. Unten</td><td>-</td></tr></tbody></table>

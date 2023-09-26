@@ -9,7 +9,7 @@ description: >-
 
 ## Lernziele
 
-In diesem Tutorial geht es um die Verwendung von SQL im Zusammenhang mit dem JSON-Datenformat. JSON ist kurz für **Javascript Object Notation** __ und ein gängiges Format für den Austausch von Daten, speziell im Umfeld des Internets. Webseiten speichern Daten häufig im Hintergrund in Datenbanken, die auf dem JSON-Format basieren. Der Austausch von Informationen über API-Schnittstellen geschieht in den meisten Fällen auch via JSON-Objekte.
+In diesem Tutorial geht es um die Verwendung von SQL im Zusammenhang mit dem JSON-Datenformat. JSON ist kurz für **Javascript Object Notation** und ein gängiges Format für den Austausch von Daten, speziell im Umfeld des Internets. Webseiten speichern Daten häufig im Hintergrund in Datenbanken, die auf dem JSON-Format basieren. Der Austausch von Informationen über API-Schnittstellen geschieht in den meisten Fällen auch via JSON-Objekte.
 
 Im Gegensatz zu herkömmlichen Spalten mit atomaren Werten können die Daten in einer Spalte im JSON-Format eine eigene Struktur besitzen. So kann innerhalb einer Spalte eine ganze Liste oder eine Hierarchie an Informationen gespeichert werden. SQL ist ursprünglich nicht für dieses Datenformat entwickelt worden. Es gibt aber in den meisten SQL-Implementierungen und speziell in dem von uns eingesetzten Spark SQL mittlerweile Funktionen für dieses spezielle Datenformat. Ziel dieses Tutorials ist es, die wichtigsten davon anhand von Beispielen kennenzulernen.
 
@@ -142,6 +142,6 @@ And here is how the `urls` field looks like in our data set:
 ]
 ```
 
-The format is JSON, and consist of an [array](arrays.md) (a list) of objects, each having the three properties `clean_url`, __ `expanded_url`, and `host`. The following Databricks notebook contains an introduction how to work with JSON objects and in particular with URLs:
+The format is JSON, and consist of an [array](arrays.md) (a list) of objects, each having the three properties `clean_url`, `expanded_url`, and `host`. The following Databricks notebook contains an introduction how to work with JSON objects and in particular with URLs:
 
 {% embed url="https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/working_with_urls.html" %}

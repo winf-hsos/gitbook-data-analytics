@@ -11,7 +11,7 @@ description: >-
 
 This chapter introduces the following new concepts and functions:
 
-* ``[`select()`](https://dplyr.tidyverse.org/reference/select.html)``
+* [`select()`](https://dplyr.tidyverse.org/reference/select.html)
 * `startw_with`, `ends_with`, `contains`, `matches`
 
 ## The `select` command
