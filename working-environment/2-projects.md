@@ -1,6 +1,8 @@
 # 2 Projects
 
-## Checkout the GitHub Repository
+Projects in RStudio are an organizational element that helps you maintain you
+
+## Clone the GitHub Repository
 
 When you installed Git on your computer, you should be able to run the git command from any command line terminal. A command line terminal is a textual way to interact with a computer and issue commands, which is helpful to automate certain tasks.
 
