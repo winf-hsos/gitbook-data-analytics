@@ -1,4 +1,4 @@
-# 4 Ziele der explorativen Datenanalyse
+# Explorative Datenanalyse
 
 * Datensatz kennenlernen
 * Fragen generieren

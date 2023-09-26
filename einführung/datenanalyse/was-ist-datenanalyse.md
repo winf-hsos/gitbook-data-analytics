@@ -4,7 +4,7 @@ description: >-
   wir damit genau? Was ist das Ziel und Vorgehen bei der Datenanalyse?
 ---
 
-# Was ist Datenanalyse?
+# Ziel der Datenanalyse
 
 ## Das Signal im Rauschen
 

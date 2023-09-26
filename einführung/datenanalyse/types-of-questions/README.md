@@ -5,7 +5,9 @@ description: >-
   sollten.
 ---
 
-# Arten von Fragen
+# Typen von Fragen
+
+
 
 > Confusion between data analytic question types is central to the ongoing replication crisis, misconstrued press releases describing scientific results, and the controversial claim that most published research findings are false. The solution is to ensure that data analytic education is a key component of research training. **The most important step in that direction is to know the question**. (Leek and Peng 2015)
 

@@ -4,7 +4,7 @@ description: >-
   meinen Modulen mit SQL, R, Python und Tableau. Aber wofür so viele Optionen?
 ---
 
-# 3 Werkzeuge
+# Werkzeuge
 
 {% content-ref url="ueberblick.md" %}
 [ueberblick.md](ueberblick.md)
