@@ -1,8 +1,14 @@
+---
+description: >-
+  R-Projects are useful to manage your analytics project. In this section,
+  you'll learn how to create and use them.
+---
+
 # 2 Projects
 
-Projects in RStudio are an organizational element that helps you maintain you
+Projects in RStudio are an organizational element that helps you maintain your analyses with all data and scripts. There are different ways to create a new project.
 
-## Clone the GitHub Repository
+## Cloning a GitHub repository
 
 When you installed Git on your computer, you should be able to run the git command from any command line terminal. A command line terminal is a textual way to interact with a computer and issue commands, which is helpful to automate certain tasks.
 
@@ -35,3 +41,10 @@ git clone ..
 {% endtabs %}
 
 After the command completed, you should have a new subdirectory with the name of the project within the directory where you ran the command.
+
+## Create a new project
+
+{% hint style="warning" %}
+This description is coming soon.
+{% endhint %}
+
