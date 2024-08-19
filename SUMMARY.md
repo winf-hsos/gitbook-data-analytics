@@ -10,7 +10,8 @@
 
 ## Background
 
-* [Daten](einführung/1-daten/README.md)
+* [Learning From Data](background/learning-from-data.md)
+* [Data](einführung/1-daten/README.md)
   * [Datensätze](einführung/1-daten/eigenschaften-von-daten/dimensions-of-data-sets.md)
   * [Dateneinträge](einführung/1-daten/eigenschaften-von-daten/dimensions-of-records.md)
   * [Datenattribute](einführung/1-daten/eigenschaften-von-daten/dimensions-of-fields.md)
@@ -49,16 +50,16 @@
 
 * [Quarto](communicate/quarto.md)
 
-## Datenvisualisierung
+## Data Visualization
 
-* [Visualisierungsformen](datenvisualisierung/visualisierungsformen/README.md)
-  * [Trends und Entwicklungen](datenvisualisierung/visualisierungsformen/developments-and-trends.md)
-  * [Distributions](datenvisualisierung/visualisierungsformen/verteilungen.md)
-  * [Word Clouds](datenvisualisierung/visualisierungsformen/word-clouds.md)
-* [Stolperfallen](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/README.md)
-  * [Abgeschnittene y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/abgeschnittene-y-achse.md)
-  * [Duale y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
-  * [Non-Proportional Ink](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
+* [Visualisierungsformen](data-visualization/visualisierungsformen/README.md)
+  * [Trends und Entwicklungen](data-visualization/visualisierungsformen/developments-and-trends.md)
+  * [Distributions](data-visualization/visualisierungsformen/verteilungen.md)
+  * [Word Clouds](data-visualization/visualisierungsformen/word-clouds.md)
+* [Stolperfallen](data-visualization/stolperfallen-bei-der-datenvisualisierung/README.md)
+  * [Abgeschnittene y-Achse](data-visualization/stolperfallen-bei-der-datenvisualisierung/abgeschnittene-y-achse.md)
+  * [Duale y-Achse](data-visualization/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
+  * [Non-Proportional Ink](data-visualization/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
 
 ## Introduction to R
 
