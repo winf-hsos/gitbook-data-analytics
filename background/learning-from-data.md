@@ -11,6 +11,8 @@ In technical terms, we can refer to the subject under examination as the **data 
 * Diversity of species across the globe over time
 * Behavior of a wind turbine in a wind canal
 
+<figure><img src="../.gitbook/assets/image (60).png" alt="" width="375"><figcaption></figcaption></figure>
+
 We could add many more items to that list, but I believe the examples above are sufficient to illustrate what we mean by a data generating process. In science, we don't just want to observe things for the fun of it, but we are rather interested in specific outcomes, which are the reason we collect and analyze the data in the first place.
 
 * Which product display incentivizes most customers to buy?
