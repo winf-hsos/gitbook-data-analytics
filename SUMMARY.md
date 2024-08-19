@@ -45,6 +45,10 @@
     * [Die Arbeit mit großen Datenmengen](einführung/3-werkzeuge/databricks/die-arbeit-mit-grossen-datenmengen.md)
     * [Strukturieren komplexer Analysen](einführung/3-werkzeuge/databricks/strukturieren-komplexer-analysen.md)
 
+## Communicate
+
+* [Quarto](communicate/quarto.md)
+
 ## Datenvisualisierung
 
 * [Visualisierungsformen](datenvisualisierung/visualisierungsformen/README.md)
@@ -55,7 +59,6 @@
   * [Abgeschnittene y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/abgeschnittene-y-achse.md)
   * [Duale y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
   * [Non-Proportional Ink](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
-* [Quarto](datenvisualisierung/quarto.md)
 
 ## Introduction to R
 

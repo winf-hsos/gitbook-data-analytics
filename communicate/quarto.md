@@ -1,8 +1,8 @@
 # Quarto
 
-On the official website, Quarto is described as an "open-source scientific and technical publishing system", which hits the nail on the head. In short, Quarto enables us to write code, visualizations, and our textual interpretation in a single document and render it into multiple formats. Among those formats are simple HTML websites, PDF files, and Microsoft Word Documents.
+On the official website, Quarto is described as an "open-source scientific and technical publishing system", which hits the nail on the head. In short, Quarto enables us to write code, create visualizations, and add our textual interpretation in a single document and render it into multiple formats. Among those formats are simple HTML websites, PDF files, and even Microsoft Word Documents.
 
-With Quarto, we can write our results as anything, as a research paper, a website, a book, or even a presentation.
+With Quarto, we can write a research paper, create a website, publish a book, or even generate a presentation for our results.
 
 ## Our first document
 
