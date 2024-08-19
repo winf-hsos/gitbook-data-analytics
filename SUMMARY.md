@@ -55,6 +55,7 @@
   * [Abgeschnittene y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/abgeschnittene-y-achse.md)
   * [Duale y-Achse](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
   * [Non-Proportional Ink](datenvisualisierung/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
+* [Quarto](datenvisualisierung/quarto.md)
 
 ## Introduction to R
 

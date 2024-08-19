@@ -1,7 +1,7 @@
 ---
 description: >-
-  To work comfortably with R, we take care of the working environment in the
-  first step. This includes R & Python, RStudio Desktop, and Git.
+  To work comfortably with data, we take care of the working environment in the
+  first step. This includes R & Python, Quarto, RStudio, and Git.
 ---
 
 # 1 Tools

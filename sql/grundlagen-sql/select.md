@@ -5,7 +5,9 @@
 Mit SQL können wir einzelne Spalten einer Tabelle auswählen. Die folgende Abfrage wählt nur den Titel und die Beschreibung eines TED-Talks aus der Tabelle `ted_meta` aus.
 
 ```sql
-select title, description 
+select 
+    title,
+    description 
 from ted_meta
 ```
 
@@ -13,7 +15,11 @@ Die Syntax ist einfach: Zu selektierende Spalten (oder allgemein Ausdrücke) wer
 
 ```sql
 -- Allgemeine Syntax für das Auswählen von Spalten
-select <spalte 1>, <spalte 2>, ..., <spalte n>
+select 
+    <spalte 1>, 
+    <spalte 2>, 
+    ..., 
+    <spalte n>
 from <tabellenname>
 ```
 
