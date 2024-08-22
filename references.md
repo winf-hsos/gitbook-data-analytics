@@ -7,3 +7,5 @@ Pearl, Judea, and Dana Mackenzie. _The Book of Why: The New Science of Cause and
 Wilke, C. _Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures_. First edition, O’Reilly Media, 2019.
 
 Wickham, Hadley, et al. _R for Data Science: Import, Tidy, Transform, Visualize, and Model Data_. 2nd edition, O’Reilly Media, Inc, 2023.
+
+Ananthaswamy, Anil. _Why Machines Learn: The Elegant Math behind Modern AI_. Dutton, 2024.
