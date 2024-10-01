@@ -6,10 +6,25 @@ description: >-
 
 # 1 Tools
 
-## Why R and Python, and not Excel or Tableau?
+## Why R and Python, and not Excel and Tableau?
 
-* Reproducibility
-* Flexibility
+R and Python are powerful programming languages that offer several advantages over traditional tools like Excel and Tableau for data analysis.
+
+### Flexibility
+
+R and Python offer greater flexibility and customization options. They allow users to create complex data transformations, build statistical models, and craft beautiful, insightful visualizations tailored to specific needs. If a feature isn't available, it can be added through coding.
+
+### Extensive Community
+
+There's often no need to code missing functionality yourself. Both R and Python boast extensive libraries and packages that enable advanced data manipulation, machine learning, and automation of repetitive tasks. Their open-source nature has fostered large, active communities. This results in numerous user-contributed packages and libraries, as well as abundant help from the community, Stack Overflow, books, and many other resources.
+
+### Reproducibility
+
+R and Python as programming languages promote reproducibility in research and analysis, as the entire workflow can be documented and shared through code. Ask an Excel user how they arrived at their final results, and they frequently can't tell you precisely. This isn't accidental—in Excel, many actions are performed by clicking through menus and selecting options from a UI. None of this is saved for future reproduction. Moreover, Excel is challenging to debug, as formulas are hidden behind cells and many options aren't visible to the user. R and Python are fundamentally different: we write programs (scripts) that perform the analysis step by step, making the final result easily reproducible.
+
+### Open Source
+
+Another significant advantage of R and Python is their open-source nature. This means the software and its source code are freely available for anyone to use, modify, and distribute. Open-source software promotes transparency, collaboration, and continuous improvement within the developer community. It also allows users to inspect the underlying algorithms and methodologies, which is crucial for ensuring the reliability and reproducibility of scientific research and data analysis.
 
 ## Install R
 
