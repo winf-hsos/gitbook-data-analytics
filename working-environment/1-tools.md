@@ -6,6 +6,11 @@ description: >-
 
 # 1 Tools
 
+## Why R and Python, and not Excel or Tableau?
+
+* Reproducibility
+* Flexibility
+
 ## Install R
 
 R is an open-source software that is available for all popular operating systems. First, download the latest version of R for your operating system, and then proceed to install it.
