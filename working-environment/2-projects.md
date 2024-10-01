@@ -10,7 +10,7 @@ Projects in RStudio are an organizational element that helps you maintain your a
 
 ## Cloning a GitHub repository
 
-When you installed Git on your computer, you should be able to run the git command from any command line terminal. A command line terminal is a textual way to interact with a computer and issue commands, which is helpful to automate certain tasks.
+
 
 You can use your operating system's integrated terminal, which on Windows is called the _Command Line_ (`cmd.exe`) and on macOS and Linux it is simply called _Terminal_. You can also open a terminal directly in RStudio, there is a tab named "Terminal" right next to the console. When you click on the "Terminal" tab, you should see your username and device name followed by the current path the terminal is in:
 
