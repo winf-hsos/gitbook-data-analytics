@@ -8,7 +8,7 @@ description: >-
 
 ## Why R and Python, and not Excel and Tableau?
 
-R and Python are powerful programming languages that offer several advantages over traditional tools like Excel and Tableau for data analysis.
+R and Python are powerful programming languages that offer several advantages over graphical tools like Excel and Tableau for data analysis.
 
 ### Flexibility
 
