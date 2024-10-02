@@ -1,6 +1,6 @@
 # Das CSV-Format
 
-In der [Übung: Visueller Verlauf der Covid19-Pandemie mit Tableau ](https://www.notion.so/bung-Visueller-Verlauf-der-Covid19-Pandemie-mit-Tableau-bd643e311721433ea2394b4b9e9f628b)habt ihr mit dem [Datensatz: Covid-19](../../../datensaetze-und-uebungen/datensaetze/covid19.md) gearbeitet. Diesen stellt [Our World in Data](https://ourworldindata.org/) im CSV-Format zum Download bereit. Was hat es mit diesem Format auf sich?
+In der [Übung: Visueller Verlauf der Covid19-Pandemie mit Tableau ](https://www.notion.so/bung-Visueller-Verlauf-der-Covid19-Pandemie-mit-Tableau-bd643e311721433ea2394b4b9e9f628b)habt ihr mit dem [Datensatz: Covid-19](../../data-sets-and-exercises/datensaetze/covid19.md) gearbeitet. Diesen stellt [Our World in Data](https://ourworldindata.org/) im CSV-Format zum Download bereit. Was hat es mit diesem Format auf sich?
 
 CSV steht für _Comma Separated Values_ und es beschreibt ein Format, um strukturierte Daten in einer Textdatei abzuspeichern. Du erkennst eine Textdatei im CSV-Format an der Endung `.csv`.
 
@@ -16,7 +16,7 @@ Das CSV-Format speichert strukturierte Daten in einer tabellarischen Form, ähnl
 
 Der Screenshot unten zeigt den [Datensatz: Covid-19](https://www.notion.so/Datensatz-Covid-19-5d1cae3624dc4690b4ab1be2991cd96f) in einem einfachen Texteditor ([Notepad++](https://notepad-plus-plus.org/downloads/)). Man erkennt schnell, dass sie erste Zeile sich von den anderen unterscheidet: Sie beinhaltet die Spaltennamen, die hintereinander durch das Trennzeichen (hier: Komma) getrennt aufgelistet werden. Man nennt die erste Zeile auch Kopfzeile (Englisch: Header).
 
-![Der Covid19-Datensatz in Notepad++ geöffnet.](<../../../.gitbook/assets/image (22).png>)
+![Der Covid19-Datensatz in Notepad++ geöffnet.](<../../.gitbook/assets/image (22).png>)
 
 Die Kopfzeile ist nicht verpflichtend. Es gibt auch CSV-Dateien ohne Kopfzeile. In diesem Fall muss die Benennung der Spalten später manuell erfolgen.
 
@@ -32,5 +32,5 @@ Wenn ihr CSV-Dateien in Programmen wie Tableau Desktop ladet, ist es wichtig zu 
 
 Wie ihr die Einstellung in Tableau Desktop ändert, seht ihr in dem animierten Bild unten.
 
-![So ändert ihr das Trennzeichen für eine CSV-Datei in Tableau Desktop.](../../../.gitbook/assets/tableau\_change\_csv\_separator.gif)
+![So ändert ihr das Trennzeichen für eine CSV-Datei in Tableau Desktop.](../../.gitbook/assets/tableau\_change\_csv\_separator.gif)
 

@@ -8,7 +8,7 @@ description: >-
 
 ## 1 Trends und Entwicklungen
 
-Für diesen Teil der Übungsaufgabe verwenden wir den [Covid19-Datensatz](../../datensaetze-und-uebungen/datensaetze/covid19.md). Ladet euch den aktuellen Tagesstand des Datensatzes in einen Tibble und versucht, geeignete Visualisierungen für die folgenden Fragen zu erstellen.
+Für diesen Teil der Übungsaufgabe verwenden wir den [Covid19-Datensatz](../../data-sets-and-exercises/datensaetze/covid19.md). Ladet euch den aktuellen Tagesstand des Datensatzes in einen Tibble und versucht, geeignete Visualisierungen für die folgenden Fragen zu erstellen.
 
 ### 1.1 Verlauf der neuen Impfungen in Deutschland
 
@@ -60,7 +60,7 @@ Schaut euch für Arbeit mit Datumsspalten das [Kapitel 16 Dates and times](https
 
 ## 2 Proportionen
 
-Für diesen Teil der Übungsaufgabe benötigen wir den [Orangenlimonaden-Datensatz](../../datensaetze-und-uebungen/datensaetze/umfrage-orangenlimonade.md). Ladet euch die Daten auf euren Computer herunter und importiert ihn als Tibble.
+Für diesen Teil der Übungsaufgabe benötigen wir den [Orangenlimonaden-Datensatz](../../data-sets-and-exercises/datensaetze/umfrage-orangenlimonade.md). Ladet euch die Daten auf euren Computer herunter und importiert ihn als Tibble.
 
 ### 2.1 Häufigkeit pro Studiengang
 
@@ -111,7 +111,7 @@ Die Antworten zur Frage 1 sind über drei Spalten verteilt. Die vom Probanden an
 
 ## 3 Verteilungen
 
-Für den dritten Teil dieser Übungsaufgabe verwenden wir den [REWE-Datensatz](../../datensaetze-und-uebungen/datensaetze/rewe-online-products.md).
+Für den dritten Teil dieser Übungsaufgabe verwenden wir den [REWE-Datensatz](../../data-sets-and-exercises/datensaetze/rewe-online-products.md).
 
 ### 3.1 Proteingehalt über alle Produkte
 
@@ -139,7 +139,7 @@ Probiert selbst...
 
 ## 4 Assoziationen
 
-Im letzten Teil der Übungsaufgabe greifen wir erneut auf den [Covid19-Datensatz](../../datensaetze-und-uebungen/datensaetze/covid19.md#datensatz-mit-r-laden) zurück.
+Im letzten Teil der Übungsaufgabe greifen wir erneut auf den [Covid19-Datensatz](../../data-sets-and-exercises/datensaetze/covid19.md#datensatz-mit-r-laden) zurück.
 
 ### 4.1 Zusammenhang GDP und Lebenserwartung
 

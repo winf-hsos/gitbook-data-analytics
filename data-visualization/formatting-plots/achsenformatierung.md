@@ -4,7 +4,7 @@
 
 ## Titel der x- und y-Achse ändern
 
-Die Titel der x- und y-Achse werden von ggplot automatisch erstellt. Dabei wird der zugewiesene Ausdruck verwendet, was oft unschön wirkt und wenig aussagekräftig ist. Betrachtet dazu das Beispiel unten, in dem wir die Gesamtemissionen für jedes Lebensmittelprodukt aus dem Datensatz [Environmental Impacts of Food Production](../../datensaetze-und-uebungen/datensaetze/environmental-impacts-of-food-production.md) als Balkendiagramm darstellen:
+Die Titel der x- und y-Achse werden von ggplot automatisch erstellt. Dabei wird der zugewiesene Ausdruck verwendet, was oft unschön wirkt und wenig aussagekräftig ist. Betrachtet dazu das Beispiel unten, in dem wir die Gesamtemissionen für jedes Lebensmittelprodukt aus dem Datensatz [Environmental Impacts of Food Production](../../data-sets-and-exercises/datensaetze/environmental-impacts-of-food-production.md) als Balkendiagramm darstellen:
 
 ```r
 food_production %>%

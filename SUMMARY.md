@@ -6,10 +6,19 @@
 
 * [1 Tools](working-environment/1-tools.md)
 * [2 Projects](working-environment/2-projects.md)
-* [3 Libraries](working-environment/3-libraries.md)
 
 ## Data
 
+* [3 Data Analysis](data/3-data-analysis/README.md)
+  * [Ziel der Datenanalyse](data/3-data-analysis/was-ist-datenanalyse.md)
+  * [Typen von Fragen](data/3-data-analysis/types-of-questions/README.md)
+    * [Individuelle Datensätze finden](data/3-data-analysis/types-of-questions/finding-individual-records.md)
+    * [Daten zusammenfassen](data/3-data-analysis/types-of-questions/summarizing-data.md)
+    * [Daten erkunden](data/3-data-analysis/types-of-questions/exploring-data.md)
+    * [Schlüsse aus Daten ziehen](data/3-data-analysis/types-of-questions/drawing-inferences-from-data.md)
+    * [Fehlende Informationen vorhersagen](data/3-data-analysis/types-of-questions/predicting-information.md)
+    * [Kausalität feststellen](data/3-data-analysis/types-of-questions/finding-causality.md)
+  * [Explorative Datenanalyse](data/3-data-analysis/explorative-datenanalyse.md)
 * [Scales](data/scales.md)
 * [Data Sets](data/data-sets.md)
 * [Data Records](data/dimensions-of-records.md)
@@ -19,17 +28,6 @@
   * [Das CSV-Format](data/datenformate/das-csv-format.md)
   * [Das JSON-Format](data/datenformate/das-json-format.md)
   * [Das Parquet-Format](data/datenformate/das-parquet-format.md)
-* [Data Analysis](data/data-analysis/README.md)
-  * [Ziel der Datenanalyse](data/data-analysis/was-ist-datenanalyse.md)
-  * [Typen von Fragen](data/data-analysis/types-of-questions/README.md)
-    * [Individuelle Datensätze finden](data/data-analysis/types-of-questions/finding-individual-records.md)
-    * [Daten zusammenfassen](data/data-analysis/types-of-questions/summarizing-data.md)
-    * [Daten erkunden](data/data-analysis/types-of-questions/exploring-data.md)
-    * [Schlüsse aus Daten ziehen](data/data-analysis/types-of-questions/drawing-inferences-from-data.md)
-    * [Fehlende Informationen vorhersagen](data/data-analysis/types-of-questions/predicting-information.md)
-    * [Kausalität feststellen](data/data-analysis/types-of-questions/finding-causality.md)
-  * [Explorative Datenanalyse](data/data-analysis/explorative-datenanalyse.md)
-* [Learning From Data](data/learning-from-data.md)
 * [Werkzeuge](data/3-werkzeuge/README.md)
   * [Überblick](data/3-werkzeuge/uberblick.md)
   * [Databricks](data/3-werkzeuge/databricks/README.md)
@@ -45,11 +43,9 @@
 
 ## Introduction to R
 
-* [Data Representation](introduction-to-r/data-representation.md)
-* [Vectors](introduction-to-r/vectors.md)
 * [Simulations](introduction-to-r/simulations.md)
-* [Calculations](einfuehrung-in-r/rechnen-mit-r.md)
-* [Objects and variables](einfuehrung-in-r/objekte-und-variablen-in-r.md)
+* [Logic and Arithmetic](introduction-to-r/logic-and-arithmetic.md)
+* [Objects and Variables](einfuehrung-in-r/objekte-und-variablen-in-r.md)
 * [Data structures](einfuehrung-in-r/datenstrukturen-in-r.md)
 * [Control structures](einfuehrung-in-r/kontrollstrukturen.md)
 * [Loops](einfuehrung-in-r/schleifen/README.md)
@@ -57,35 +53,21 @@
   * [Die While-Schleife](einfuehrung-in-r/schleifen/die-while-schleife.md)
   * [Die Repeat-Schleife](einfuehrung-in-r/schleifen/die-repeat-schleife.md)
 * [Functions](einfuehrung-in-r/funktionen.md)
-* [Readable code](r/daten-veraendern/pipes-in-r.md)
+* [Readability and Reusability](introduction-to-r/readability-and-reusability.md)
 
 ## Data Representation
 
+* [Overview](data-representation/overview.md)
 * [Vectors](data-representation/vectors.md)
 
-## Communicate
+## Loading Data
 
-* [Quarto](communicate/quarto.md)
-
-## Data Visualization
-
-* [Visualisierungsformen](data-visualization/visualisierungsformen/README.md)
-  * [Trends und Entwicklungen](data-visualization/visualisierungsformen/developments-and-trends.md)
-  * [Distributions](data-visualization/visualisierungsformen/verteilungen.md)
-  * [Word Clouds](data-visualization/visualisierungsformen/word-clouds.md)
-* [Stolperfallen](data-visualization/stolperfallen-bei-der-datenvisualisierung/README.md)
-  * [Abgeschnittene y-Achse](data-visualization/stolperfallen-bei-der-datenvisualisierung/abgeschnittene-y-achse.md)
-  * [Duale y-Achse](data-visualization/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
-  * [Non-Proportional Ink](data-visualization/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
-
-## Load Data
-
-* [Tidyverse and Tibbles](load-data/tidyverse-und-tibbles.md)
-* [Load a data set](load-data/laden-eines-datensatzes.md)
-* [Load from multiple files](load-data/load-from-multiple-files.md)
-* [First look at the data](load-data/first-look-at-the-data.md)
-* [Der Analyseprozess](data-visualization-with-r/11-der-analyseprozess.md)
-* [Der Werkzeugkasten](data-visualization-with-r/13-der-werkzeugkasten.md)
+* [Tidyverse and Tibbles](loading-data/tidyverse-und-tibbles.md)
+* [Load a data set](loading-data/laden-eines-datensatzes.md)
+* [Load from multiple files](loading-data/load-from-multiple-files.md)
+* [First look at the data](loading-data/first-look-at-the-data.md)
+* [Der Analyseprozess](loading-data/11-der-analyseprozess.md)
+* [Der Werkzeugkasten](loading-data/13-der-werkzeugkasten.md)
 
 ## Data Transformation <a href="#data-transformation-with-r" id="data-transformation-with-r"></a>
 
@@ -99,21 +81,30 @@
 * [Summarize rows](data-transformation-with-r/summarize-rows.md)
 * [SQL and R](data-transformation-with-r/sql-and-r.md)
 
-## Data Visualization <a href="#data-visualization-with-r" id="data-visualization-with-r"></a>
+## Data Visualization
 
-* [Pleas for data visualization](data-visualization-with-r/pleas-for-data-visualization.md)
-* [Overview of ggplot2](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/einfuehrung-in-ggplot2.md)
-* [Mengen und Proportionen](data-visualization-with-r/mengen-und-proportionen.md)
-* [Entwicklungen & Trends](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/entwicklungen-and-trends.md)
-* [Verteilungen](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/verteilungen.md)
-* [Geospatial Data](data-visualization-with-r/geodaten.md)
-* [Formatting plots](data-visualization-with-r/formatting-plots/README.md)
-  * [Achsenformatierung](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/achsenformatierung.md)
-* [Theming](data-visualization-with-r/theming.md)
-* [Multiple plots](data-visualization-with-r/16-daten-visualisieren-mit-ggplot2/erweiterte-features/mehrere-plots-in-einer-abbildung.md)
-* [Übungen](data-visualization-with-r/uebungen/README.md)
-  * [💻 Transformation der REWE-Daten](data-visualization-with-r/uebungen/transformation-der-rewe-daten.md)
-  * [💻 Übung zur Datenvisualisierung](data-visualization-with-r/uebungen/uebung-zur-datenvisualisierung.md)
+* [Pleas for data visualization](data-visualization/pleas-for-data-visualization.md)
+* [Overview of ggplot2](data-visualization/overview-of-ggplot2.md)
+* [Visualisierungsformen](data-visualization/visualisierungsformen/README.md)
+  * [Trends und Entwicklungen](data-visualization/visualisierungsformen/developments-and-trends.md)
+  * [Distributions](data-visualization/visualisierungsformen/verteilungen.md)
+  * [Word Clouds](data-visualization/visualisierungsformen/word-clouds.md)
+  * [Mengen und Proportionen](data-visualization/visualisierungsformen/mengen-und-proportionen.md)
+  * [Geospatial Data](data-visualization/visualisierungsformen/geodaten.md)
+* [Formatting plots](data-visualization/formatting-plots/README.md)
+  * [Achsenformatierung](data-visualization/formatting-plots/achsenformatierung.md)
+* [Multiple plots](data-visualization/multiple-plots.md)
+* [Stolperfallen](data-visualization/stolperfallen-bei-der-datenvisualisierung/README.md)
+  * [Abgeschnittene y-Achse](data-visualization/stolperfallen-bei-der-datenvisualisierung/abgeschnittene-y-achse.md)
+  * [Duale y-Achse](data-visualization/stolperfallen-bei-der-datenvisualisierung/duale-y-achse.md)
+  * [Non-Proportional Ink](data-visualization/stolperfallen-bei-der-datenvisualisierung/proportional-ink.md)
+* [Übungen](data-visualization/ubungen/README.md)
+  * [💻 Transformation der REWE-Daten](data-visualization/ubungen/transformation-der-rewe-daten.md)
+  * [💻 Übung zur Datenvisualisierung](data-visualization/ubungen/ubung-zur-datenvisualisierung.md)
+
+## Communication
+
+* [Quarto](communication/quarto.md)
 
 ## SQL
 
@@ -163,57 +154,36 @@
       * [spaCy und UDFs](sql/text-with-sql/nlp-mit-spacy/spacy-und-spark-sql/spacy-und-udfs.md)
       * [Texte mit spaCy streamen](sql/text-with-sql/nlp-mit-spacy/spacy-und-spark-sql/texte-mit-spacy-streamen.md)
 
-## Tableau
+## Data Sets & Exercises
 
-* [Tableau installieren](tableau/tableau-installieren.md)
-* [Daten laden](tableau/date-laden/README.md)
-  * [Daten vorbereiten](tableau/date-laden/daten-vorbereiten.md)
-  * [Daten aus Textdateien laden](tableau/date-laden/daten-aus-textdateien-laden.md)
-  * [Mehrere Datensätze verknüpfen](tableau/date-laden/mehrere-datensaetze-verknuepfen.md)
-* [Häufige Visualisierungen](tableau/haeufige-visualisierungen/README.md)
-  * [Balkendiagramme](tableau/haeufige-visualisierungen/balkendiagramme.md)
-  * [Liniendiagramme](tableau/haeufige-visualisierungen/liniendiagramme.md)
-  * [Punktdiagramme](tableau/haeufige-visualisierungen/punktdiagramme.md)
-  * [Kreisdiagramme](tableau/haeufige-visualisierungen/kreisdiagramme.md)
-* [Erweiterte Visualisierungen](tableau/erweiterte-visualisierungen/README.md)
-  * [Bubble Charts](tableau/erweiterte-visualisierungen/bubble-charts.md)
-  * [Heat Maps](tableau/erweiterte-visualisierungen/heat-maps.md)
-* [Geovisualisierungen](tableau/geovisualisierung.md)
-* [Aggregation und Berechnungen](tableau/aggregation-und-berechnungen/README.md)
-  * [Mengen](tableau/aggregation-und-berechnungen/mengen.md)
-  * [Gruppen](tableau/aggregation-und-berechnungen/gruppen.md)
-  * [Parameter](tableau/aggregation-und-berechnungen/parameter.md)
-* [Formatierung](tableau/formatierung.md)
-* [Präsentation und Export](tableau/praesentation-und-export.md)
-* [Interaktive Dashboards](tableau/interaktive-dashboards.md)
-* [Übungen](tableau/uebungen/README.md)
-  * [💻 Visuelle Pandemie](tableau/uebungen/01-visuelle-pandemie.md)
-
-## Datensätze & Übungen <a href="#datensaetze-und-uebungen" id="datensaetze-und-uebungen"></a>
-
-* [Übungen](datensaetze-und-uebungen/uebungen/README.md)
-  * [SQL](datensaetze-und-uebungen/uebungen/sql/README.md)
-    * [⭐ Die Simpsons Teil 1](datensaetze-und-uebungen/uebungen/sql/01-die-simpsons-teil-1.md)
-    * [⭐ Die Simpsons Teil 2](datensaetze-und-uebungen/uebungen/sql/02-die-simpsons-teil-2.md)
-  * [R](datensaetze-und-uebungen/uebungen/r.md)
-* [Fallstudien](datensaetze-und-uebungen/fallstudien/README.md)
-  * [Morde in Chicago](datensaetze-und-uebungen/fallstudien/morde-in-chicago.md)
-* [Datensätze](datensaetze-und-uebungen/datensaetze/README.md)
-  * [📂 Environmental Impacts of Food Production](datensaetze-und-uebungen/datensaetze/environmental-impacts-of-food-production.md)
-  * [📂 Amazon Reviews](datensaetze-und-uebungen/datensaetze/amazon-product-reviews.md)
-  * [📂 arXiv Papers](datensaetze-und-uebungen/datensaetze/arxiv-papers.md)
-  * [📂 Chicago Crimes](datensaetze-und-uebungen/datensaetze/chicago-crimes.md)
-  * [📂 Covid19](datensaetze-und-uebungen/datensaetze/covid19.md)
-  * [📂 Open Food Facts](datensaetze-und-uebungen/datensaetze/open-food-facts.md)
-  * [📂 Orangenlimonade](datensaetze-und-uebungen/datensaetze/umfrage-orangenlimonade.md)
-  * [📂 REWE Online Products](datensaetze-und-uebungen/datensaetze/rewe-online-products.md)
-  * [📂 Simpsons](datensaetze-und-uebungen/datensaetze/simpsons.md)
-  * [📂 TED Talks](datensaetze-und-uebungen/datensaetze/ted-talk-transcripts.md)
-  * [📂 Tweets](datensaetze-und-uebungen/datensaetze/twitter.md)
+* [Übungen](data-sets-and-exercises/uebungen/README.md)
+  * [SQL](data-sets-and-exercises/uebungen/sql/README.md)
+    * [⭐ Die Simpsons Teil 1](data-sets-and-exercises/uebungen/sql/01-die-simpsons-teil-1.md)
+    * [⭐ Die Simpsons Teil 2](data-sets-and-exercises/uebungen/sql/02-die-simpsons-teil-2.md)
+  * [R](data-sets-and-exercises/uebungen/r.md)
+* [Fallstudien](data-sets-and-exercises/fallstudien/README.md)
+  * [Morde in Chicago](data-sets-and-exercises/fallstudien/morde-in-chicago.md)
+* [Datensätze](data-sets-and-exercises/datensaetze/README.md)
+  * [📂 Environmental Impacts of Food Production](data-sets-and-exercises/datensaetze/environmental-impacts-of-food-production.md)
+  * [📂 Amazon Reviews](data-sets-and-exercises/datensaetze/amazon-product-reviews.md)
+  * [📂 arXiv Papers](data-sets-and-exercises/datensaetze/arxiv-papers.md)
+  * [📂 Chicago Crimes](data-sets-and-exercises/datensaetze/chicago-crimes.md)
+  * [📂 Covid19](data-sets-and-exercises/datensaetze/covid19.md)
+  * [📂 Open Food Facts](data-sets-and-exercises/datensaetze/open-food-facts.md)
+  * [📂 Orangenlimonade](data-sets-and-exercises/datensaetze/umfrage-orangenlimonade.md)
+  * [📂 REWE Online Products](data-sets-and-exercises/datensaetze/rewe-online-products.md)
+  * [📂 Simpsons](data-sets-and-exercises/datensaetze/simpsons.md)
+  * [📂 TED Talks](data-sets-and-exercises/datensaetze/ted-talk-transcripts.md)
+  * [📂 Tweets](data-sets-and-exercises/datensaetze/twitter.md)
 
 ***
 
 * [Old stuff](old-stuff/README.md)
   * [Linksammlung zu R](linksammlung-zu-r.md)
   * [Spalten auswählen](r/daten-veraendern/spalten-auswaehlen.md)
+  * [Tableau installieren](old-stuff/tableau-installieren.md)
+  * [Daten laden](old-stuff/date-laden/README.md)
+    * [Daten vorbereiten](old-stuff/date-laden/daten-vorbereiten.md)
+    * [Daten aus Textdateien laden](old-stuff/date-laden/daten-aus-textdateien-laden.md)
+    * [Mehrere Datensätze verknüpfen](old-stuff/date-laden/mehrere-datensaetze-verknuepfen.md)
 * [References](references.md)

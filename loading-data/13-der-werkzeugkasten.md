@@ -15,8 +15,8 @@ Die Tabelle unten listet wichtige Werkzeuge auf, die wir im weiteren Verlauf die
 
 | **Paket** | **Funktion**                                                               | **Aufgabe**                                                                                                                |
 | --------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `tibble`  | `as.tibble`                                                                | [Erstellt einen modernen Dataframe für tabellarische Daten](../load-data/tidyverse-und-tibbles.md).                        |
-| `readr`   | `read_csv`                                                                 | [Lesen von tabellarischen Datenformaten wie CSV-Dateien](../load-data/laden-eines-datensatzes.md).                         |
+| `tibble`  | `as.tibble`                                                                | [Erstellt einen modernen Dataframe für tabellarische Daten](tidyverse-und-tibbles.md).                                     |
+| `readr`   | `read_csv`                                                                 | [Lesen von tabellarischen Datenformaten wie CSV-Dateien](laden-eines-datensatzes.md).                                      |
 | `dplyr`   | `select`                                                                   | [Auswählen von Spalten (Variablen) eines Datensatzes](../r/daten-veraendern/spalten-auswaehlen.md).                        |
 | `dplyr`   | `filter`                                                                   | [Filtern von Daten auf Basis fast beliebiger Ausdrücke](../r/daten-veraendern/zeilen-filtern.md).                          |
 | `dplyr`   | `mutate`                                                                   | [Hinzufügen neuer Spalten (Variablen)](../data-transformation-with-r/change-columns/spalten-veraendern.md).                |

@@ -6,7 +6,7 @@ description: >-
 
 # spaCy und Spark SQL
 
-Das folgende Notebook enthält Beispiele für die Verwendung von spaCy mit Spark SQL. Wir verwenden den [TED Talks Datensatz](../../../../datensaetze-und-uebungen/datensaetze/ted-talk-transcripts.md), um die verschiedenen Aspekte zu demonstrieren:
+Das folgende Notebook enthält Beispiele für die Verwendung von spaCy mit Spark SQL. Wir verwenden den [TED Talks Datensatz](../../../../data-sets-and-exercises/datensaetze/ted-talk-transcripts.md), um die verschiedenen Aspekte zu demonstrieren:
 
 {% embed url="https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/nlp_with_python_and_spacy.html" %}
 

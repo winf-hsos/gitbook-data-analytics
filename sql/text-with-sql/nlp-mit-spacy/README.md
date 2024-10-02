@@ -7,7 +7,7 @@ description: >-
 
 # NLP mit spaCy
 
-Für dieses Kapitel des Skripts findet ihr Codebeispiele im folgenden Notebook. Wir verwenden dort den [TED Talks Datensatz](../../../datensaetze-und-uebungen/datensaetze/ted-talk-transcripts.md), den ihr euch vorher mit dem [bereitgestellten Template](https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/template\_ted\_talks.html) importieren müsst:
+Für dieses Kapitel des Skripts findet ihr Codebeispiele im folgenden Notebook. Wir verwenden dort den [TED Talks Datensatz](../../../data-sets-and-exercises/datensaetze/ted-talk-transcripts.md), den ihr euch vorher mit dem [bereitgestellten Template](https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/template\_ted\_talks.html) importieren müsst:
 
 {% embed url="https://s3.us-east-1.amazonaws.com/nicolas.meseth/databricks-notebooks/nlp_with_python_and_spacy.html" %}
 

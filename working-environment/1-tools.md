@@ -26,6 +26,10 @@ R and Python as programming languages promote reproducibility in research and an
 
 Another significant advantage of R and Python is their open-source nature. This means the software and its source code are freely available for anyone to use, modify, and distribute. Open-source software promotes transparency, collaboration, and continuous improvement within the developer community. It also allows users to inspect the underlying algorithms and methodologies, which is crucial for ensuring the reliability and reproducibility of scientific research and data analysis.
 
+### But my company uses Tableau!
+
+While the number of companies seeking employees with R and Python skills is rapidly increasing, many invest in commercial analytics software like Tableau, Power BI, and QlikView. These tools primarily rely on graphical user interfaces rather than scripting (though they do allow for it). I've outlined the benefits of scripting over clicking above, but there's one more crucial advantage: learning to script your analyses provides a much deeper understanding of the underlying concepts of data and data analytics compared to learning through a clickable UI. Once you've mastered scripting in R or Python, picking up Tableau or any other tool becomes a breeze—often a matter of hours. This is because the fundamental concepts are universal across platforms.
+
 ## Install R
 
 R is an open-source software that is available for all popular operating systems. First, download the latest version of R for your operating system, and then proceed to install it.
@@ -53,6 +57,12 @@ For those who want to take their first steps with R and don't want to go through
 {% embed url="https://rstudio.cloud/" %}
 
 Because of the limitations, I strongly recommend you use RStudio Desktop for this course.
+
+### Quarto
+
+Quarto is software for creating various output documents from a single source. It allows you to combine your analysis code in R or Python with the written text of your paper, report, or presentation. Using the Quarto command line tool, you can render the source document into multiple formats, including HTML, PDF, Microsoft Word, and even presentations. If you've installed RStudio, you already have Quarto on your computer. However, you can also use Quarto independently from RStudio. In this case, you can download and install it from here.
+
+{% embed url="https://quarto.org/" %}
 
 ## Python
 

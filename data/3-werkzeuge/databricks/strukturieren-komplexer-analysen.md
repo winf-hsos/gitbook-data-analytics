@@ -11,7 +11,7 @@ description: >-
 
 In der Datenanalyse begegnen uns häufig Fragen, die wir nicht mit einer einzigen SQL-Abfrage beantworten können. Stattdessen müssen wir uns überlegen, welche Schritte zur Beantwortung notwendig sind und wie wir diese Schritte technisch implementieren. Im Englischen nennen wir diese Vorgehensweise auch _Divide & Conquer._
 
-Wir wollen uns das an einem Beispiel aus der [Fallstudie des Sommersemester 2021](../../../datensaetze-und-uebungen/datensaetze/arxiv-papers.md) verdeutlichen. Hier lautete eine Frage:
+Wir wollen uns das an einem Beispiel aus der [Fallstudie des Sommersemester 2021](../../../data-sets-and-exercises/datensaetze/arxiv-papers.md) verdeutlichen. Hier lautete eine Frage:
 
 > Welche Physiknobelpreisträger(innen) der Jahre 2000 bis 2020 haben jeweils wie viele Paper auf arXiv veröffentlicht?
 

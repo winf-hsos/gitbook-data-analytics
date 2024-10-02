@@ -19,7 +19,7 @@ Eine hervorragende Einführung in ggplot2 (englischsprachig).
 
 Gemäß der Grammar of Graphics sind die Grundelemente jeder Visualisierung <mark style="background-color:yellow;">die Daten</mark>, eine <mark style="background-color:yellow;">Zuordnung von Variablen in den Daten zu ästhetischen Elementen der Visualisierung</mark> sowie mindestens eine <mark style="background-color:yellow;">geometrische Figur</mark>, die für die Darstellung verwendet wird. Die Daten sind in R ein Dataframe bestehend aus Spalten und Zeilen. Die Zuordnung von Spalten zu ästhetischen Elementen, auch Mapping genannt, meint solche Aspekte wie welche Variablen auch der x- und y-Achse abgetragen werden sollen oder welche Variablen die Farben oder Größen der geometrischen Figuren bestimmen sollen. Geometrische Figuren stellen als dritter Bestandteil jeder Visualisierung die sichtbaren Elemente der Visualisierung dar. Typische Figuren sind Balken, Kreise oder Linien.
 
-![Jede Visualisierung besteht in ggplot aus mindestens drei Elementen.](../../.gitbook/assets/grammar\_of\_graphics\_basic\_elements.png)
+![Jede Visualisierung besteht in ggplot aus mindestens drei Elementen.](../.gitbook/assets/grammar\_of\_graphics\_basic\_elements.png)
 
 ## Aufbau einer Visualisierung in ggplot2
 
@@ -34,7 +34,7 @@ Die drei Begriffe `<DATAFRAME>`, `<MAPPING>` und `<SHAPE>` sind Platzhalter für
 
 ## Die verwendeten Daten
 
-Als ersten Wert erwartet die `ggplot` Funktion einen Dataframe. Dieser enthält die Daten für die Visualisierung. Alternativ können wir auch hier den [Pipe-Operator](../../r/daten-veraendern/pipes-in-r.md) `%>%` verwenden, und damit den Parameter weglassen:
+Als ersten Wert erwartet die `ggplot` Funktion einen Dataframe. Dieser enthält die Daten für die Visualisierung. Alternativ können wir auch hier den [Pipe-Operator](../introduction-to-r/readability-and-reusability.md) `%>%` verwenden, und damit den Parameter weglassen:
 
 ```
 <DATAFRAME> %>% 
@@ -90,7 +90,7 @@ Ein anschauliches Beispiel für die Steuerung der Größe einer geometrischen Fi
 
 In der Visualisierung unten werden sowohl die Farbe als auch die Größe der Kreise über Felder in den Daten gesteuert. Die Größe ist proportional zur durchschnittlichen Lebenserwartung eines Landes. Die Farbe kodiert den Kontinent, zu dem ein Land gehört.
 
-![Ein Punktediagramm mit Farbe und Größe der Punkte durch Felder in den Daten gesteuert.](<../../.gitbook/assets/image (38).png>)
+![Ein Punktediagramm mit Farbe und Größe der Punkte durch Felder in den Daten gesteuert.](<../.gitbook/assets/image (38).png>)
 
 ### Symbole
 
@@ -104,7 +104,7 @@ Auch die Symbole, die in einer Visualisierung verwendet werden, können über ei
 
 In der Abbildung unten wird der Kontinent, zu dem ein Land gehört, für die Auswahl des Symbols verwendet:
 
-![Verwendung eines Feldes zur Bestimmung des verwendeten Symbols.](<../../.gitbook/assets/image (37).png>)
+![Verwendung eines Feldes zur Bestimmung des verwendeten Symbols.](<../.gitbook/assets/image (37).png>)
 
 
 

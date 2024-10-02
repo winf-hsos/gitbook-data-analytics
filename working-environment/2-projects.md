@@ -49,5 +49,3 @@ In the next step, you'll need to enter a directory name and select a parent dire
 
 Click "Create Project," and RStudio will open your new project.
 
-## Project overview
-

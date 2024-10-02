@@ -63,7 +63,7 @@ We can display the map now using the `ggmap` function:
 ggmap(os_map)
 ```
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Add the data layer
 
@@ -84,7 +84,7 @@ ggmap(os_map)
 
 In this case, we draw points on the map for each order. The size of a point corresponds to the turnover (`total_price`) for each order. Order with more turnover appear larger:&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>A map of Osnabrück with orders shown as circles.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>A map of Osnabrück with orders shown as circles.</p></figcaption></figure>
 
 In the example above, we used points to map coordinates in our data to the map. Additionally, we display some relevant information, in this case the turnover, using a visual property like the size of each point. This type of map visualization is very common and useful when we want to show exact coordinates.&#x20;
 
@@ -98,7 +98,7 @@ As an alternative to location-based maps, in which we draw points in certain pos
 
 We can choose the format to download. A common format for GIS data (GIS = Graphical Information System) is the Shapefile format. This is a standardized format that most GIS systems support. There is also a package in R that supports this format, called `sf`.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>You can download the zip code data in the popular Shapefile format. Other formats are available as well.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>You can download the zip code data in the popular Shapefile format. Other formats are available as well.</p></figcaption></figure>
 
 ### Loading Shapefiles
 
@@ -173,7 +173,7 @@ Because `sf` brings its version of the R `plot` function, we can directly pass t
 plot(st_geometry(zip))
 ```
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>A plot of all zip code areas in Germany.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>A plot of all zip code areas in Germany.</p></figcaption></figure>
 
 For our example of the Campusbier orders, we only want to plot the zip codes of Osnabrück. Tibble-style, we filter the data on the zip codes that start with "490":
 
@@ -195,7 +195,7 @@ ggmap(os_map) +
 
 Note that we pass the filtered data in `zip_os` to the `geom_sf` function and tell it **not to use** the `aes`-mapping from `ggmap`. This important because in our `zip_os` object, there are no `lon` and `lat` fields. Instead, the `geom_sf`-function creates its own `aes`-mapping to draw the polygons.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Osnabrück's zip code areas drawn on a map.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Osnabrück's zip code areas drawn on a map.</p></figcaption></figure>
 
 The `alpha = 0.8` makes sure we can still see the streets under the zip code shapes.
 
@@ -210,7 +210,7 @@ ggmap(os_map) +
           alpha = 0.8, inherit.aes = F)
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Osnabrück and its zip code area shown in different colors.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Osnabrück and its zip code area shown in different colors.</p></figcaption></figure>
 
 This does not convey any information about our customers and orders. Instead, we can leverage the data we have and fill the area for each zip code according to the turnover we made there. How can we do that? We need to join the geometry data with the sales data.
 
@@ -259,4 +259,4 @@ ggmap(os_map) +
 
 Note that we also changed the color scale with `scale_fill_distiller` to a sequential palette from blue to white, where blue is more turnover and white is less.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Osnabrück's zip codes filled according to the total turnover.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Osnabrück's zip codes filled according to the total turnover.</p></figcaption></figure>

@@ -9,7 +9,7 @@ description: >-
 
 ## Beispieldatensatz
 
-Wir verwenden in den folgenden Beispielen den Datensatz [Environmental Impacts of Food Production](../../datensaetze-und-uebungen/datensaetze/environmental-impacts-of-food-production.md) von Our World in Data. Ladet euch den Datensatz auf euren Rechner herunter, speichert ihn in eurem aktuellen R-Arbeitsverzeichnis, und ladet den mit der bekannten Funktion aus dem `readr` Paket:
+Wir verwenden in den folgenden Beispielen den Datensatz [Environmental Impacts of Food Production](../../data-sets-and-exercises/datensaetze/environmental-impacts-of-food-production.md) von Our World in Data. Ladet euch den Datensatz auf euren Rechner herunter, speichert ihn in eurem aktuellen R-Arbeitsverzeichnis, und ladet den mit der bekannten Funktion aus dem `readr` Paket:
 
 ```r
 # Set your working directory
@@ -21,7 +21,7 @@ food_production <- read_csv("food_production.csv")
 
 ## Einfache Balkendiagramme
 
-Einfache Balkendiagramme sind nützlich, um Zahlen über verschiedene Kategorien hinweg zu vergleichen. Menschen sind ausgezeichnet darin, die Höhe oder Breite von Balken im Vergleich zu anderen Balken einzuschätzen. Das Beispiel unten erzeugt ein Diagramm, in dem jeder Balken die Anzahl der Produkte in einer Produktkategorie aus dem [REWE-Datensatz](../../datensaetze-und-uebungen/datensaetze/rewe-online-products.md) repräsentiert:
+Einfache Balkendiagramme sind nützlich, um Zahlen über verschiedene Kategorien hinweg zu vergleichen. Menschen sind ausgezeichnet darin, die Höhe oder Breite von Balken im Vergleich zu anderen Balken einzuschätzen. Das Beispiel unten erzeugt ein Diagramm, in dem jeder Balken die Anzahl der Produkte in einer Produktkategorie aus dem [REWE-Datensatz](../../data-sets-and-exercises/datensaetze/rewe-online-products.md) repräsentiert:
 
 ```r
 # Wie viele Produkte hat jede Kategorie?

@@ -1,4 +1,4 @@
-# Zeilen zusammenfassen
+# Summarize rows
 
 ## Zählen
 
@@ -18,7 +18,7 @@ limo %>%
 
 ### Schnelles Zählen von Ausprägungen einer Spalte
 
-Um schnell eine Übersicht über <mark style="background-color:yellow;">Häufigkeit der Werte</mark> einer Spalte zu bekommen, können wir die Funktion `count()` verwenden und eine Spalte als erstes Argument übergeben. In dem Beispiel unten zählen wir die Werte für die Spalte der Geschlechtsangabe aus dem [Limonaden-Datensatz](../../datensaetze-und-uebungen/datensaetze/umfrage-orangenlimonade.md):
+Um schnell eine Übersicht über <mark style="background-color:yellow;">Häufigkeit der Werte</mark> einer Spalte zu bekommen, können wir die Funktion `count()` verwenden und eine Spalte als erstes Argument übergeben. In dem Beispiel unten zählen wir die Werte für die Spalte der Geschlechtsangabe aus dem [Limonaden-Datensatz](../data-sets-and-exercises/datensaetze/umfrage-orangenlimonade.md):
 
 ```r
 limo %>%

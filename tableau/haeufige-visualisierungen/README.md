@@ -1,2 +1,0 @@
-# Häufige Visualisierungen
-

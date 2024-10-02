@@ -9,6 +9,6 @@
 
 ## Aufgaben zu Tableau
 
-| Aufgabenstellung                                                         | Lösung |
-| ------------------------------------------------------------------------ | ------ |
-| [01 - Visuelle Pandemie](../../tableau/uebungen/01-visuelle-pandemie.md) |        |
+| Aufgabenstellung                           | Lösung |
+| ------------------------------------------ | ------ |
+| [01 - Visuelle Pandemie](broken-reference) |        |

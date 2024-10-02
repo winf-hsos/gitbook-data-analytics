@@ -17,8 +17,8 @@ Im Gegensatz zu herkömmlichen Spalten mit atomaren Werten können die Daten in 
 
 Für dieses Tutorial verwenden wir den Amazon Reviews Datensatz für _Grocery and Gourmet Food_. Damit ihr die Daten möglichst einfach in euren Databricks Account laden könnt, stelle ich ein Template bereit, das ihr hier findet:
 
-{% content-ref url="../../datensaetze-und-uebungen/datensaetze/amazon-product-reviews.md" %}
-[amazon-product-reviews.md](../../datensaetze-und-uebungen/datensaetze/amazon-product-reviews.md)
+{% content-ref url="../../data-sets-and-exercises/datensaetze/amazon-product-reviews.md" %}
+[amazon-product-reviews.md](../../data-sets-and-exercises/datensaetze/amazon-product-reviews.md)
 {% endcontent-ref %}
 
 ## Welche Spalten sind betroffen?

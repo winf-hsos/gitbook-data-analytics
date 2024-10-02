@@ -6,8 +6,8 @@
 
 In diesem Abschnitt verwenden den TED Talk Datensatz als Beispiel. Falls noch nicht geschehen, importiert euch das Notebook und ladet den Datensatz, sodass ihr auf die Tabelle `ted_text` zugreifen könnt.
 
-{% content-ref url="../../../../datensaetze-und-uebungen/datensaetze/ted-talk-transcripts.md" %}
-[ted-talk-transcripts.md](../../../../datensaetze-und-uebungen/datensaetze/ted-talk-transcripts.md)
+{% content-ref url="../../../../data-sets-and-exercises/datensaetze/ted-talk-transcripts.md" %}
+[ted-talk-transcripts.md](../../../../data-sets-and-exercises/datensaetze/ted-talk-transcripts.md)
 {% endcontent-ref %}
 
 ### spaCy installieren und Sprachmodell laden
