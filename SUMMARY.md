@@ -17,7 +17,7 @@
   * [Types of Questions](empirical-research/data-analysis/types-of-questions/README.md)
     * [Finding Individual Records](empirical-research/data-analysis/types-of-questions/finding-individual-records.md)
     * [Summarizing Data](empirical-research/data-analysis/types-of-questions/summarizing-data.md)
-    * [Daten erkunden](empirical-research/data-analysis/types-of-questions/exploring-data.md)
+    * [Exploring Data](empirical-research/data-analysis/types-of-questions/exploring-data.md)
     * [Schlüsse aus Daten ziehen](empirical-research/data-analysis/types-of-questions/drawing-inferences-from-data.md)
     * [Fehlende Informationen vorhersagen](empirical-research/data-analysis/types-of-questions/predicting-information.md)
     * [Kausalität feststellen](empirical-research/data-analysis/types-of-questions/finding-causality.md)

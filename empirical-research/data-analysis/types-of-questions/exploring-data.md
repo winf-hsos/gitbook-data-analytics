@@ -1,11 +1,11 @@
 ---
 description: >-
-  Das Erkunden von Daten ist der Kern dieses Kurses und wird auch explorative
-  Datenanalyse genannt. Es geht um das Finden von Zusammenhängen und Mustern
-  sowie die Aufstellung von Hypothesen.
+  Exploring data forms the core of this book and is also referred to as
+  exploratory data analysis. It involves discovering relationships and patterns
+  as well as developing hypotheses.
 ---
 
-# Daten erkunden
+# Exploring Data
 
 {% hint style="info" %}
 Coming soon.
