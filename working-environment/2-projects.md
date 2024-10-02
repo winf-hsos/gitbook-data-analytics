@@ -48,3 +48,6 @@ If you create a new project from scratch (option 1), you'll be prompted to pick 
 In the next step, you'll need to enter a directory name and select a parent directory where this new directory will be created as a subdirectory. Select a location that's easy to remember and avoid using special characters, including German umlauts (ä, ö, ü). You'll also see an option to "Use renv with this project." I recommend checking this box if you plan to work on multiple projects on your computer. This creates a separate R environment within your project, allowing you to install packages specific to that project rather than in your global R installation. This approach is particularly useful if you need different versions of the same library for different projects.
 
 Click "Create Project," and RStudio will open your new project.
+
+## Project overview
+
