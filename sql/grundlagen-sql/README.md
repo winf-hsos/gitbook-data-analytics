@@ -4,8 +4,8 @@
 [what-is-sql-and-what-can-it-do.md](what-is-sql-and-what-can-it-do.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../empirical-research/3-werkzeuge/databricks/die-arbeit-mit-notebooks/import-data.md" %}
-[import-data.md](../../empirical-research/3-werkzeuge/databricks/die-arbeit-mit-notebooks/import-data.md)
+{% content-ref url="../../old-stuff/3-werkzeuge/databricks/die-arbeit-mit-notebooks/import-data.md" %}
+[import-data.md](../../old-stuff/3-werkzeuge/databricks/die-arbeit-mit-notebooks/import-data.md)
 {% endcontent-ref %}
 
 {% content-ref url="select.md" %}
