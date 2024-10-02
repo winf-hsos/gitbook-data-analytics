@@ -28,9 +28,5 @@ Jede Zeile nach der Kopfzeile stellt einen Datensatz dar. Für jeden Datensatz w
 
 Die Bezeichnung und Dateiendung `.csv` hat sich als Standard durchgesetzt, auch wenn nicht zwangsweise das Komma als Trennzeichen verwendet werden muss. Häufige Trennzeichen sind auch das Semikolon oder ein Tabstop. Beim letzterem wird manchmal die Dateiendung `.tsv` verwendet. Grundsätzlich kann jedes beliebige Zeichen als Trennzeichen verwendet werden.
 
-Wenn ihr CSV-Dateien in Programmen wie Tableau Desktop ladet, ist es wichtig zu wissen, welches Trennzeichen verwendet wird. Oft können Programme das selbst erkennen. Es ist aber immer besser sich zu vergewissern, dass das richtige Trennzeichen erkannt wurde, weil ansonsten die Daten fehlerhaft eingelesen werden.
-
-Wie ihr die Einstellung in Tableau Desktop ändert, seht ihr in dem animierten Bild unten.
-
-![So ändert ihr das Trennzeichen für eine CSV-Datei in Tableau Desktop.](../../.gitbook/assets/tableau\_change\_csv\_separator.gif)
+Wenn ihr CSV-Dateien ladet, ist es wichtig zu wissen, welches Trennzeichen verwendet wird. Oft können Programme das selbst erkennen. Es ist aber immer besser sich zu vergewissern, dass das richtige Trennzeichen erkannt wurde, weil ansonsten die Daten fehlerhaft eingelesen werden.
 

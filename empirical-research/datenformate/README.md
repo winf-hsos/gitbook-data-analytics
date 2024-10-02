@@ -1,19 +1,19 @@
 ---
 description: >-
-  Daten werden in verschiedenen Formaten gespeichert. Jedes Format verfolgt
-  dabei ein bestimmtes Ziel und hat seine Vor- und Nachteile.
+  Data is stored in various formats. Each format has a specific purpose and
+  comes with its advantages and disadvantages.
 ---
 
-# Datenformate
+# Data Formats
 
-## Textbasierte Datenformate
+## Text-based data formats
 
 * CSV
 * TSV
 * JSON
 * XML
 
-## Binäre Datenformate
+## Binary data formats
 
 * Parquet
 * Feather

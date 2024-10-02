@@ -11,6 +11,8 @@ description: >-
 
 To conduct precise data analyses and draw correct conclusions, it is crucial to know the type of question we are trying to answer. Jeffery Leek and Roger Peng have developed a clear flowchart in their article What is the question? This allows us to quickly categorize the type of question into one of six categories.
 
+{% embed url="https://winf-hsos.github.io/university-docs/images/types_of_questions.png" %}
+
 {% embed url="https://docs.google.com/presentation/d/1lVgnC4VgOaselbZ64WlMCg8yuPs4yLvBRY_P16ov3ps/edit?usp=sharing" %}
 
 ## Quellen
