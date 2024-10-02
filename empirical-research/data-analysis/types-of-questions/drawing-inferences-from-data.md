@@ -1,11 +1,11 @@
 ---
 description: >-
-  Hypothesen aus der explorativen Datenanalyse sollten mit geeigneten
-  statistischen Methoden auf Übertragbarkeit und Belastbarkeit geprüft werden.
-  Darum geht es bei der inferentiellen Analyse.
+  Hypotheses derived from exploratory data analysis should be tested for
+  generalizability and reliability using appropriate statistical methods. This
+  is the essence of inferential analysis.
 ---
 
-# Schlüsse aus Daten ziehen
+# Drawing Conclusions from Data
 
 {% hint style="info" %}
 Coming soon.

@@ -1,17 +1,15 @@
 ---
 description: >-
-  Die Art der Frage bestimmt die Methode und die Schlüsse, die wir ziehen
-  dürfen. Daher ist es wichtig zu wissen, welche Arten wir unterscheiden
-  sollten.
+  The type of question determines both the method and the conclusions we are
+  allowed to draw. Therefore, it is important to know which types of questions
+  we should distinguish.
 ---
 
-# Typen von Fragen
-
-
+# Types of Questions
 
 > Confusion between data analytic question types is central to the ongoing replication crisis, misconstrued press releases describing scientific results, and the controversial claim that most published research findings are false. The solution is to ensure that data analytic education is a key component of research training. **The most important step in that direction is to know the question**. (Leek and Peng 2015)
 
-Um Datenanalysen fehlerfrei durchführen und die richtigen Schlüsse ziehen zu können, müssen wir die Art von Frage kennen, die wir versuchen zu beantworten. Jeffery Leek und Roger Peng haben in ihrem Artikel _What is the question?_ ein einfaches Flussdiagramm entwickelt, auf dessen Basis wir die Art der Frage schnell in eine der sechs Kategorien einordnen können.
+To conduct precise data analyses and draw correct conclusions, it is crucial to know the type of question we are trying to answer. Jeffery Leek and Roger Peng have developed a clear flowchart in their article What is the question? This allows us to quickly categorize the type of question into one of six categories.
 
 {% embed url="https://docs.google.com/presentation/d/1lVgnC4VgOaselbZ64WlMCg8yuPs4yLvBRY_P16ov3ps/edit?usp=sharing" %}
 
