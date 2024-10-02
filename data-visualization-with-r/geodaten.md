@@ -84,7 +84,7 @@ ggmap(os_map)
 
 In this case, we draw points on the map for each order. The size of a point corresponds to the turnover (`total_price`) for each order. Order with more turnover appear larger:&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A map of Osnabrück with orders shown as circles.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>A map of Osnabrück with orders shown as circles.</p></figcaption></figure>
 
 In the example above, we used points to map coordinates in our data to the map. Additionally, we display some relevant information, in this case the turnover, using a visual property like the size of each point. This type of map visualization is very common and useful when we want to show exact coordinates.&#x20;
 
@@ -98,7 +98,7 @@ As an alternative to location-based maps, in which we draw points in certain pos
 
 We can choose the format to download. A common format for GIS data (GIS = Graphical Information System) is the Shapefile format. This is a standardized format that most GIS systems support. There is also a package in R that supports this format, called `sf`.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>You can download the zip code data in the popular Shapefile format. Other formats are available as well.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>You can download the zip code data in the popular Shapefile format. Other formats are available as well.</p></figcaption></figure>
 
 ### Loading Shapefiles
 
@@ -210,7 +210,7 @@ ggmap(os_map) +
           alpha = 0.8, inherit.aes = F)
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Osnabrück and its zip code area shown in different colors.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Osnabrück and its zip code area shown in different colors.</p></figcaption></figure>
 
 This does not convey any information about our customers and orders. Instead, we can leverage the data we have and fill the area for each zip code according to the turnover we made there. How can we do that? We need to join the geometry data with the sales data.
 
