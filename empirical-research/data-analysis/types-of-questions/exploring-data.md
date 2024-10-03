@@ -8,5 +8,3 @@ description: >-
 # Exploring Data
 
 {% embed url="https://winf-hsos.github.io/university-docs/images/eda_process.png" %}
-The process of exploratory data analysis according to Wickham.
-{% endembed %}
