@@ -17,7 +17,7 @@ Exploratory Data Analysis (EDA) is a vital step in the data analysis process, us
 
 ## **The EDA Process**
 
-{% embed url="https://winf-hsos.github.io/university-docs/images/eda_process.png" %}
+<figure><img src="https://winf-hsos.github.io/university-docs/images/eda_process.png" alt=""><figcaption></figcaption></figure>
 
 The [diagram provided from "R for Data Science" by Hadley Wickham](https://r4ds.hadley.nz/whole-game#fig-ds-whole-game) illustrates a structured approach to EDA. The key stages of the process include:
 
