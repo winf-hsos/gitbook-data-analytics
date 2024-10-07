@@ -4,11 +4,17 @@ description: >-
   wichtige Dimensionen und deren möglichen Ausprägungen an.
 ---
 
-# Datensätze
+# Data Sets
+
+<figure><img src="https://winf-hsos.github.io/university-docs/images/tiydy_data_observations.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://winf-hsos.github.io/university-docs/images/tiydy_data_variables.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://winf-hsos.github.io/university-docs/images/tiydy_data_values.png" alt=""><figcaption></figcaption></figure>
 
 Die folgende Abbildung skizziert Dimensionen von Datensätzen, die bei der Analyse wichtig sein können.
 
-![Important dimensions to classify data sets for analysis.](<../../../.gitbook/assets/dataset\_dimensions\_2x (1).png>)
+![Important dimensions to classify data sets for analysis.](<../.gitbook/assets/dataset\_dimensions\_2x (1).png>)
 
 ## Die 3V
 
