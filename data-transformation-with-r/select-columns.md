@@ -11,7 +11,7 @@ description: >-
 
 This chapter introduces the following new concepts and functions:
 
-* [`select()`](https://dplyr.tidyverse.org/reference/select.html)
+* `select()`
 * `startw_with`, `ends_with`, `contains`, `matches`
 
 ## The `select` command
@@ -125,7 +125,7 @@ orders %>%
 
 In contrast to `filter`, where a comma-separated list of expressions combines them with a logical _and_, when using this approach with `select`, the resulting columns are combined to a unified set of columns. This means a logical _or_ is applied. For example, listing `starts_with("customer")` and `ends_with("_at")` separated by a comma keeps all columns that start with “customer” or that end with “\_at”.
 
-### 7.4 By data type
+## By data type
 
 Another flexible way to select columns is by their data type. Say we want to select all numeric columns because we wish to calculate the mean value across all of them in the next step of the pipeline. There is a shortcut for this, using the `where()` function together with `is.numeric`:
 
@@ -207,7 +207,7 @@ orders %>%
 #> ...
 ```
 
-### 7.7 Exclude columns
+## Exclude columns
 
 The previous sections introduced ways to select columns, that is, specifying what we _want_. Often, it is more efficient to tell R what we _don’t want_. The minus sign `-` negates any selection from the previous sections. The following command gives us all columns _except_ the `order_id`:
 
