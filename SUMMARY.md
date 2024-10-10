@@ -2,37 +2,36 @@
 
 * [Overview](README.md)
 
-## Working Environment
-
-* [1 Tools](working-environment/1-tools.md)
-* [2 Projects](working-environment/2-projects.md)
-
 ## Empirical Research
 
-* [3 Overview](empirical-research/3-overview.md)
-* [4 Research Questions](empirical-research/4-research-questions.md)
-* [5 Data Collection](empirical-research/data-collection.md)
-* [6 Data Analysis](empirical-research/data-analysis/README.md)
-  * [Goals of Data Analysis](empirical-research/data-analysis/was-ist-datenanalyse.md)
-  * [Types of Questions](empirical-research/data-analysis/types-of-questions/README.md)
-    * [Finding Individual Records](empirical-research/data-analysis/types-of-questions/finding-individual-records.md)
-    * [Summarizing Data](empirical-research/data-analysis/types-of-questions/summarizing-data.md)
-    * [Exploring Data](empirical-research/data-analysis/types-of-questions/exploring-data.md)
-    * [Drawing Conclusions from Data](empirical-research/data-analysis/types-of-questions/drawing-inferences-from-data.md)
-    * [Fehlende Informationen vorhersagen](empirical-research/data-analysis/types-of-questions/predicting-information.md)
-    * [Kausalität feststellen](empirical-research/data-analysis/types-of-questions/finding-causality.md)
-* [Data Sets](empirical-research/data-sets.md)
-* [Data Records](empirical-research/dimensions-of-records.md)
-* [Data Attributes](empirical-research/data-attributes.md)
-* [Scales](empirical-research/scales.md)
-* [Data Types](empirical-research/data-types.md)
-* [Data Formats](empirical-research/datenformate/README.md)
-  * [Das CSV-Format](empirical-research/datenformate/das-csv-format.md)
-  * [Das JSON-Format](empirical-research/datenformate/das-json-format.md)
-  * [Das Parquet-Format](empirical-research/datenformate/das-parquet-format.md)
+* [1 Research Questions](empirical-research/1-research-questions.md)
+* [2 Data Collection](empirical-research/data-collection.md)
+* [3 Signal and Noise](empirical-research/signal-and-noise.md)
+* [4 Types of Questions](empirical-research/types-of-questions/README.md)
+  * [Finding Individual Records](empirical-research/types-of-questions/finding-individual-records.md)
+  * [Summarizing Data](empirical-research/types-of-questions/summarizing-data.md)
+  * [Exploring Data](empirical-research/types-of-questions/exploring-data.md)
+  * [Drawing Conclusions from Data](empirical-research/types-of-questions/drawing-inferences-from-data.md)
+  * [Fehlende Informationen vorhersagen](empirical-research/types-of-questions/predicting-information.md)
+  * [Kausalität feststellen](empirical-research/types-of-questions/finding-causality.md)
+* [5 Data](empirical-research/data/README.md)
+  * [Data Sets](empirical-research/data/data-sets.md)
+  * [Data Records](empirical-research/data/dimensions-of-records.md)
+  * [Data Attributes](empirical-research/data/data-attributes.md)
+  * [Data Types](empirical-research/data/data-types.md)
+  * [Scales](empirical-research/data/scales.md)
+  * [Data Formats](empirical-research/data/datenformate/README.md)
+    * [Das CSV-Format](empirical-research/data/datenformate/das-csv-format.md)
+    * [Das JSON-Format](empirical-research/data/datenformate/das-json-format.md)
+    * [Das Parquet-Format](empirical-research/data/datenformate/das-parquet-format.md)
+* [6 Tools](empirical-research/6-tools/README.md)
+  * [Projects](empirical-research/6-tools/projects.md)
 
 ## Introduction to R
 
+* [7 The Problem](introduction-to-r/overview.md)
+* [8 Vectors](introduction-to-r/vectors.md)
+* [9 Data Frames](introduction-to-r/data-frames.md)
 * [Simulations](introduction-to-r/simulations.md)
 * [Logic and Arithmetic](introduction-to-r/logic-and-arithmetic.md)
 * [Objects and Variables](einfuehrung-in-r/objekte-und-variablen-in-r.md)
@@ -44,11 +43,6 @@
   * [Die Repeat-Schleife](einfuehrung-in-r/schleifen/die-repeat-schleife.md)
 * [Functions](einfuehrung-in-r/funktionen.md)
 * [Readability and Reusability](introduction-to-r/readability-and-reusability.md)
-
-## Data Representation
-
-* [Overview](data-representation/overview.md)
-* [Vectors](data-representation/vectors.md)
 
 ## Loading Data
 

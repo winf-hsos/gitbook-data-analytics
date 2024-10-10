@@ -4,7 +4,7 @@ description: >-
   first step. This includes R & Python, Quarto, RStudio, and Git.
 ---
 
-# 1 Tools
+# 6 Tools
 
 ## Why R and Python, and not Excel and Tableau?
 
@@ -72,13 +72,13 @@ Python is a widely adopted programming language and the de facto standard for ma
 
 On Windows, Python comes as an executable file with the extension `.exe`. Save the file anywhere on your hard drive and double-click on it when the download has finished. When you do, the first window appears that looks similar to the one in the screenshot below:
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption><p>Make sure you check the two boxes during installation. The, click "Install Now".</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Make sure you check the two boxes during installation. The, click "Install Now".</p></figcaption></figure>
 
 Make sure you check the boxes "_Use admin privileges when installing py.exe_" and "_Add python.exe to PATH_". The former ensures that Python can write anywhere on your computer, which is important when you install packages later. The latter enables you to use Python from anywhere on your computer. We'll use Python mostly from the command line (or terminal), and with this setting, we can type `python` regardless of which folder we are in.
 
 Next, click "Install Now", no need to customize the installation. When the installation has finished, you see the following screen:
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption><p>You successfully installed Python on your computer. Easy, wasn't it?</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p>You successfully installed Python on your computer. Easy, wasn't it?</p></figcaption></figure>
 
 Click "Close" and you're done with this step.
 

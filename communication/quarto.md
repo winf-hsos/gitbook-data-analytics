@@ -19,7 +19,7 @@ Now you can render the source file into a target format. Let's start with an HTM
 <pre><code><strong>quarto render paper.qmd --to html
 </strong></code></pre>
 
-Before you can use the command above, make sure you properly installed Quarto on your computer. We covered this in [a previous section](../working-environment/1-tools.md).
+Before you can use the command above, make sure you properly installed Quarto on your computer. We covered this in [a previous section](../empirical-research/6-tools/).
 
 On a command line, you can check the currently installed version of Quarto using the following command:
 

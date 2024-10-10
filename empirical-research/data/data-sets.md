@@ -14,7 +14,7 @@ description: >-
 
 Die folgende Abbildung skizziert Dimensionen von Datensätzen, die bei der Analyse wichtig sein können.
 
-![Important dimensions to classify data sets for analysis.](<../.gitbook/assets/dataset\_dimensions\_2x (1).png>)
+![Important dimensions to classify data sets for analysis.](<../../.gitbook/assets/dataset\_dimensions\_2x (1).png>)
 
 ## Die 3V
 
