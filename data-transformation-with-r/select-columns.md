@@ -12,7 +12,11 @@ description: >-
 This chapter introduces the following new concepts and functions:
 
 * `select()`
-* `startw_with`, `ends_with`, `contains`, `matches`
+* `starts_with`, `ends_with`, `contains`, `matches`
+* `where` in conjunction with `is.numeric`, `is.character` etc.
+* `last_col`
+* `all_of`, `any_of`
+* Excluding columns with the minus sign `-`
 
 ## The `select` command
 
