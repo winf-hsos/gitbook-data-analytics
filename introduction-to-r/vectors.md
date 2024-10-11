@@ -65,24 +65,20 @@ However, if we played 100 games, this approach would lead to 100 separate object
 
 ## Vectors
 
-We could create a vector with our observations where the prize was in our 3 games we played as follows:
+Instead of storing each prize value in separate objects, we can store all three values in a single object called a vector. The `c()` function allows us to create a vector by combining values, separated by commas:
 
 ```
 prize_door <- c(2, 1, 1)
 ```
 
+There are two important characteristics of a vector. First, all elements of a vector must be of the same data type (in this case, numbers). Second, the elements of a vector are ordered, meaning each value has a specific position within the vector. This order is crucial when comparing elements across different vectors.
+
+## More than a vector
+
 {% embed url="https://winf-hsos.github.io/university-docs/images/scalar_vector_data_frame.png" %}
-
-## Creating vectors
-
-### From files
-
-```r
-weight <- scan("data/weight.txt")
-```
-
-## Exercise
-
-{% embed url="https://winf-hsos.github.io/university-docs/quarto/data_analytics/exercise_vectors_monty_hall.pdf" %}
-Exercise: Vectors - Analyzing the Monty Hall Problem
+The relationship between scalar values, vectors, and data frames in R.
 {% endembed %}
+
+## Exercises
+
+* [Vectors in R: Analyzing the Monty Hall Problem](https://winf-hsos.github.io/university-docs/quarto/data\_analytics/exercise\_vectors\_monty\_hall.pdf)
