@@ -49,15 +49,31 @@ Contestant choice: switch
 
 Although this is a well-structured summary of your simulation, it is not suitable for direct use in a programming language like R. To effectively analyze the games you played (and potentially many more), we need to consider how to represent this data in a format that R can handle.
 
+## Scalar values
+
+First, let's focus on identifying which cup contained the prize in each game to help us organize the data step by step. This information can be represented as a single number between 1 and 3. For instance, in the first game, the prize was under cup 2, so the value would be 2. A single value like this, represented by a single number, is known as a scalar value, in contrast to a collection of values, which we call a vector.
+
+To represent scalar values in R, we can store them as objects with descriptive names. This can be done using the assignment operator `<-`:
+
+```
+prize_door_game_1 <- 2
+prize_door_game_2 <- 1
+prize_door_game_3 <- 1
+```
+
+However, if we played 100 games, this approach would lead to 100 separate objects, each storing a single scalar value. While this technically works, it is impractical for data analysis, especially when we need to compare or relate the prize locations to other variables. A better solution would be to use vectors to store all the values in a more organized and manageable way.
+
+## Vectors
+
+We could create a vector with our observations where the prize was in our 3 games we played as follows:
+
+```
+prize_door <- c(2, 1, 1)
+```
+
 {% embed url="https://winf-hsos.github.io/university-docs/images/scalar_vector_data_frame.png" %}
 
 ## Creating vectors
-
-### Manually
-
-```r
-weight <- c()
-```
 
 ### From files
 
