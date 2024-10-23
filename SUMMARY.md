@@ -49,7 +49,7 @@
 * [Tidyverse and Tibbles](loading-data/tidyverse-und-tibbles.md)
 * [Load a data set](loading-data/laden-eines-datensatzes.md)
 * [Load from multiple files](loading-data/load-from-multiple-files.md)
-* [First look at the data](loading-data/first-look-at-the-data.md)
+* [Getting to know the Data](loading-data/getting-to-know-the-data.md)
 * [Der Analyseprozess](loading-data/11-der-analyseprozess.md)
 * [Der Werkzeugkasten](loading-data/13-der-werkzeugkasten.md)
 
