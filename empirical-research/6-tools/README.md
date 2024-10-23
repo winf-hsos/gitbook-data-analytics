@@ -6,6 +6,42 @@ description: >-
 
 # 6 Tools
 
+## Quick Start
+
+Follow these steps to set up your working environment.
+
+{% stepper %}
+{% step %}
+### Download and install R
+
+Download and install R: [https://cran.r-project.org/bin/windows/base](https://cran.r-project.org/bin/windows/base/)
+
+Ensure you install the most recent version of R, currently 4.4.1 (as of October 2024).
+{% endstep %}
+
+{% step %}
+### Download and install RStudio
+
+Next, you need to download RStudio from the official website: [https://posit.co/download/rstudio-desktop](https://posit.co/download/rstudio-desktop/)
+{% endstep %}
+
+{% step %}
+### Download the code examples from GitHub
+
+To get you started, you can download the code examples repository from GitHub, which contains an RStudio project that you can open in your new environment.&#x20;
+
+You can download the code examples as a ZIP-file. Make sure you unpack it in a folder you find convenient:
+
+[https://github.com/winf-hsos/data-analytics-code/archive/refs/heads/main.zip](https://github.com/winf-hsos/data-analytics-code/archive/refs/heads/main.zip)
+{% endstep %}
+
+{% step %}
+### Open project in RStudio
+
+After extracting the ZIP file, open `data-analytics-code.Rproj`. You're now set to explore the code examples or start creating your own R scripts in the `your_scripts` folder.
+{% endstep %}
+{% endstepper %}
+
 ## Why R and Python, and not Excel and Tableau?
 
 R and Python are powerful programming languages that offer several advantages over graphical tools like Excel and Tableau for data analysis.
